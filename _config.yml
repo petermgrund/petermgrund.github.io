@@ -13,30 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trexit
+title: Peter M. Grund
 description: |
-  We (Tom and Roz) took 6 months off to walk around Europe before Brexit. We decided to Trexit. Get it?
+  Personal website for Peter M. Grund
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: "UA-104969389-1"
+google_analytics: 
 groupings:
-- id: bad-jokes
-  name: "Bad jokes"
-- id: countries
-  name: "Countries"
-- id: language-and-pronunciation
-  name: "Language and pronunciation"
-- id: lessons-learned
-  name: "Lessons we learned"
-- id: routes
-  name: "Walking routes"
+- id: religion
+  name: "Religion"
 
 # Build settings
 markdown: kramdown
 theme: minima
 minima:
   date_format: "%-d %B %Y"
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

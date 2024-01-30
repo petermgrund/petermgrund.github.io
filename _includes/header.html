@@ -4,11 +4,13 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">
-      Tr<span class="site-title-subtitle">exit</span>
+      <span class="site-title-subtitle">Peter M. Grund</span>
     </a>
     <ul class="site-about">
-      <li><a href="/about">About</a></li>
-      <li><a href="/map">Map</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/posts">Posts</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/contact">Contact</a></li>
     </ul>
   </div>
 </header>
