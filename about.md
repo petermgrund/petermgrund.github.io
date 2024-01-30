@@ -4,13 +4,11 @@ title: About
 permalink: /about/
 ---
 
-{{ site.description }}
+Peter Grund is a researcher in the Department of Neurology at the University of Minnesota.
 
-From June to December 2017, we walked over 2,200 kilometres through [8 countries](/countries/). We:
 
-- discovered some [brilliant walking routes](/routes/)
-- tried our best to [speak like locals](/language-and-pronunciation/)
-- made some [terrible jokes](/bad-jokes/)
-- [learned a few lessons](/lessons-learned/) along the way
-
-Read [all the posts](/) we wrote while we were away.
+## Interests 
+- Biopsychosocial model of depression
+- Affect of early life stress on psychopathology in adulthood
+- Interplay between chronic illness and mental health in older adults
+- Role of demographic factors in the stress–depression relationship
