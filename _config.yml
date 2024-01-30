@@ -22,6 +22,14 @@ google_analytics:
 groupings:
 - id: religion
   name: "Religion"
+- id: politics
+  name: "Politics"
+
+viz:
+- id: election-maps
+  name: "Elections"
+- id: religion-maps
+  name: "Religion"
 
 # Build settings
 markdown: kramdown

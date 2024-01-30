@@ -11,7 +11,7 @@ layout: default
     <details>
       <summary id="collections-heading">Categories</summary>
       <ul role="navigation" aria-labelledby="collections-heading">
-        <li><a href="/">All</a></li>
+        <li><a href="/posts">All</a></li>
       {% for grouping in site.groupings %}
         {% if grouping.id == page.grouping_id %}
           <li><em>{{ grouping.name }}</em></li>
@@ -35,6 +35,4 @@ layout: default
       {% endfor %}
     </ul>
   {% endfor %}
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe to RSS</a>.</p>
-  <p>Send any feedback to <a href="mailto:trexitfeedback@yandex.com">trexitfeedback@yandex.com</a>.</p>
 </div>
