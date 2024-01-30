@@ -11,15 +11,17 @@ html {
 }
 body {
     margin: 0;
-    font-family: Inconsolata, monospace;
     height: 100%;
+    font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0b0c0c;
+    box-sizing: border-box;
     margin-bottom: 10px;
     text-align: justify;
     font-style: normal;
-    font-size: 16px;
     letter-spacing: .02em;
     line-height: 1.6em;
-}
+} 
 a {
     text-decoration: none;
     color: $accent;
@@ -36,6 +38,14 @@ hr {
 a:focus,
 button:focus {
   outline: solid 3px #ffeb3b;
+}
+.page-heading,
+.post-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  padding: 0.5em 0;
 }
 
 /*
