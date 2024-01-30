@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<img src='img/download3.png' style='height: 30vh; object-fit: cover;'>
-*<font size="2" >Neural inverse rendering according to Stable Diffusion v1-5</font>*
+## <font color='#8EA7E9'>#</font> About me
 
-Welcome to the **3D Deep Learning Reading Group**. We are an online community that meets every other week to discuss the latest developments in 3D Deep Learning and their applications in the virtual and physical world. We are particularly interested in **Neural Fields, Implicit Representations, 3D Reconstruction and Generation, 3D in Robotics**, among other topics. Please check these curated lists of papers that we use as reference material: [Awesome-Implicit-NeRF-Robotics](https://github.com/zubair-irshad/Awesome-Implicit-NeRF-Robotics) and [Awesome Implicit Neural Representations](https://github.com/vsitzmann/awesome-implicit-representations). We welcome all suggestions on the reading group and paper discussion. Join us to stay current on this exciting field!
+<img class="profile-picture" src="peter.jpg">
+
+I am a researcher and study coordinator in the Department of Neurology at the University of Minnesota.
 
 <br>
 ## <font color='#8EA7E9'>#</font> Join us

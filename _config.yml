@@ -1,15 +1,14 @@
-title: 3D Deep Learning Reading Group
+title: Peter M. Grund
 url: ""
 baseurl: ""
 
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
 
 tracking_id: #
 
 footer: yes
 footer_url: ""
-footer_text: "3D Deep Learning Reading Group is maintained by <a href='https://github.com/maurock'>maurock</a>. Theme by <a href='https://github.com/ankitsultana/researcher'>researcher</a>" 
+footer_text: "Peter M. Grund. Theme by <a href='https://github.com/ankitsultana/researcher'>researcher</a>" 
 
 sass:
     style: compressed
