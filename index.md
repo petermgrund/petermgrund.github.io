@@ -3,18 +3,25 @@ layout: default
 ---
 
 ## <font color='#8EA7E9'>#</font> About me
-
-<img class="profile-picture" src="peter.jpg">
-
+<img class="profile-picture" src="img/peter.jpg">
 I am a researcher and study coordinator in the Department of Neurology at the University of Minnesota.
 
-<br>
-## <font color='#8EA7E9'>#</font> Join us
-
-Join our reading group! We're just getting started and we're excited to have you be a part of it. We have a dedicated group on Slack in the Neural Fields workspace ([join here, if the link is expired please let me know](https://join.slack.com/t/neuralfields/shared_invite/zt-1uwu3vrna-r0MsrVuOn~jCt4SIXuZUIg)), where we coordinate our meetings and discussions. The channel we use is the **#reading_group** channel. If you haven't added it already, please go to **Add channels** or **Browse channels** to find it. ALternatively, please fill out this **[Google Form](https://forms.gle/w3smZ5Xuhi2oRoH69)** to let us know you're interested in joining the reading group. Don't hesitate to reach out if you have any questions or need more information. We look forward to hearing from you!
+Download my [CV](cv.pdf).
 
 <br>
-## <font color='#8EA7E9'>#</font> Sessions
+## <font color='#8EA7E9'>#</font> Research interests
+Coming soon
+
+<br>
+## <font color='#8EA7E9'>#</font> Projects
+Coming soon
+
+<br>
+## <font color='#8EA7E9'>#</font> Posts
+Coming soon
+
+<br>
+
 
 
 When | Presenter| What       | Notes
