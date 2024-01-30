@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="grouping">
+  <h1 class="page-heading">
+    Posts
+    <span class="grouping-name">{{ page.prefix }} {{ page.grouping_name }}{% if page.suffix %} {{ page.suffix }}{% endif %}</span>
+  </h1>
+  
+  <div class="other-groupings">
+    <details>
+      <summary id="collections-heading">Categories</summary>
+      <ul role="navigation" aria-labelledby="collections-heading">
+        <li><a href="/">All</a></li>
+      {% for grouping in site.groupings %}
+        {% if grouping.id == page.grouping_id %}
+          <li><em>{{ grouping.name }}</em></li>
+        {% else %}
+          <li><a href="/{{ grouping.id }}">{{ grouping.name }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </details>
+  </div>
+
+  {{ content }}
+  {% for tagName in page.grouping_tags %}
+    {% if page.grouping_tags.size > 1 %}
+    <h2 id="{{ tagName | slugify }}">{{ tagName }}</h2>
+    {% endif %}
+    <ul class="post-list">
+      {% assign postsWithTag = site.tags[tagName] | group_by_exp:"post", "post.date | date: '%s'" | map: "items" | reverse %}
+      {% for post in postsWithTag %}
+      <li>{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}<span class="post-meta">{{ post.date | date: date_format }}</span><a class="post-link" href="{{ post.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ post.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe to RSS</a>.</p>
+  <p>Send any feedback to <a href="mailto:trexitfeedback@yandex.com">trexitfeedback@yandex.com</a>.</p>
+</div>
