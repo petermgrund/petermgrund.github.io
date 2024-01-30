@@ -1,23 +1,33 @@
 ---
 layout: default
 ---
-
 <div class="home">
+  <h1 class="page-heading">
+    Posts
+    <span class="grouping-name">by date</span>
+  </h1>
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+  <div class="other-groupings">
+    <details>
+      <summary id="collections-heading">Categories</summary>
+      <ul role="navigation" aria-labelledby="collections-heading">
+        <li><em>All</em></li>
+      {% for grouping in site.groupings %}
+        <li><a href="/{{ grouping.id }}">{{ grouping.name }}</a></li>
+      {% endfor %}
+      </ul>
+    </details>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe to RSS</a></p>
-
+  {{ content }}
+  {% assign postsByMonth = site.posts | group_by_exp:"post", "post.date | date: '%B'" | reverse %}
+  {% for month in postsByMonth %}
+  <h2>{{ month.name }}</h2>
+  <ul class="post-list">
+    {% assign postsInMonth = month.items | group_by_exp:"post", "post.date | date: '%s'" | map: "items" | reverse %}
+    {% for post in postsInMonth %}
+    <li>{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}<span class="post-meta">{{ post.date | date: date_format }}</span><a class="post-link" href="{{ post.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ post.title | escape }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
 </div>
