@@ -1,5 +1,5 @@
 title: Peter M. Grund
-url: ""
+url: "petermgrund.github.io"
 baseurl: ""
 
 markdown: kramdown
@@ -8,7 +8,7 @@ tracking_id: #
 
 footer: yes
 footer_url: ""
-footer_text: "Peter M. Grund. Theme by <a href='https://github.com/ankitsultana/researcher'>researcher</a>" 
+footer_text: "Peter M. Grund." 
 
 sass:
     style: compressed
