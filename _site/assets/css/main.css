@@ -490,6 +490,14 @@ button:focus {
   padding: 0.5em 0;
 }
 
+div.more-spacing {
+  margin-top: 2em;
+}
+
+div.halfway-spacing {
+  margin-top: em;
+}
+
 /* Accessibility
    ========================================================================== */
 
@@ -675,7 +683,7 @@ button:focus {
 .post-meta {
   font-size: 1em;
   display: block;
-  margin: 1em 0;
+  margin: 0em 0;
   margin-bottom: 1.5em;
 }
 
@@ -687,11 +695,13 @@ button:focus {
   padding: 0;
 }
 
+
+
 /* Site post page
    ========================================================================== */
 
 .post-title {
-  padding-bottom: 0;
+  padding-bottom: 0.5em;
 }
 
 .post-content {

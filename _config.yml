@@ -17,6 +17,8 @@ title: Peter M. Grund
 description: |
   Personal website for Peter M. Grund
 baseurl: "" # the subpath of your site, e.g. /blog
+email: "peter_grund@me.com"
+twitter_username: "petermgrund"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: 
 groupings:
@@ -24,12 +26,15 @@ groupings:
   name: "Religion"
 - id: politics
   name: "Politics"
-
+- id: personal
+  name: "Personal"  
 viz:
 - id: election-maps
   name: "Elections"
 - id: religion-maps
   name: "Religion"
+- id: law-dem-maps
+  name: "Law and demographics"
 
 # Build settings
 markdown: kramdown

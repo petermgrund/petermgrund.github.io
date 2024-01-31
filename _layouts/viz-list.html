@@ -2,9 +2,9 @@
 layout: default
 ---
 <div class="home">
-  <h1 class="page-heading">
+  <h1 class="page-heading">
     Vizualizations
-    <span class="grouping-name">by date published</span>
+    <span class="grouping-name">by date</span>
   </h1>
 
   <div class="other-groupings">
@@ -18,16 +18,4 @@ layout: default
       </ul>
     </details>
   </div>
-
-  {{ content }}
-  {% assign vizByMonth = site.viz | group_by_exp:"viz", "viz.date | date: '%B'" | reverse %}
-  {% for month in vizByMonth %}
-  <h2>{{ month.name }}</h2>
-  <ul class="post-list">
-    {% assign vizInMonth = month.items | group_by_exp:"viz", "viz.date | date: '%s'" | map: "items" | reverse %}
-    {% for viz in vizInMonth %}
-    <li>{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}<span class="post-meta">{{ viz.date | date: date_format }}</span><a class="post-link" href="{{ viz.url | relative_url }}"><span class="visuallyhidden">Name of viz: </span>{{ viz.title | escape }}</a></li>
-    {% endfor %}
-  </ul>
-  {% endfor %}
 </div>

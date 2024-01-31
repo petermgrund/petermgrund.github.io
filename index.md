@@ -6,11 +6,10 @@ Peter Grund is a researcher in the [Department of Neurology](https://med.umn.edu
 
 My CV is available [here](/assets/cv.pdf).
 
-### Research interests 
-- Biopsychosocial model of depression
-- Affect of early life stress on psychopathology in adulthood
-- Interplay between chronic illness and mental health in older adults
-- Role of demographic factors in the stress–depression relationship
+### Research interests
+- Effect of early life stress on adult neuropsychopathology
+- Neuromodulation for movement disorders and psychiatric disease 
+- Interaction between the immune system, the brain, and substance use across the lifespan
 
 ### Appointments
 - Member, [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), City of Minneapolis, 2023-present
