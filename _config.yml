@@ -35,6 +35,15 @@ viz:
   name: "Religion"
 - id: law-dem-maps
   name: "Law and demographics"
+category_names:
+  election-maps: "Elections"
+  other-category: "Other"
+  religion-maps: "Religion"
+  law-dem-maps: "Law and demographics"
+
+collections:
+  viz:
+    output: true
 
 # Build settings
 markdown: kramdown

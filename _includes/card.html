@@ -1,0 +1,30 @@
+<a href="{{ include.link }}" style="text-decoration: none; color: inherit;">
+  <div class="card">
+    <img src="{{ include.image }}" alt="{{ include.title }}">
+    <div class="card-body">
+      <div class="card-content">
+        <h5 class="card-title">{{ include.title }}</h5>
+        <p class="card-text">{{ include.description }}</p>
+        {% if card.legend %}
+        <div class="legend">
+          <div class="candidates">
+            {% for candidate in card.legend %}
+              <div class="candidate">
+                <h5 class="candidate-name">{{ candidate[0] }}:</h5>
+                {% for item in candidate[1] %}
+                  <div>
+                    <span style="display: inline-block; width: 20px; height: 20px; background-color: {{ item.color }};"></span>
+                    {{ item.range }}
+                  </div>
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+        <hr>
+        <p class="card-text">Published {{ include.pubdate | date: date_format }}</p>
+      </div>
+    </div>
+  </div>
+</a>

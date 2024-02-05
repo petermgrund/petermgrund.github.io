@@ -1,6 +1,14 @@
 ---
 layout: default
+title: "Your Title Here"
+images: ["/path/to/your/image1.jpg", "/path/to/your/image2.jpg", "/path/to/your/image3.jpg"]
+link: "https://your-link.com"
+description: "Your description here"
+date: "Your date here"
+sources: "Your sources here"
+licensing: "Your licensing here"
 ---
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
@@ -16,12 +24,21 @@ layout: default
         {% endif %}</p>
     </header>
   
-    <div class="post-content more-spacing" itemprop="articleBody">
-      {{ content }}
+    <div class="post-content" itemprop="articleBody">
+      {% assign content_parts = content | split: "<!--cards-->" %}
+      {{ content_parts[0] | markdownify }}
+    
+      {% for card in page.cards %}
+        {% include card.html image=card.image title=card.title description=card.description link=card.link pubdate=card.pubdate %}
+      {% endfor %}
+    
+      {{ content_parts[1] | markdownify }}
     </div>
   
     {% if site.disqus.shortname %}
       {% include disqus_comments.html %}
     {% endif %}
+
   </article>
+
   
