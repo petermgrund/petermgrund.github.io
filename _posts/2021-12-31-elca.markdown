@@ -18,7 +18,7 @@ The graph below demonstrates that even since ELCA’s formation, they have been 
 
 ![Percent of Minnesotans members of the ECLA](/assets/images/mn-percent-baptized.svg)
 
-Raw membership numbers help present a more nuanced story. ELCA numbers were slowly growing in MN until the turn of the century, at which point the trend reversed. The initial decline was due to a drop in baptisms relative to deaths, as well as moderate levels of resignations. The significant drop seen in 2009 can largely be attributed to the [adoption of a same-gender relationship social policy](https://www.mprnews.org/story/2009/08/20/elca-sexuality-statement). Starting in 2010, resignations and deaths vastly outnumbered the number of baptisms occurring per year, explaining the steep decline.
+Raw membership numbers help present a more nuanced story. ELCA numbers were slowly growing in MN until the turn of the century, at which point the trend reversed. The initial decline was due to a drop in baptisms relative to deaths, as well as moderate levels of resignations. The significant drop seen in 2009 can largely be attributed to congregations leaving the ECLA following the [adoption of a same-gender relationship social policy](https://www.mprnews.org/story/2009/08/20/elca-sexuality-statement). Starting in 2010, resignations and deaths vastly outnumbered the number of baptisms occurring per year, explaining the steep decline.
 
 ![Number of Minnesotans members of the ECLA](/assets/images/mn-baptized.svg)
 
