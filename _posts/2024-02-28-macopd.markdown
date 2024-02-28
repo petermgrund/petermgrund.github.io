@@ -1,0 +1,21 @@
+---
+layout: post
+title: "First MACOPD meeting"
+date: 2024-02-28 12:00 +0100
+categories: posts
+tags: Community
+---
+
+I attended my first meeting of the [Minneapolis Advisory Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd) last week. It was a great opportunity to meet the other members and learn more about the work of the Committee. I'm excited to contribute to the important work of promoting accessibility in the city.
+
+* [Agenda](https://lims.minneapolismn.gov/Board/Agenda/MACOPD/4353)
+
+The meeting began with procedural matters, including the swearing-in of both new and re-elected members. We discussed a recommendation for the City Clerk’s Office to incorporate remote notary services in-house.
+
+A key segment of the meeting was dedicated to the [Cedar Ave reconstruction project](https://www.hennepin.us/cedar-avenue), presented by Jasna Hadžić-Stanek from Hennepin County. Threre was a unanimous leaning towards Option B among the committee members. The committee expressed concerns about the project's implications for blind or low-vision individuals and the need for designs that consider weather impacts to avoid slip hazards.
+
+Next, updates on the [ADA Transition Plan](https://www2.minneapolismn.gov/government/departments/public-works/ada-transition/) were provided by Amy Barnstorff and Ryan Ackerman. The updates highlighted the introduction of new Assisted Pedestrian Signals and detailing various ongoing initiatives such as the municipal snow clearing pilot and sidewalk improvements. 
+
+The meeting ended with brief discussions on topics such as the potential implications of Uber/Lyft service cost increases for people with disabilities, the campaign against sub-minimum wage payments, and the impact of closing sheltered workshop programs. Future agenda items were outlined, including a training session aimed at ensuring election accessibility and discussions on the Rethinking I-94 project.
+
+
