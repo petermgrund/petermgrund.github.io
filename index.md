@@ -4,11 +4,12 @@ layout: page
 
 Peter Grund is a researcher in the [Department of Neurology](https://med.umn.edu/neurology) at the University of Minnesota.
 
-My CV will be available soon.
+My CV is available [here](/assets/uploads/cv.pdf).
 
 ### Research interests
 - Psychosocial adjustment to movement disorder
 - Deep brain stimulation
+- Disability and accessibility in urban environments
 
 ### Appointments
 - Member, [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), City of Minneapolis, 2023-present
