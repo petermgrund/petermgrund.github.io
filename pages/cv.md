@@ -38,7 +38,7 @@ permalink: /cv/
     * Assist physicians in administering the Tremor Research Group Essential Tremor Rating Scale (TETRAS) to patients during DBS programming.
     * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
     * Use statistical models to predict neural activation of axonal pathways near active electrodes.
-    * Developed a [Shiny app](https://shiny.rstudio.com) to visualize and interact with patient data.
+    * Developed a Shiny app to visualize and interact with patient data.
 
 **Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/people/peter-grund) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
 * Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
@@ -102,7 +102,7 @@ June 2021 – May 2022
 ## Affiliations
 <hr>
 
-**Committee on People with Disabilities** | City of Minneapolis | 2024 – present
+**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd) member** | City of Minneapolis | 2024 – present
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
@@ -112,8 +112,8 @@ June 2021 – May 2022
 * Member of the [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) which reviews street design and traffic safety policies.
 
 **[Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp) member** | Chisago County | 2023 – present
-* Facilitate community involvement in child protection systems, assess county and state social work practices, advocate for resources to address racial disparities in the child protection system.
-* Analyze trends to provide the country with insights, trends, and to verify compliance with the Abuse Prevention and Treatment Act (CAPTA) 5 Year Plan.
+* Facilitate community involvement in child protection systems, assess county social work practices, advocate for resources to address racial disparities in the child protection system.
+* Analyze trends to provide the county with insights, trends, and to verify compliance with the Abuse Prevention and Treatment Act (CAPTA) 5 Year Plan.
 
 ## Technical Skills and Certifications 
 <hr>
@@ -132,7 +132,9 @@ June 2021 – May 2022
 
 A list of references is available [upon request](/contact). 
 
-## Alternative formats 
+## Alternative Formats 
 <hr>
 
 Download this CV as a [PDF](/assets/uploads/cv.pdf).
+
+Last updated: 7 March 2024

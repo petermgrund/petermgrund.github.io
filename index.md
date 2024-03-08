@@ -4,7 +4,7 @@ layout: page
 
 Peter Grund is a researcher in the [Department of Neurology](https://med.umn.edu/neurology) at the University of Minnesota.
 
-My CV is available [here](/assets/uploads/cv.pdf).
+My CV is available [here](/cv).
 
 ### Research interests
 - Psychosocial adjustment to movement disorder
