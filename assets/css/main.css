@@ -812,3 +812,15 @@ div.halfway-spacing {
   flex-basis: calc(33.33% - 10px); /* adjust as needed */
   margin-bottom: 10px; /* adjust as needed */
 }
+
+/* CV
+   ========================================================================== */
+
+.main-cv ul > li {
+  margin-bottom: 5px; 
+  margin-top: 5px;
+}
+
+.large-text {
+  font-size: 18px; 
+}

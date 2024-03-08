@@ -1,0 +1,138 @@
+---
+layout: cv
+title: CV
+permalink: /cv/
+---
+
+## Education 
+<hr>
+
+**[B.S. in Psychology](https://umtc.catalog.prod.coursedog.com/programs/081220117), University of Minnesota, Twin Cities**, 2022
+* Summa Cum Laude, High Distinction 
+* Minor: [Integrative Neuroscience](https://umtc.catalog.prod.coursedog.com/programs/0590MIN10)	
+* Cumulative GPA: 4.000/4.000
+* Honors thesis: [Genetic Influences on Verbal Memory Efficiency Following a Mild Traumatic Brain Injury](/assets/uploads/honors_thesis.pdf)
+* Honors advisors: Dr. Seth Disner, Dr. Scott Sponheim, Dr. Monica Luciana
+
+## Honors, Awards, and Grants 
+<hr>
+
+* [1st Place Poster Award](https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience) – Minnesota Symposium on Addiction Neuroscience (2022)
+* [University of Minnesota Undergraduate Honors Program](https://honors.umn.edu) (2020-2022)
+* University of Minnesota National Scholarship (2018-2022)
+* [College of Liberal Arts Dean’s List](https://cla.umn.edu/undergraduate-students/events-recognition/cla-deans-list/about-cla-deans-list) (2018-2022)
+* [UMN Diversity in Psychology Program](https://cla.umn.edu/psychology/about/diversity-and-inclusion/diversity-psychology-program) Participant
+* [University of Minnesota Undergraduate Research Opportunities Program](https://ugresearch.umn.edu/opportunities/urop) Scholarship (2020)
+
+## Research Experience 
+<hr>
+
+**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School | Jing Wang, Ph.D., Matthew Johnson, Ph.D. | May 2023 – present
+* Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
+    * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
+    * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
+    * Gather [EMG](https://medlineplus.gov/ency/article/003929.htm) and behavioral data [during surgery](https://stanfordhealthcare.org/medical-treatments/d/deep-brain-stimulation/what-to-expect/during-surgery.html) to inform models predicting effective DBS settings post-placement.
+    * Helped write an accessible and [plain language](https://www.plainlanguage.gov/about/definitions/short-definition/) informed consent document for patients.
+    * Developed accessible front-end surveys in REDCap for patients and staff to report treatment outcomes.
+* Algorithms for programming DBS systems for ET ([NCT03984643](https://www.clinicaltrials.gov/study/NCT03984643))
+    * Assist physicians in administering the Tremor Research Group Essential Tremor Rating Scale (TETRAS) to patients during DBS programming.
+    * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
+    * Use statistical models to predict neural activation of axonal pathways near active electrodes.
+    * Developed a [Shiny app](https://shiny.rstudio.com) to visualize and interact with patient data.
+
+**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/people/peter-grund) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
+* Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
+* Scheduled behavioral and imaging sessions, coordinating with several research centers outside of the Department of Psychology, including the Departments of Pharmacology and Radiology. 
+* Developed algorithm in R to approximate daily intake of THC/CBD for study participants from baseline to 4-month follow-up visit; demonstrated a high correlation with actual levels found in blood samples.
+
+**Independent Research Project** | Monica Luciana, Ph.D., Samuel Klein, M.S. | June 2020 – current
+* Wrote proposal for original research on the predictive role of cognitive impulsivity in a longitudinal study of alcohol and cannabis use and was awarded $1550 to conduct analysis and cover research expenses.
+* Presented preliminary findings at the Minnesota Undergraduate Research Symposium and the Society for Research on Adolescence.
+* Won best poster award at the 2022 Minnesota Symposium of Addiction Neuroscience amidst competing posters by Ph.D. students, post-docs, and academic faculty members.
+* Currently revising a manuscript of results for publication in Psychology of Addictive Behaviors.
+
+**Research Assistant** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/people/peter-grund) | University of Minnesota | Monica Luciana, Ph.D. | September 2019 – May 2022
+* Managed undergraduate research assistants, including training in human subjects and data collection.
+* Oversaw participant recruitment for two studies and maintained secure recruitment databases.
+* Conducted behavioral assessments for [a study of reward processing and motivational systems](https://lucianalab.psych.umn.edu/research/reward-motivation-study) in young adults
+
+**Data Manager** | [Minnesota Center for Twin and Family Research](https://mctfr.psych.umn.edu) | University of Minnesota | 
+June 2021 – May 2022
+* Created datasets and scripts for MCTFR researchers collected by several ongoing research studies such as the Adolescent Brain and Cognitive Development study (ABCD) and the Sibling Interaction and Behavior Study (SIBS).		
+* Entered behavioral data onto the University’s servers.
+
+**Health Scientist** | [Cognition and Brain in Psychopathology Lab](https://cablab.umn.edu) | Minneapolis Veterans Affairs Health Care System | Seth Disner, Ph.D., Scott Sponheim, Ph.D. | July 2020 – November 2021
+* Analyzed veteran medical records to determine eligibility in study relating to traumatic brain injury rehabilitation.
+* Conducted in-depth phone screenings for all participants to ensure study eligibility.
+* Participated in TBI outpatient rounds and consensus meetings.
+
+## Publications
+<hr>
+
+* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (submitted). *Associations of temporal discounting on alcohol use trajectory patterns: A longitudinal study using generalized additive mixture models*. Psychology of Addictive Behaviors.
+* Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (accepted pending revisions). *Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations*. Journal of Neuroscience.
+
+## Presentations and Non-Peer Reviewed Papers
+<hr>
+
+* Lozano Wun, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2023). *Within-person mismatch of reward responsiveness and executive functioning: A longitudinal validation of the dual systems model from childhood to adulthood*. Presented at the Research Society of Alcoholism. Bellevue, WA. View poster [here](/assets/uploads/rsa_2023.pdf).
+* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Greater Temporal Discounting is Associated with Higher Alcohol Consumption in Adolescents and Young Adults*. Presented at the Minnesota Symposium on Addiction Neuroscience. Minneapolis, MN.
+* Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (2022). *Development of Corticostriatal Connectivity During Adolescence Supports a Dorsal-Ventral Gradient of the Human Striatum*. Presented at Flux Society Conference. Paris, France. View poster [here](/assets/uploads/flux_2022.pdf).
+* Alschuler, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2022). *Dual-System Model as Indicated by Working Memory, Discounting, and Reward Sensitivity: Impacts of Age and Sex*. Presented at the Annual Meeting of the Cognitive Neuroscience Society. San Francisco, CA. 
+* **Grund, P.M.**, Disner, S., Sponheim, S. (2022). *Genetic Influences on Verbal Memory Efficiency Following a Minor Traumatic Brain Injury*. Presented at the Minnesota Undergraduate Psychology Conference. Saint Paul, MN. Read paper [here](/assets/uploads/honors_thesis.pdf).
+* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Temporal Discounting-based Cognitive Impulsivity in Adolescents Pre versus Post Substance Use Initiation*. Presented at the biennial meeting of the Society for Research on Adolescence. New Orleans, LA. View poster [here](/assets/uploads/sra_2022.pdf).
+* **Grund, P.M.** (2021) *The Role of the Nordic State Churches in the Establishment and Decline of Social Taboos in Norway, Sweden, and Iceland*. Honors paper written for SCAN 3505. Read paper [here](/assets/uploads/nordic.pdf).
+* **Grund, P.M.**, Sponheim, S., Disner, S. (2021). *Role of the APOE Gene on Verbal Learning Following a Minor Traumatic Brain Injury*. Presented at VA Research Week. Minneapolis VA Health Care System, MN.
+* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund).
+
+## Clinical and Teaching Experience
+<hr>
+
+**Patient Advocate** | [SE Seniors](https://www.seseniors.org) | Minneapolis | June 2023 – present
+* Serve as [patient advocate](https://en.wikipedia.org/wiki/Patient_advocacy) during medical appointments with older adults in my neighborhood.
+* Assist with transportation to and from appointments.
+* Provide support in understanding and following medical advice.
+
+**Teaching Assistant** | [Human Neuroanatomy (NSCI 2101)](https://umtc.catalog.prod.coursedog.com/courses/8080521) | University of Minnesota | Maureen Riedl, Ph.D., Martin Wessendorf, Ph.D. | August 2020 – December 2021
+* Prepared and guided students through sheep brain dissections.
+* Assisted students in identifying major brain regions in the intact brain and dissected brainstem, and Nissl slides of human specimens.
+* Led three human cadaver labs in which I performed dissections, reviewed medical histories, and taught anatomy of the brain and its relationships to the body's major arteries, veins, cranial nerves, foramina, and sinuses.
+* Instructed students on topics such as the ventricles, cerebral and spinal blood supply, membrane potential, somatosensory and motor pathways, mechanosensation, the visual and auditory systems, and disorders of the nervous system.
+
+## Affiliations
+<hr>
+
+**Committee on People with Disabilities** | City of Minneapolis | 2024 – present
+* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
+* Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
+
+**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac) member** | City of Minneapolis | 2023 – present
+* [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
+* Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
+* Member of the [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) which reviews street design and traffic safety policies.
+
+**[Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp) member** | Chisago County | 2023 – present
+* Facilitate community involvement in child protection systems, assess county and state social work practices, advocate for resources to address racial disparities in the child protection system.
+* Analyze trends to provide the country with insights, trends, and to verify compliance with the Abuse Prevention and Treatment Act (CAPTA) 5 Year Plan.
+
+## Technical Skills and Certifications 
+<hr>
+
+* Advanced proficiency in R programming language
+* Advanced proficiency in REDCap API
+* Experience using Statistical Package for the Social Sciences (SPSS)
+* Experience using FreeSurfer imaging software for functional and structural brain analysis
+* Essentials for Regulatory Specialists certification 
+* Foundations for Research Professionals certification 
+* CITI certifications in Research Involving Human Subjects, Good Clinical Practice, and Social and Behavioral Research Best Practices for Clinical Research
+* Assessment administration and scoring including the Rey Auditory Verbal Learning Test, Digit Span, tests originating from the Cambridge Neuropsychological Test Automated Battery and E-Prime digital tasks
+
+## References 
+<hr>
+
+A list of references is available [upon request](/contact). 
+
+## Alternative formats 
+<hr>
+
+Download this CV as a [PDF](/assets/uploads/cv.pdf).
