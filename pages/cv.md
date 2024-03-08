@@ -135,6 +135,6 @@ A list of references is available [upon request](/contact).
 ## Alternative Formats 
 <hr>
 
-Download this CV as a [PDF](/assets/uploads/cv.pdf).
+Download my CV as a [PDF](/assets/uploads/cv.pdf). Please contact me to request an un-redacted version of my CV.
 
 Last updated: 7 March 2024
