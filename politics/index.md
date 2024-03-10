@@ -2,9 +2,10 @@
 layout: post-grouping 
 grouping_id: politics
 prefix: "by"
-grouping_name: party
+grouping_name: location
 grouping_tags:
-- DFL
-- GOP
+- United States
+- Minnesota
+- Europe
 - other
 ---

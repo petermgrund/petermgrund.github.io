@@ -733,52 +733,51 @@ div.halfway-spacing {
    ========================================================================== */
 
 .card {
-  /* Add your styles for the card container here */
   border: 3px solid #ddd;
   padding: 15px;
   margin-bottom: 20px;
 }
 
 .card img {
-  /* Add your styles for the card image here */
   width: auto;
   height: 300px;
 }
 
 .card-body {
-  /* Add your styles for the card body here */
+  /* Add later */
 }
 
 .card-title {
-  /* Add your styles for the card title here */
   font-size: 20px;
   font-weight: bold;
 }
 
 .card-text {
-  /* Add your styles for the card text here */
   margin-bottom: 1px;
 }
 
-.card:hover {
-  outline: solid 3px #007bff;
-}
-
 .card-content .card-title {
-  margin-bottom: 10px; /* adjust as needed */
+  margin-bottom: 10px;
 }
 
 .card-content .card-text {
-  margin-bottom: 10px; /* adjust as needed */
+  margin-bottom: 10px;
 }
 
 .card-content hr {
-  border-top: 1px solid #ddd; /* adjust as needed */
-  margin-bottom: 10px; /* adjust as needed */
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.external-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-decoration: none;
 }
 
 .btn {
-  /* Add your styles for the button here */
   background-color: #000000;
   color: white;
   padding: 10px 20px;
@@ -787,7 +786,6 @@ div.halfway-spacing {
 }
 
 .btn:hover {
-  /* Add your styles for the button hover state here */
   background-color: #0056b3;
 }
 

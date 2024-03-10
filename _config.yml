@@ -25,28 +25,14 @@ groupings:
 - id: religion
   name: "Religion"
 - id: politics
-  name: "Politics"
+  name: "Politics and elections"
 - id: personal
-  name: "Personal"  
-viz:
-- id: election-maps
-  name: "Elections"
-- id: religion-maps
-  name: "Religion"
-- id: law-dem-maps
-  name: "Law and demographics"
-category_names:
-  election-maps: "Elections"
-  other-category: "Other"
-  religion-maps: "Religion"
-  law-dem-maps: "Law and demographics"
-
-collections:
-  viz:
-    output: true
+  name: "Personal"   
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 theme: minima
 minima:
   date_format: "%-d %B %Y"

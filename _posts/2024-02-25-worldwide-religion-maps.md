@@ -2,8 +2,8 @@
 layout: viz
 title: "Religious distribution maps of the world"
 date: 2024-02-05
-categories: religious-maps
-tags: 
+categories: posts
+tags: Worldwide
 description:
 cards:
   - image: "/assets/images/viz_lib/number_lutherans_world.svg"

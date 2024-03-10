@@ -4,7 +4,11 @@ grouping_id: religion
 prefix: "by"
 grouping_name: faith tradition
 grouping_tags:
-- Lutheran
-- Catholic
+- Worldwide
+- Christianity
+- Islam
 - Judaism
+- Eastern religions
+- Irreligion
+- Other religions
 ---

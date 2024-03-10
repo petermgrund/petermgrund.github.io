@@ -2,9 +2,8 @@
 layout: viz
 title: "2006 Finnish presidential election"
 date: 2024-02-05
-categories: election-maps
-tags: 
-link:
+categories: post
+tags: Europe
 description: "Your description here"
 cards:
   - image: "/assets/images/viz_lib/2006_Finnish_presidential_election_first_round_by_province.svg"
