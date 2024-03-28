@@ -10,8 +10,7 @@ cards:
     title: "Number of Lutherans by country"
     pubdate: 2023-12-10
     description: 
-    legend: 
-    link: "https://commons.wikimedia.org/wiki/File:Number_of_Lutherans_by_country.svg"
+    link: "https://commons.wikimedia.org/wiki/File:Number_of_Lutherans_by_country.svg"   
   - image: "/assets/images/viz_lib/percent_lutheran_world.svg"
     title: "Countries by percentage of total population who are Lutheran"
     pubdate: 2023-12-10
