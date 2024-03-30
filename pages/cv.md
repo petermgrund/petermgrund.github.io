@@ -27,7 +27,7 @@ permalink: /cv/
 ## Research Experience 
 <hr>
 
-**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School | Jing Wang, Ph.D., Matthew Johnson, Ph.D. | May 2023 – present
+**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund)) | Jing Wang, Ph.D., Matthew Johnson, Ph.D. | May 2023 – present
 * Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
     * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
     * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
@@ -39,8 +39,10 @@ permalink: /cv/
     * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
     * Use statistical models to predict neural activation of axonal pathways near active electrodes.
     * Developed a Shiny app to visualize and interact with patient data.
+* Sleep Outcomes with DBS Therapy in Parkinson’s Disease and Dystonia (awaiting registration)
+    * Developing REDCap database to store and analyze sleep data.
 
-**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/people/peter-grund) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
+**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
 * Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
 * Scheduled behavioral and imaging sessions, coordinating with several research centers outside of the Department of Psychology, including the Departments of Pharmacology and Radiology. 
 * Developed algorithm in R to approximate daily intake of THC/CBD for study participants from baseline to 4-month follow-up visit; demonstrated a high correlation with actual levels found in blood samples.
@@ -51,7 +53,7 @@ permalink: /cv/
 * Won best poster award at the 2022 Minnesota Symposium of Addiction Neuroscience amidst competing posters by Ph.D. students, post-docs, and academic faculty members.
 * Currently revising a manuscript of results for publication in Psychology of Addictive Behaviors.
 
-**Research Assistant** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/people/peter-grund) | University of Minnesota | Monica Luciana, Ph.D. | September 2019 – May 2022
+**Research Assistant** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | September 2019 – May 2022
 * Managed undergraduate research assistants, including training in human subjects and data collection.
 * Oversaw participant recruitment for two studies and maintained secure recruitment databases.
 * Conducted behavioral assessments for [a study of reward processing and motivational systems](https://lucianalab.psych.umn.edu/research/reward-motivation-study) in young adults
@@ -137,4 +139,4 @@ A list of references is available [upon request](/contact).
 
 Download my CV as a [PDF](/assets/uploads/cv.pdf). Please contact me to request an un-redacted version of my CV.
 
-Last updated: 7 March 2024
+Last updated: 30 March 2024
