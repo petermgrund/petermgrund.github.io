@@ -1,6 +1,6 @@
 ---
 layout: viz
-title: "Law and demographic maps of the United States"
+title: "Demographic maps of the USA"
 date: 2024-03-27
 categories: posts
 tags: USA
