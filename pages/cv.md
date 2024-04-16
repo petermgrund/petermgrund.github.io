@@ -39,7 +39,7 @@ permalink: /cv/
     * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
     * Use statistical models to predict neural activation of axonal pathways near active electrodes.
     * Developed a Shiny app to visualize and interact with patient data.
-* Sleep Outcomes with DBS Therapy in Parkinson’s Disease and Dystonia (awaiting registration)
+* Sleep-specific DBS Therapy in Parkinson's Disease ([NCT05962489](https://www.clinicaltrials.gov/study/NCT05962489))
     * Developing REDCap database to store and analyze sleep data.
 
 **Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
@@ -71,7 +71,6 @@ June 2021 – May 2022
 ## Publications
 <hr>
 
-* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (submitted). *Associations of temporal discounting on alcohol use trajectory patterns: A longitudinal study using generalized additive mixture models*. Psychology of Addictive Behaviors.
 * Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (accepted pending revisions). *Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations*. Journal of Neuroscience.
 
 ## Presentations and Non-Peer Reviewed Papers
@@ -132,11 +131,11 @@ June 2021 – May 2022
 ## References 
 <hr>
 
-A list of references is available [upon request](/contact). 
+To protect the privacy of my references, their contact information may be made available upon request. Please [contact me](/contact) for more information.
 
 ## Alternative Formats 
 <hr>
 
-Download my CV as a [PDF](/assets/uploads/cv.pdf). Please contact me to request an un-redacted version of my CV.
+Download my CV as a [PDF](/assets/uploads/cv.pdf). The PDF version may be slightly out of date relative to the version you see here.
 
-Last updated: 30 March 2024
+Last updated: 16 April 2024
