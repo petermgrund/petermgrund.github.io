@@ -11,6 +11,10 @@ layout: default
       <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 
+    <div class="post-content">
+      {{ content }}
+    </div>
+
     <div class="grid-container">
       {% assign sorted_pages = site.pages | sort: 'title' %}
       {% for page in sorted_pages %}
