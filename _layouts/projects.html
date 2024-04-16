@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<article class="post">
+
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+
+    <div class="grid-container">
+      {% assign sorted_pages = site.pages | sort: 'title' %}
+      {% for page in sorted_pages %}
+          {% if page.url contains '/project/' %}
+          <a href="{{ site.baseurl }}{{ page.url }}">
+            <div class="grid-item">
+              <h2>{{ page.title }}</h2>
+              <p>{{ page.description }}</p>
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+      
+  </article>
