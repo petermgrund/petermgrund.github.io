@@ -1,7 +1,7 @@
 ---
 layout: project-page
 title: "DBS"
-description: "Deep brain stimulation"
+description: "Research on deep brain stimulation"
 permalink: /project/dbs
 ---
 

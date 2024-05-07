@@ -40,7 +40,7 @@ permalink: /cv/
     * Use statistical models to predict neural activation of axonal pathways near active electrodes.
     * Developed a Shiny app to visualize and interact with patient data.
 * Sleep-specific DBS Therapy in Parkinson's Disease ([NCT05962489](https://www.clinicaltrials.gov/study/NCT05962489))
-    * Developing REDCap database to store and analyze sleep data.
+    * Developed REDCap database to store and analyze sleep data.
 
 **Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
 * Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
@@ -103,6 +103,9 @@ June 2021 – May 2022
 ## Affiliations
 <hr>
 
+**[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** | University of Minnesota Medical School | 2024 – present
+* Staff member representing the Department of Neurology.
+
 **[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** | City of Minneapolis | 2024 – present
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
@@ -138,4 +141,4 @@ To protect the privacy of my references, their contact information may be made a
 
 Download my CV as a [PDF](/assets/uploads/cv.pdf). The PDF version may be slightly out of date relative to the version you see here.
 
-Last updated: 16 April 2024
+Last updated: 6 May 2024
