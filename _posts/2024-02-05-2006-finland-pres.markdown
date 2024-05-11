@@ -9,7 +9,7 @@ cards:
   - image: "/assets/images/viz_lib/2006_Finnish_presidential_election_first_round_by_province.svg"
     title: "2006 Finnish presidential election first round by province"
     pubdate: 2024-01-28
-    description: 
+    description: "In the first round of the 2006 Finnish presidential election, Tarja Halonen, the incumbent, received the most votes in all but two provinces. Sauli Niinistö, the National Coalition candidate, did not win any provinces, with Vanhanen, the Centre Party candidate, winning two provinces."
     legend: 
       Halonen:
         - color: "#D13131"
@@ -31,7 +31,7 @@ cards:
   - image: "/assets/images/viz_lib/2006_Finnish_presidential_election_second_round_by_province.svg"
     title: "Second round by province"
     pubdate: 2024-01-28
-    description: 
+    description: "In the second round, Halonen received the most votes in all but three province and 52% overall. Niinistö won three provinces and about 48% of the vote."
     legend: 
       Halonen:
         - color: "#D13131"
