@@ -5,9 +5,11 @@ description: "My contributions to Wikipedia"
 permalink: /project/wikipedia
 ---
 
-This page contains a list of my contributions to Wikipedia. I have been editing Wikipedia since 2015, and I have made over 1,000 edits. I have created several articles and have made many improvements to existing articles. I have also participated in various WikiProjects and have helped to improve the quality of articles in a wide range of subject areas.
+This page contains a list of my contributions to Wikipedia. I have been editing Wikipedia since 2015, and I have made over 1,000 edits. I have created several articles and have made many improvements to existing articles. I have also participated in various WikiProjects and have helped to improve the quality of articles in a wide range of subject areas. My Commons contributions are available under [Posts](/posts).
 
 My username on Wikipedia is [Svenskbygderna](https://en.wikipedia.org/wiki/User:Svenskbygderna).
+
+<hr>
 
 ## Articles I am primary author of
 ### Politics
@@ -22,6 +24,8 @@ My username on Wikipedia is [Svenskbygderna](https://en.wikipedia.org/wiki/User:
 ### Science and health
 * [Autoimmune urticaria](https://en.wikipedia.org/wiki/Autoimmune_urticaria)
 * [Visible difference](https://en.wikipedia.org/wiki/Visible_difference)
+
+<hr>
 
 ## Articles I have significantly contributed to
 ### Politics
