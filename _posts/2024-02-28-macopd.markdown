@@ -3,7 +3,7 @@ layout: post
 title: "First MACOPD meeting"
 date: 2024-02-28 12:00 +0100
 categories: posts
-tags: Community
+tags: Advisory
 ---
 
 I attended my first meeting of the [Minneapolis Advisory Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd) last week. It was a great opportunity to meet the other members and learn more about the work of the Committee. I'm excited to contribute to the important work of promoting accessibility in the city.
