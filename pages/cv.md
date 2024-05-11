@@ -27,7 +27,7 @@ permalink: /cv/
 ## Research Experience 
 <hr>
 
-**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund)) | Jing Wang, Ph.D., Matthew Johnson, Ph.D. | May 2023 – present
+**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund)) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – present
 * Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
     * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
     * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
@@ -105,6 +105,7 @@ June 2021 – May 2022
 
 **[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** | University of Minnesota Medical School | 2024 – present
 * Staff member representing the Department of Neurology.
+* Member of the Metrics and Outcomes Taskforce, which assesses the effectiveness of DEI initiatives.
 
 **[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** | City of Minneapolis | 2024 – present
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
@@ -122,10 +123,10 @@ June 2021 – May 2022
 ## Technical Skills and Certifications 
 <hr>
 
-* Advanced proficiency in R programming language
-* Advanced proficiency in REDCap API
-* Experience using Statistical Package for the Social Sciences (SPSS)
-* Experience using FreeSurfer imaging software for functional and structural brain analysis
+* Advanced proficiency in [R programming language](https://www.r-project.org)
+* Advanced proficiency in [REDCap API](https://projectredcap.org/about//)
+* Experience using [Statistical Package for the Social Sciences (SPSS)](https://www.ibm.com/analytics/spss-statistics-software)
+* Experience using [FreeSurfer](https://freesurfer.net) imaging software for functional and structural brain analysis
 * Essentials for Regulatory Specialists certification 
 * Foundations for Research Professionals certification 
 * CITI certifications in Research Involving Human Subjects, Good Clinical Practice, and Social and Behavioral Research Best Practices for Clinical Research
