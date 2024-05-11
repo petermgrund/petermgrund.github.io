@@ -2,7 +2,7 @@
 layout: post-grouping 
 grouping_id: religion
 prefix: "by"
-grouping_name: faith tradition
+grouping_name: faith tradition or geography
 grouping_tags:
 - Worldwide
 - Nationwide
