@@ -4,6 +4,6 @@ grouping_id: personal
 prefix: "about"
 grouping_name: me
 grouping_tags:
-- Community
+- Advisory
 - Education
 ---

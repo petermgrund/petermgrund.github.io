@@ -3,7 +3,7 @@ layout: post
 title: "Appointment to Minneapolis advisory board"
 date: 2024-01-30 12:00 +0100
 categories: posts
-tags: Community
+tags: Advisory
 ---
 
 I'm excited to announce that the City Council [has approved](https://lims.minneapolismn.gov/File/2024-00045) my appointment to the [Minneapolis Advisory Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd) for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), which includes the University of Minnesota. I'm honored to take on this role.
