@@ -808,6 +808,7 @@ div.halfway-spacing {
 
 .candidate {
   flex-basis: calc(33.33% - 10px); /* adjust as needed */
+  flex-grow: 1; /* new */
   margin-bottom: 10px; /* adjust as needed */
 }
 
