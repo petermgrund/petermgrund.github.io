@@ -10,7 +10,7 @@
       <p class="card-text">{{ include.description }}</p>
       {% if card.legend %}
       <div class="legend">
-        <div class="candidates">
+        <div class="candidates {% if card.legend | size == 1 %}single-candidate{% endif %}">
           {% for candidate in card.legend %}
             <div class="candidate">
               <h5 class="candidate-name">{{ candidate[0] }}:</h5>
@@ -24,7 +24,7 @@
           {% endfor %}
         </div>
       </div>
-    {% endif %}
+      {% endif %}
       <hr>
       <div style="display: flex; justify-content: space-between;">
         <p class="card-text">Published {{ include.pubdate | date: date_format }}</p>
