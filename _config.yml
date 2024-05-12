@@ -27,7 +27,10 @@ groupings:
 - id: politics
   name: "Politics and elections"
 - id: personal
-  name: "Personal"   
+  name: "Personal"
+collections:
+  drafts:
+    output: true   
 
 # Build settings
 markdown: kramdown

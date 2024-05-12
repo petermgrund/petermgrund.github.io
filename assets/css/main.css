@@ -710,6 +710,18 @@ div.halfway-spacing {
   max-width: 30em;
 }
 
+/* Project post page
+   ========================================================================== */
+
+   .project-title {
+    padding-bottom: 0.5em;
+  }
+  
+  .project-content {
+    font-size: 1.9rem;
+    max-width: 45em;
+  }
+
 /* Tag pages
    ========================================================================== */
 

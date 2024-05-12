@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  
+  <div class="breadcrumbs">
+    <a href="{{ site.baseurl }}/drafts"><i class="fas fa-arrow-left"></i> Proposals</a>
+  </div>
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        
+        <time datetime="{{ page.date_created | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%B %-d, %Y, %HH:%MM" %}
+            Created: {{ page.date_created | date: date_format }}
+          </time><br>
+          <time datetime="{{ page.date_modified | date_to_xmlschema }}" itemprop="dateModified">
+            Modified: {{ page.date_modified | date: date_format }}
+          </time>
+        {% if page.author %}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% endif %}</p>
+    </header>
+
+<div class="proposal">
+    <table>
+        <tr>
+            <th colspan="2" style="padding: 10px; border: 1px solid black; text-align:left;">{{ page.question }}</th>
+        </tr>
+        <tr>
+            <th rowspan="2" style="padding: 10px; border: 1px solid black; text-align:left">Position</th>
+            <td style="padding: 10px; border: 1px solid black;">We <b>{{ page.position }}</b> that {{ page.action }}.</td>
+        </tr>
+        <tr>
+          {% case page.direction %}
+          {% when 'recommend' %}
+            <td style="padding: 10px; border: 1px solid black; background-color: green; text-align: center;">↑↑</td>
+          {% when 'weak-recommend' %}
+            <td style="padding: 10px; border: 1px solid black; background-color: lightgreen; text-align: center;">↑</td>
+          {% when 'no-recommend' %}
+            <td style="padding: 10px; border: 1px solid black; background-color: yellow; text-align: center;">–</td>
+          {% when 'weak-against' %}
+            <td style="padding: 10px; border: 1px solid black; background-color: #FAA0A0; text-align: center;">↓</td>
+          {% when 'recommend-against' %}
+            <td style="padding: 10px; border: 1px solid black; background-color: #FF0000; text-align: center;">↓↓</td>
+          {% else %}
+            <td style="padding: 10px; border: 1px solid black; background-color: white; text-align: center;">{{ page.direction }}</td>
+          {% endcase %}
+        </tr>
+        <tr>
+            <th style="padding: 10px; border: 1px solid black;">Implications</th>
+            <td style="padding: 10px; border: 1px solid black;">{{ page.implications }}
+            </td>
+        </tr>
+    </table>
+</div>
+
+{{ content }}
