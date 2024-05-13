@@ -740,7 +740,7 @@ div.halfway-spacing {
   width: 100%;
 }
 
-.draft, .queue, .subcommittee, .revise, .consensus {
+.draft, .queue, .subcommittee, .revise, .approved {
   background-color: black;
 }
 
