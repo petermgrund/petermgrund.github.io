@@ -2,7 +2,7 @@
 layout: project-page
 title: "Disability rights"
 description: "My work on disability rights"
-permalink: /project/disability
+permalink: /projects/disability
 ---
 
 This page is under construction.

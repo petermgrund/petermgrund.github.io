@@ -2,7 +2,7 @@
 layout: project-page
 title: "Wikipedia"
 description: "My contributions to Wikipedia"
-permalink: /project/wikipedia
+permalink: /projects/wikipedia
 ---
 
 This page contains a list of my contributions to Wikipedia. I have been editing Wikipedia since 2015, and I have made over 1,000 edits. I have created several articles and have made many improvements to existing articles. I have also participated in various WikiProjects and have helped to improve the quality of articles in a wide range of subject areas. My Commons contributions are available under [Posts](/posts).

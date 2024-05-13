@@ -1,5 +1,6 @@
 ---
 layout: default
+current: true
 ---
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -18,7 +19,8 @@ layout: default
     <div class="grid-container">
       {% assign sorted_pages = site.pages | sort: 'title' %}
       {% for page in sorted_pages %}
-          {% if page.url contains '/project/' %}
+        {% assign url_parts = page.url | split: '/' %}
+        {% if url_parts[1] == 'projects' and url_parts[3] == nil and page.url != '/projects/' %}
           <a href="{{ site.baseurl }}{{ page.url }}">
             <div class="grid-item">
               <h2>{{ page.title }}</h2>
