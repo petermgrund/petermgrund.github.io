@@ -1,7 +1,7 @@
 ---
 layout: viz
 title: "Maps of U.S. House elections in Minnesota"
-date: 2024-05-11
+date: 2024-05-15
 categories: posts
 tags: Minnesota
 description: 
