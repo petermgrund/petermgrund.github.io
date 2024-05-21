@@ -25,3 +25,6 @@ build/
 # Ignore site local files
 _site/
 feed.xml
+
+# Ignore scipts
+scripts/
