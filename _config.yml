@@ -24,10 +24,16 @@ google_analytics:
 groupings:
 - id: religion
   name: "Religion"
+  permalink: /religion/
 - id: politics
   name: "Politics and elections"
 - id: personal
   name: "Personal"
+visualizations:
+- id: maps
+  name: "Maps"
+- id: charts
+  name: "Charts"
 collections:
   drafts:
     output: true   

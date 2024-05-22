@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="home">
+  <h1 class="page-heading">
+    Visualizations
+    <span class="grouping-name">by date</span>
+  </h1>
+
+  <div class="other-groupings">
+    <details>
+      <summary id="collections-heading">Categories</summary>
+      <ul role="navigation" aria-labelledby="collections-heading">
+        <li><em>All</em></li>
+      {% for viz in site.visualizations %}
+        <li><a href="/{{ viz.id }}">{{ viz.name }}</a></li>
+      {% endfor %}
+      </ul>
+    </details>
+  </div>
+
+  {{ content }}
+{% assign vizByYear = site.visualizations | group_by_exp:"visualization", "post.date | date: '%Y'" %}
+{% for year in vizsByYear %}
+  <h2>{{ year.name }}</h2>
+  <ul class="post-list">
+    {% assign vizsInYear = year.items | sort: 'date' | reverse %}
+    {% for viz in vizsInYear %}
+    <li>{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}<span class="post-meta">{{ viz.date | date: date_format }}</span><a class="post-link" href="{{ viz.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ viz.title | escape }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
+
