@@ -7,6 +7,9 @@ permalink: /projects/ped
 
 I am a member of the City of Minneapolis' Pedestrian Advisory Committee (PAC). The PAC advises the Mayor, City Council, and city departments on policies, programs, and actions that affect walking in Minneapolis. We work to make walking safer, easier, and more attractive for people of all ages and abilities.
 
+Here is a list of all of the resolutions adopted by the PAC in 2023.
+* [List of 2023 PAC resolutions](/projects/ped/2023-resolutions)
+
 I am working on a proposal to create a special taskforce under the PAC's Program and Policy (P&P) subcommittee dedicated to thoroughly reviewing city, county, and state policies, laws, and standard practices related to pedestrian infrastructure and policies. The taskforce will develop a comprehensive recommendation system that could serve as a standardized method for evaluating various aspects of projects presented to the PAC.
 
 Here is a link to the original [proposal](/projects/ped/proposal).
