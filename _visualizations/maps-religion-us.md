@@ -4,6 +4,8 @@ title: "Religious distribution maps of the U.S."
 date: 2024-05-11
 topics: Demographics
 tags: 
+  - Maps
+  - Religion
 description: 
 cards:
   - image: "/assets/images/viz_lib/Religious_affiliation_of_members_of_the_117th_U.S._House_of_Representatives.svg"

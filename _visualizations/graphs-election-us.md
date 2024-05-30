@@ -3,7 +3,9 @@ layout: viz
 title: "Line graphs of opinion polls and election results"
 date: 2024-05-19
 topics: Elections
-tags: Minnesota
+tags: 
+  - Graphs
+  - Elections
 description: 
 cards:
   - image: "/assets/images/viz_lib/Vote_share_in_Minnesota's_8th_congressional_district.svg"
