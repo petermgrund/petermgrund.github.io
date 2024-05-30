@@ -6,15 +6,20 @@ Peter Grund is a researcher in the [Department of Neurology](https://med.umn.edu
 
 My CV is available [here](/cv).
 
+<html>
+    <div style="text-align: left;">
+        <img src="{{ site.baseurl }}/assets/images/graphics/bike.svg" alt="Logo" style="height: 200px;">
+    </div>
+</html>
+
 ### Research interests
-- Psychosocial adjustment to movement disorder
+- Movement disorders
 - Deep brain stimulation
-- Disability and accessibility in urban environments
+- Accessibility in urban environments
 
 ### Topics
-* [Religion](/religion/)
 * [Politics and elections](/politics/)
-* [Personal](/personal/)
+* [Pedestrian work](/projects/ped)
 
 ### Affiliations
 - Member, [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), City of Minneapolis, 2023-present
