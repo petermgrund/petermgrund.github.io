@@ -1,7 +1,7 @@
 ---
 layout: viz
 title: "Line graphs of opinion polls and election results"
-date: 2024-05-19
+date: 2024-05-30
 topics: Elections
 tags: 
   - Graphs
@@ -47,6 +47,11 @@ cards:
     title: "2024 US presidential election in Nevada opinion polling"
     pubdate: 2024-05-21
     description: 
-   # link: https://commons.wikimedia.org/wiki/File:2024_US_presidential_election_in_Nevada_opinion_polling.svg
+    link: https://commons.wikimedia.org/wiki/File:2024_US_presidential_election_in_Nevada_opinion_polling.svg
+  - image: "/assets/images/viz_lib/palestine_polls.svg"
+    title: "Next Palestinian election opinion polling"
+    pubdate: 2024-05-30
+    description: 
+    link: https://commons.wikimedia.org/wiki/File:Next_Palestinian_legislative_election_opinion_polling.svg
 
 ---
