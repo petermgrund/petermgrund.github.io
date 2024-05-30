@@ -2,8 +2,10 @@
 layout: viz
 title: "Maps of U.S. House elections in Minnesota"
 date: 2024-05-15
-categories: posts
-tags: Minnesota
+topics: Elections
+tags: 
+- Maps
+- Minnesota
 description: 
 cards:
   - image: "/assets/images/viz_lib/2008_United_States_House_of_Representatives_election_in_Minnesota.svg"

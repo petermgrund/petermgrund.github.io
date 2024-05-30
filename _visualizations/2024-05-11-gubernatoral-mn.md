@@ -2,8 +2,10 @@
 layout: viz
 title: "Maps of Minnesota gubernatorial elections"
 date: 2024-05-11
-categories: posts
-tags: Minnesota
+topics: Elections
+tags: 
+- Maps
+- Minnesota
 description: 
 cards:
   - image: "/assets/images/viz_lib/Democratic_Primary_for_Minnesota_Gubernatorial_Election,_2018.svg"

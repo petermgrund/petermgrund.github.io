@@ -2,8 +2,8 @@
 layout: viz
 title: "Prevailing religious population by country"
 date: 2024-05-11
-categories: posts
-tags: Worldwide
+topics: Demographics
+tags: 
 description:
 cards:
   - image: "/assets/images/viz_lib/Prevailing_religious_population_by_country_percentage.svg"

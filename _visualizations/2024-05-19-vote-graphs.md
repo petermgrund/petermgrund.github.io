@@ -2,7 +2,7 @@
 layout: viz
 title: "Line graphs of opinion polls and election results"
 date: 2024-05-19
-categories: posts
+topics: Elections
 tags: Minnesota
 description: 
 cards:

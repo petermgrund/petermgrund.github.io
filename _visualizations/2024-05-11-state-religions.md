@@ -2,8 +2,8 @@
 layout: viz
 title: "State religions of the world"
 date: 2024-05-11
-categories: posts
-tags: Worldwide
+topics: Demographics
+tags: Religion
 description: 
 cards:
   - image: "/assets/images/viz_lib/Map_of_state_religions.svg"
