@@ -36,7 +36,11 @@ visualizations:
   name: "Charts"
 collections:
   drafts:
-    output: true   
+    output: true
+    permalink: /projects/ped/drafts/:path
+  visualizations:
+    output: true
+    permalink: /visualizations/:path   
 
 # Build settings
 markdown: kramdown
