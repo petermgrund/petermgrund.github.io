@@ -2,8 +2,8 @@
 layout: viz
 title: "Other religious distribution maps of the world"
 date: 2024-02-05
-categories: posts
-tags: Worldwide
+topics: Demographics
+tags: 
 description:
 cards:
   - image: "/assets/images/viz_lib/Number_of_Sikhs_by_country.svg"

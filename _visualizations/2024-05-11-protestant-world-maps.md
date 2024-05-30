@@ -2,8 +2,8 @@
 layout: viz
 title: "Protestant distribution maps of the world"
 date: 2024-05-11
-categories: posts
-tags: Worldwide
+topics: Demographics
+tags: 
 description:
 cards:
   - image: "/assets/images/viz_lib/Countries_by_number_of_Protestants_(2010).svg"

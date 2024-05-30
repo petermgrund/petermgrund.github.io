@@ -2,8 +2,8 @@
 layout: viz
 title: "Demographic maps of the USA"
 date: 2024-03-27
-categories: posts
-tags: USA
+topics: Demographics
+tags: 
 description:
 cards:
   - image: "/assets/images/viz_lib/United_States_Census_2020_Population_Change_by_State.svg"

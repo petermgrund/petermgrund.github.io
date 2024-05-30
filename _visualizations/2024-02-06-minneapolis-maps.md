@@ -2,8 +2,10 @@
 layout: viz
 title: "Maps of Minneapolis"
 date: 2024-02-06
-categories: posts
-tags: Minnesota
+topics: Elections
+tags: 
+- Maps
+- Minneapolis
 description:
 cards:
   - image: "/assets/images/viz_lib/2023_Minneapolis_City_Council_election_by_PAC.svg"

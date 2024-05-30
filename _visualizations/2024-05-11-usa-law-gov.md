@@ -2,8 +2,8 @@
 layout: viz
 title: "Law and politics maps of the U.S."
 date: 2024-05-11
-categories: posts
-tags: USA
+topics: Other
+tags: 
 description: 
 cards:
   - image: "/assets/images/viz_lib/Ranked-choice_voting_in_the_US.svg"

@@ -2,7 +2,7 @@
 layout: viz
 title: "Graphs of votes in Minnesota elections"
 date: 2024-05-19
-categories: posts
+topics: Elections
 tags: Minnesota
 description: 
 cards:

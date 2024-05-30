@@ -2,8 +2,8 @@
 layout: viz
 title: "Christian distribution maps of the world"
 date: 2024-05-11
-categories: posts
-tags: Worldwide
+topics: Demographics
+tags: 
 description:
 cards:
   - image: "/assets/images/viz_lib/Percent_of_Christians_by_Country–Pew_Research_2011.svg"
