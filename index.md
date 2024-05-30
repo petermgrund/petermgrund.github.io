@@ -18,8 +18,8 @@ My CV is available [here](/cv).
 - Accessibility in urban environments
 
 ### Topics
-* [Politics and elections](/politics/)
 * [Pedestrian work](/projects/ped)
+* [Visualizations](/visualizations)
 
 ### Affiliations
 - Member, [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), City of Minneapolis, 2023-present
