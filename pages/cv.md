@@ -116,9 +116,13 @@ June 2021 – May 2022
 * Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
 * Member of the [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) which reviews street design and traffic safety policies.
 
-**[Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp), member** | Chisago County | 2023 – present
-* Facilitate community involvement in child protection systems, assess county social work practices, advocate for resources to address racial disparities in the child protection system.
-* Analyze trends to provide the county with insights, trends, and to verify compliance with the Abuse Prevention and Treatment Act (CAPTA) 5 Year Plan.
+**[Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp)** | Chisago County | 2023 – present
+* **Vice chair** (2024 – present)
+    * Run meetings and prepare agendas.
+    * Prepare annual reports to state and county authorities. 
+* **Member** (2023 – 2024)
+    * Reviewed child welfare cases in the county.
+    * Assessed county social work practices and advocated for additional resources to address disparities in the county.
 
 ## Technical Skills and Certifications 
 <hr>
