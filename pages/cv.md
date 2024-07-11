@@ -105,7 +105,7 @@ June 2021 – May 2022
 
 **[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** | University of Minnesota Medical School | 2024 – present
 * Staff member representing the Department of Neurology.
-* Member of the Metrics and Outcomes Taskforce, which assesses the effectiveness of DEI initiatives.
+* Leader of the Metrics and Outcomes Taskforce, which assesses the effectiveness of DEI initiatives.
 
 **[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** | City of Minneapolis | 2024 – present
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
@@ -146,4 +146,4 @@ To protect the privacy of my references, their contact information may be made a
 
 Download my CV as a [PDF](/assets/uploads/cv.pdf). The PDF version may be slightly out of date relative to the version you see here.
 
-Last updated: 6 May 2024
+Last updated: 11 July 2024
