@@ -17,6 +17,7 @@ My username on Wikipedia is [Petermgrund](https://en.wikipedia.org/wiki/User:Pet
 * [93rd Minnesota Legislature](https://en.wikipedia.org/wiki/93rd_Minnesota_Legislature) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/93rd_Minnesota_Legislature))
 * [2022 Minnesota House of Representatives election](https://en.wikipedia.org/wiki/2022_Minnesota_House_of_Representatives_election) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/2022_Minnesota_House_of_Representatives_election))
 * [2024 Minnesota House of Representatives election](https://en.wikipedia.org/wiki/2024_Minnesota_House_of_Representatives_election) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/2024_Minnesota_House_of_Representatives_election))
+* [List of mayors of Duluth, Minnesota](https://en.wikipedia.org/wiki/List_of_mayors_of_Duluth,_Minnesota) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/List_of_mayors_of_Duluth,_Minnesota))
 
 ### Demographics
 * [Religion in Minnesota](https://en.wikipedia.org/wiki/Religion_in_Minnesota) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Religion_in_Minnesota))
@@ -31,6 +32,9 @@ My username on Wikipedia is [Petermgrund](https://en.wikipedia.org/wiki/User:Pet
 
 ## Articles I have significantly contributed to
 ### Politics
+* [Duluth, Minnesota City Council](https://en.wikipedia.org/wiki/Duluth,_Minnesota_City_Council) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Duluth,_Minnesota_City_Council))
+* [Government of Minneapolis](https://en.wikipedia.org/wiki/Government_of_Minneapolis) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Government_of_Minneapolis))
+* [List of Mayors of Minneapolis](https://en.wikipedia.org/wiki/List_of_Mayors_of_Minneapolis) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/List_of_Mayors_of_Minneapolis))
 * [Minnesota Democratic–Farmer–Labor Party](https://en.wikipedia.org/wiki/Minnesota_Democratic%E2%80%93Farmer%E2%80%93Labor_Party) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Minnesota_Democratic%E2%80%93Farmer%E2%80%93Labor_Party))
 
 ### Demographics
