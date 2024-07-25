@@ -112,8 +112,7 @@ June 2021 – May 2022
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
 **[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** | City of Minneapolis | 2023 – present
-* **Chair**, Program & Policy Subcommittee (Jul 2024 – present)
-    * [P&P](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) reviews street design and traffic safety policies.
+* **Chair**, [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) (Jul 2024 – present)
     * Lead meetings and prepare agendas.
 * **Member** (Jul 2023 – present)
     * [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
