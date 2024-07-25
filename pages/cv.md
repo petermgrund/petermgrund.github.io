@@ -111,10 +111,13 @@ June 2021 – May 2022
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
-**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), member** | City of Minneapolis | 2023 – present
-* [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
-* Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
-* Member of the [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) which reviews street design and traffic safety policies.
+**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** | City of Minneapolis | 2023 – present
+* **Chair**, Program & Policy Subcommittee (Jul 2024 – present)
+    * [P&P](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) reviews street design and traffic safety policies.
+    * Lead meetings and prepare agendas.
+* **Member** (Jul 2023 – present)
+    * [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
+    * Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
 
 **[Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp)** | Chisago County | 2023 – present
 * **Vice chair** (2024 – present)
