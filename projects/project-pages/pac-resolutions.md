@@ -6,9 +6,17 @@ permalink: /projects/ped/resolutions
 
 This page contains a list of resolutions passed by the Minneapolis Pedestrian Advisory Committee since 2023. The purpose of this page is to provide a record of the PAC's work and to make it easier for me to reference resolutions in the future.
 
+Meetings that are not listed here did not have any resolutions passed. A full list of PAC meetings can be found on the [City of Minneapolis website](https://lims.minneapolismn.gov/Boards/Meetings/pac).
+
 ## 2024
 
-* **May 23, 2024** ([agenda](https://lims.minneapolismn.gov/Board/MarkedAgenda/PAC/4604) / [minutes]())
+* **July 25, 2024** ([agenda](https://lims.minneapolismn.gov/Board/MarkedAgenda/PAC/4739) / [minutes](https://lims.minneapolismn.gov/Download/CommitteeReport/3875/Minutes_2024_07_25_PACFull.pdf))
+    * [I-94/Nicollet Ave Bridge Replacement Resolution](https://lims.minneapolismn.gov/download/Agenda/6295/4739/Resolution_2024_07_25_PAC_I94-Nicollet-Bridge-15-percent.pdf)
+    * [Cedar Ave Reconstruction Resolution](https://lims.minneapolismn.gov/download/Agenda/6311/4739/Resolution_2024_07_25_PAC_Cedar-Ave-Reconstruction.pdf)
+    * [E. 42nd St Resurfacing Resolution](https://lims.minneapolismn.gov/download/Agenda/6309/Resolution_2024_07_25_PAC_Cedar-Ave-Repaving.pdf/104369/4739/Cedar%20Ave%20Repaving%20Resolution)
+    * [10th Ave Bridge Resolution](https://lims.minneapolismn.gov/download/Agenda/6312/Resolution_2024_07_25_PAC_10th-Ave-Bridge.pdf/104369/4739/10th%20Ave%20bridge%20resolution)
+
+* **May 23, 2024** ([agenda](https://lims.minneapolismn.gov/Board/MarkedAgenda/PAC/4604) / [minutes](https://lims.minneapolismn.gov/Download/CommitteeReport/3775/Minutes_2024_05_23_PACFull.pdf))
     * [E Line HSIP Resolution](https://lims.minneapolismn.gov/download/Agenda/6062/4604/Resolution_2024_05_23_PAC_ELineHSIP.pdf)
 
 * **April 30, 2024** ([agenda](https://lims.minneapolismn.gov/Board/MarkedAgenda/PAC/4538) / [minutes](https://lims.minneapolismn.gov/Download/CommitteeReport/3727/Minutes_2024_04_30_PACFull.pdf))
