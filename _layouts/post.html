@@ -39,8 +39,4 @@ layout: default
     {% endif %}
     <div class="content-part">{{ content | markdownify }}</div>
   </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
 </article>
