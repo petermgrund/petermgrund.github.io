@@ -26,18 +26,18 @@ permalink: /projects/crp/plan
 3. Create a local data dashboard for Chisago County.
 
 ## Action Items
-<div class="empty-box">
-  Discuss at next meeting.
+<div class="wip-box">
+  Work in progress.
 </div>
 
 ## Evaluation Plan
-<div class="empty-box">
-  Discuss at next meeting.
+<div class="wip-box">
+  Work in progress.
 </div>
 
 ## Resources Needed
-<div class="empty-box">
-  Discuss at next meeting.
+<div class="wip-box">
+  Work in progress.
 </div>
 
 ## Next Steps
