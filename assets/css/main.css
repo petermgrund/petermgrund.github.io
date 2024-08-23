@@ -81,6 +81,10 @@ hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
+  border: none;         
+  height: 1px;        
+  background-color: #000000; 
+  margin: 10px 0;      
 }
 
 /**
@@ -900,29 +904,29 @@ div.halfway-spacing {
 
 /* Emphasis blocks
    ========================================================================== */
-   .emphasis-box {
-    background-color: #F9F3D4; 
-    padding: 5px; /* Some padding */
-    border-left: 6px solid #F5C150;
-    margin-bottom: 5px; /* Space below the box */
-    padding-left: 50px; /* Increased left padding to make space for the icon */
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 16px; /* Font size */
-    background-image: url('https://www.arctic.gov/uploads/uswds/img/usa-icons/info.svg'); /* Path to your SVG icon */
-    background-repeat: no-repeat; /* Prevents the icon from repeating */
-    background-size: 30px 30px; /* Adjust based on the size of your icon */
-    background-position: 10px center; /* Positions the icon within the padding area */  
-  }
-  .wip-box {
-    background-color: #EAF5F8; 
-    padding: 5px; /* Some padding */
-    border-left: 6px solid #55BADF; 
-    padding-left: 50px; /* Increased left padding to make space for the icon */
-    margin-bottom: 5px; /* Space below the box */
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 16px; /* Font size */
-    background-image: url('https://www.arctic.gov/uploads/uswds/img/usa-icons/construction.svg'); /* Path to your SVG icon */
-    background-repeat: no-repeat; /* Prevents the icon from repeating */
-    background-size: 30px 30px; /* Adjust based on the size of your icon */
-    background-position: 10px center; /* Positions the icon within the padding area */  
-  }
+.emphasis-box {
+  background-color: #F9F3D4; 
+  padding: 5px;
+  border-left: 6px solid #F5C150;
+  margin-bottom: 5px; 
+  padding-left: 50px; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  background-image: url('https://www.arctic.gov/uploads/uswds/img/usa-icons/info.svg'); 
+  background-repeat: no-repeat; 
+  background-size: 30px 30px;
+  background-position: 10px center;  
+}
+.wip-box {
+  background-color: #EAF5F8; 
+  padding: 5px; 
+  border-left: 6px solid #55BADF; 
+  padding-left: 50px; 
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif; 
+  font-size: 16px;
+  background-image: url('https://www.arctic.gov/uploads/uswds/img/usa-icons/construction.svg');
+  background-repeat: no-repeat; 
+  background-size: 30px 30px;
+  background-position: 10px center;
+}
