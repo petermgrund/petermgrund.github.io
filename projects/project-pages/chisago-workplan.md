@@ -8,17 +8,43 @@ permalink: /projects/crp/plan
   <b>Note</b>: This work plan is a draft and incomplete. It will continue to be updated as the CRP meets.
 </div>
 
-## Goals
-1. Increase the CRP's understanding of Chisago County's demographics, with a focus on those less than 18 years old.
-    - Necessary that we understand the population we are serving and to what degree the new 2024 legislation will impact the county.
-2. Become more familiar with the state's CAPTA plan and how it impacts Chisago County.
-    - This will help us determine how we should be evaluating the county's performance.
-3. Review the county's performance data, identify trends, and request additional data or clarification as needed.
-    - This will help us understand how the county is performing and, based on CAPTA, how it *should* be performing.
-4. Review the county's child protection policies and procedures.
-    - Since each county has its own policies and procedures, it is important that we understand Chisago County's and how they differ from Hennepin and Ramsey Counties.
-5. Continue to build relationships with local school districts.
-    - The most common sources of notifications are schools in Chisago County.
+The Chisago County Citizen Review Panel (CRP) work plan for 2024-25 outlines the goals, strategies, and action items that the CRP will focus on in the coming year. The work plan is a living document that will be updated throughout the year.
+
+The focus of this year's work plan is data collection and analysis. Our goal is to better understand the county's child population, its child protection system, and how the two interact. With many changes on the horizon, including new state legislation, it is important that we have a clear picture of the current state of the system in Chisago County.
+
+The work plan is organized at a high level by goals. Each goal is broken down into strategies and action items that will help us achieve our objectives. 
+
+<hr>
+
+### Goal 1. Understand Chisago County's youth demographics
+
+* **Justification**: It is necessary that we understand the population we are serving and to what degree the new 2024 legislation will impact the county once it is implimented in 2027.
+
+* **Strategies**:
+  * Collect age-specific demographic data from county records and census data
+  * Create a demographic profile of Chisago County's youth population
+  * Share presentation with CRP members
+
+<hr>
+
+### Goal 2. Become familiar with state CAPTA provisions
+This will help us determine how we should be evaluating the county's performance.
+
+<hr>
+
+### Goal 3. Collect more data about reconsideration cases
+
+<hr>
+
+### Goal 4. 
+
+<hr>
+
+
+### Goal 5. Continue to build relationships with local school districts.
+The most common sources of notifications are schools in Chisago County.
+
+<hr>
 
 ## Ideas 
 1. Assist with the development of a multidisciplinary team policy.
@@ -26,19 +52,17 @@ permalink: /projects/crp/plan
 3. Create a local data dashboard for Chisago County.
 
 ## Action Items
-<div class="wip-box">
-  Work in progress.
-</div>
+
+### Goal 1
+* Collect age-specific demographic data from county records and census data
+* Create a demographic profile of Chisago County's youth population
+* Share presentation with CRP members 
+
 
 ## Evaluation Plan
-<div class="wip-box">
-  Work in progress.
-</div>
 
 ## Resources Needed
-<div class="wip-box">
-  Work in progress.
-</div>
+
 
 ## Next Steps
 1. Find a new meeting time so Jill O. can attend.
