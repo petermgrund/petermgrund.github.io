@@ -31,3 +31,6 @@ This page is a list of data dashboards I find interesting or useful.
 * [Minnesota Court Statistics and Reports](https://www.mncourts.gov/Help-Topics/Court-Statistics.aspx)
 * [Minneapolis Crime dashboard](https://tableau.minneapolismn.gov/views/CrimeDashboard/Summary?%3Adisplay_count=n&%3Aembed=y&%3Aiid=5&%3AisGuestRedirectFromVizportal=y&%3Aorigin=viz_share_link&%3AshowAppBanner=false&%3AshowVizHome=n&%3Atabs=yes&%3Atoolbar=no)
 * [Minnesota Violent Death Reporting System](https://www.health.state.mn.us/communities/injury/midas/mnvdrs.html)
+
+### Elections
+* Minnesota results ([2022](https://www.gis.lcc.mn.gov/iMaps/elections/2022/), [2020](https://www.gis.lcc.mn.gov/iMaps/elections/2020/), [2018](https://www.gis.lcc.mn.gov/iMaps/elections/2018/all/), [2016](https://www.gis.lcc.mn.gov/iMaps/elections/2016/all/))
