@@ -1,7 +1,7 @@
 ---
 layout: viz
 title: "Maps of the Minnesota House of Representatives"
-date: 2024-05-11
+date: 2024-08-28
 topics: Elections
 tags: 
 - Maps
@@ -53,10 +53,41 @@ cards:
     pubdate: 2018-12-26
     description:
     link: "https://commons.wikimedia.org/wiki/File:MN_House_2016.svg"  
-  - image: "/assets/images/viz_lib/2024_Minnesota_House_of_Representatives_election_by_district.svg"
-    title: "Seats won in the 2024 election (by vote share)"
-    pubdate: 2024-02-10
-    description: "Results of the 2024 Minnesota House of Representatives election by district. Results will be added when available. I used a new map scheme for this election that includes highlighting metroplitan areas. I also included Minnesota's new flag!"
-    link: "https://commons.wikimedia.org/wiki/File:2024_Minnesota_House_of_Representatives_election_by_district.svg"  
+  - image: "/assets/images/viz_lib/2024_HD38a_DFL.svg"
+    title: "2024 Minnesota House district 38A DFL primary by precinct"
+    pubdate: 2024-08-28
+    description: 
+    legend: 
+      Hiltsley:
+        - color: "#51C2C2"
+          range: "50-60%"
+        - color: "#2AACAC"
+          range: "60-70%"
+        - color: "#009696"
+          range: "70-80%"
+      Russell:
+        - color: "#FF9A50"
+          range: "50-60%"
+        - color: "#EE8E50"
+          range: "60-70%"
+    link: "https://commons.wikimedia.org/wiki/File:2024_Minnesota_38A_House_DFL_primary.svg"  
+  - image: "/assets/images/viz_lib/2024_HD41a_GOP.svg"
+    title: "2024 Minnesota House district 41A GOP primary by precinct"
+    pubdate: 2024-08-28
+    description: 
+    legend: 
+      Johnson:
+        - color: "#7ED06D"
+          range: "50-60%"
+        - color: "#66C54F"
+          range: "60-70%"
+      McNew:
+        - color: "#F4B688"
+          range: "50-60%"
+        - color: "#F19E62"
+          range: "60-70%"
+        - color: "#EF8641"
+          range: "70-80%"
+    link: "https://commons.wikimedia.org/wiki/File:2024_Minnesota_41AA_House_GOP_primary.svg"  
 ---
 
