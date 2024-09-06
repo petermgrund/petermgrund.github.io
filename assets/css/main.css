@@ -930,3 +930,16 @@ div.halfway-spacing {
   background-size: 30px 30px;
   background-position: 10px center;
 }
+.link-box {
+  background-color: #eeeeee; 
+  padding: 5px; 
+  border-left: 6px solid #7f7f7f; 
+  padding-left: 50px; 
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif; 
+  font-size: 16px;
+  background-image: url('https://www.arctic.gov/uploads/uswds/img/usa-icons/assessment.svg');
+  background-repeat: no-repeat; 
+  background-size: 30px 30px;
+  background-position: 10px center;
+}
