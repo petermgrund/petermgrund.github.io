@@ -32,7 +32,7 @@ My username on Wikipedia is [Petermgrund](https://en.wikipedia.org/wiki/User:Pet
 
 ## Articles I have significantly contributed to
 ### Politics
-* [Duluth, Minnesota City Council](https://en.wikipedia.org/wiki/Duluth,_Minnesota_City_Council) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Duluth,_Minnesota_City_Council))
+* [Duluth, Minnesota City Council](https://en.wikipedia.org/wiki/Duluth_City_Council) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Duluth_City_Council))
 * [Government of Minneapolis](https://en.wikipedia.org/wiki/Government_of_Minneapolis) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Government_of_Minneapolis))
 * [List of Mayors of Minneapolis](https://en.wikipedia.org/wiki/List_of_mayors_of_Minneapolis) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/List_of_mayors_of_Minneapolis))
 * [Minnesota Democratic–Farmer–Labor Party](https://en.wikipedia.org/wiki/Minnesota_Democratic%E2%80%93Farmer%E2%80%93Labor_Party) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/Minnesota_Democratic%E2%80%93Farmer%E2%80%93Labor_Party))
