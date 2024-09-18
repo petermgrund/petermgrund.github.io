@@ -481,9 +481,22 @@ iframe {
   max-width: 100%;
 }
 
+a {
+  text-decoration: underline; 
+}
+
+a:hover {
+  color: #936d95 !important;
+}
+
 a:focus,
 button:focus {
-  outline: solid 3px #ffbf47;
+  background-color: #fdd522 !important;
+  color: #000000 !important;
+  outline-offset: 0;
+  transition-duration: 0s;
+  box-shadow: 0 3px 0 0 black;
+  text-decoration: none;
 }
 
 .page-heading,
@@ -558,20 +571,11 @@ div.halfway-spacing {
   padding: 1.5rem 0;
 }
 
-.site-title,
-.site-about a {
+a:hover {
   text-decoration: none;
 }
 
-.site-title:hover,
-.site-title:focus,
-.site-about a:hover,
-.site-about a:focus {
-  text-decoration: underline;
-}
-
 .site-title {
-  color: #0b0c0c;
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.6;
@@ -581,7 +585,6 @@ div.halfway-spacing {
 .site-about {
   float: right;
   color: #0b0c0c;
-  line-height: 1.5;
   font-weight: 700;
   list-style: none;
   padding: 0;
@@ -595,7 +598,6 @@ div.halfway-spacing {
 .site-about li a {
   display: block;
   padding: 1.2rem;
-  border: solid 1px #0b0c0c;
 }
 
 /* Site home and grouping pages
@@ -762,7 +764,6 @@ div.halfway-spacing {
   text-decoration: none;
 }
 
-.grouping h2 a:hover,
 .grouping h2 a:focus {
   text-decoration: underline;
 }
@@ -782,7 +783,7 @@ div.halfway-spacing {
 }
 
 .card-body {
-  /* Add later */
+  padding: 15px;
 }
 
 .card-title {
@@ -818,7 +819,6 @@ div.halfway-spacing {
 .btn {
   background-color: #000000;
   color: white;
-  padding: 10px 20px;
   text-decoration: none;
   border-radius: 0px;
 }
@@ -836,7 +836,7 @@ div.halfway-spacing {
 }
 
 .candidate-name {
-  margin-bottom: 5px; /* adjust as needed */
+  margin-bottom: 5px; 
 }
 
 .candidates {
@@ -845,9 +845,9 @@ div.halfway-spacing {
 }
 
 .candidate {
-  flex-basis: calc(33.33% - 10px); /* adjust as needed */
-  flex-grow: 1; /* new */
-  margin-bottom: 10px; /* adjust as needed */
+  flex-basis: calc(33.33% - 10px); 
+  flex-grow: 1; 
+  margin-bottom: 10px; 
 }
 
 /* CV
@@ -894,9 +894,6 @@ div.halfway-spacing {
   font-size: 1em;
 }
 
-.grid-item:hover {
-  background-color: #f5f5f5;
-}
 
 .project-content > ul > li {
   margin-bottom: 20px;
