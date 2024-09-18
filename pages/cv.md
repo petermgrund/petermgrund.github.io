@@ -118,7 +118,7 @@ June 2021 – May 2022
     * [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
     * Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
 
-**[Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp)** | Chisago County | 2023 – present
+**[Citizen Review Panel](https://commissionsandappointments.sos.state.mn.us/Agency/Details/345)** | Chisago County | 2023 – present
 * **Vice chair** (2024 – present)
     * Run meetings and prepare agendas.
     * Prepare annual reports to state and county authorities. 

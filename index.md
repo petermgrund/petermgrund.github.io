@@ -23,5 +23,5 @@ My CV is available [here](/cv).
 
 ### Affiliations
 - Member, [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), City of Minneapolis, 2023-present
-- Vice chair, [Chisago County Citizen Review Panel](https://mn.gov/dhs/general-public/about-dhs/advisory-councils-task-forces/citizen-review-panels.jsp), Minnesota Department of Human Services, 2023-present
+- Vice chair, [Chisago County Citizen Review Panel](https://commissionsandappointments.sos.state.mn.us/Agency/Details/345), Minnesota Department of Human Services, 2023-present
 - Member, [Minneapolis Advisory Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), City of Minneapolis, 2024-present
