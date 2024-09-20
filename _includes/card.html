@@ -32,6 +32,16 @@
           <a href="{{ include.link }}" class="external-link">Commons Link&nbsp;<i class="fas fa-external-link-alt"></i></a>
         {% endif %}
       </div>
+      {% if include.sources %}
+      <div class="sources">
+        <h6>Sources:</h6>
+        <ul>
+          {% for source in include.sources %}
+            <li><a href="{{ source.url }}">{{ source.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>
