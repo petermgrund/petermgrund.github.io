@@ -4,6 +4,9 @@ title: "Demographic maps of the USA"
 date: 2024-03-27
 topics: Demographics
 tags: 
+- Demographics
+- Maps
+- US
 description:
 cards:
   - image: "/assets/images/viz_lib/United_States_Census_2020_Population_Change_by_State.svg"

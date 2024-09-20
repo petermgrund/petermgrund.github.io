@@ -4,6 +4,7 @@ title: "Maps of Minnesota gubernatorial elections"
 date: 2024-05-11
 topics: Elections
 tags: 
+- Elections
 - Maps
 - Minnesota
 description: 
