@@ -1,7 +1,6 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <div class="card">
   <img src="{{ include.image }}" alt="{{ include.title }}">
   <div class="card-body">
@@ -32,11 +31,11 @@
           <a href="{{ include.link }}" class="external-link">Commons Link&nbsp;<i class="fas fa-external-link-alt"></i></a>
         {% endif %}
       </div>
-      {% if include.sources %}
-      <div class="sources">
-        <h6>Sources:</h6>
-        <ul>
-          {% for source in include.sources %}
+      {% if card.sources %}
+      <p style="margin-bottom: 0;">Source(s):</p>
+      <div class="sources" style="display: flex; justify-content: space-between;">
+        <ul style="margin-top: 0;">
+          {% for source in card.sources %}
             <li><a href="{{ source.url }}">{{ source.title }}</a></li>
           {% endfor %}
         </ul>

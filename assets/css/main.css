@@ -808,6 +808,15 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.sources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sources li {
+  margin-bottom: 5px;
+}
+
 .external-link {
   display: flex;
   align-items: center;
@@ -940,3 +949,4 @@ a:hover {
   background-size: 30px 30px;
   background-position: 10px center;
 }
+
