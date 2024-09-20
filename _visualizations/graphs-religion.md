@@ -9,7 +9,7 @@ tags:
 description:
 cards:
   - image: "/assets/images/viz_lib/church_of_greenland.svg"
-    title: "Membership trends in the Church of Greenland since 2012?"
+    title: "Membership trends in the Church of Greenland since 2012"
     pubdate: 2024-09-20
     sources: 
       - title: "Statistics Greenland table BEEKIRK"
