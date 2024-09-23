@@ -72,6 +72,7 @@ June 2021 – May 2022
 <hr>
 
 * Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (accepted pending revisions). *Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations*. Journal of Neuroscience.
+* Butler, R., Brinda, A., Blumenfeld, M., Bryants, M., **Grund, P.M.**, Pandey, S., Cornish, C., Sullivan, D., Krieg, J., Umoh, M., Vitek, J., Almeida, L., Orcutt, T., Cooper, S., Johnson, M. (accepted pending revisions). *Differentiating Postural and Kinetic Tremor Responses to Deep Brain Stimulation in Essential Tremor*. Movement Disorders 
 
 ## Presentations and Non-Peer Reviewed Papers
 <hr>
