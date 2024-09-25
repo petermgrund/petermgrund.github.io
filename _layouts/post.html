@@ -18,6 +18,11 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
         {{ page.date | date: date_format }}
+        {% if page.modified %}
+          <time datetime="{{ page.date_modified | date_to_xmlschema }}" itemprop="dateModified">
+            (<span class="updated-highlight">updated</span><small> {{ page.modified | date: date_format }}</small>)
+          </time>
+        {% endif %}</p>
       </time>
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>

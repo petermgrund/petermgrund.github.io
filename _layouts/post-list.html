@@ -26,7 +26,15 @@ layout: default
   <ul class="post-list">
     {% assign postsInYear = year.items | sort: 'date' | reverse %}
     {% for post in postsInYear %}
-    <li>{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}<span class="post-meta">{{ post.date | date: date_format }}</span><a class="post-link" href="{{ post.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ post.title | escape }}</a></li>
+    <li>{% assign date_format = site.minima.date_format | default: "%bb %-d, %Y" %}
+      <span class="post-meta">{{ post.date | date: date_format }}
+      {% if post.modified %}
+      <time datetime="{{ post.modified | date_to_xmlschema }}" itemprop="dateModified">
+        <span class="updated-highlight">updated</span>
+      </time>
+      {% endif %}  
+      </span>
+      <a class="post-link" href="{{ post.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ post.title | escape }}</a></li>
     {% endfor %}
   </ul>
   {% endfor %}

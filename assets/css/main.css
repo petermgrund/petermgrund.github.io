@@ -1,5 +1,11 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
+:root {
+  --hl: #FFB81C; /* Main highlight */
+  --success: #198754; 
+  --info: #0dcaf0; 
+}
+
 /* Document
    ========================================================================== */
 
@@ -508,6 +514,12 @@ button:focus {
   padding: 0.5em 0;
 }
 
+.updated-highlight {
+  background-color: var(--hl);
+  font-size: smaller;
+}
+
+
 div.more-spacing {
   margin-top: 2em;
 }
@@ -913,7 +925,7 @@ a:hover {
 .emphasis-box {
   background-color: #F9F3D4; 
   padding: 5px;
-  border-left: 6px solid #F5C150;
+  border-left: 6px solid var(--hl);
   margin-bottom: 5px; 
   padding-left: 50px; 
   font-family: Arial, sans-serif; 
