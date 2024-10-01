@@ -6,8 +6,8 @@ layout: default
     Visualizations
   </h1>
 
-<div class="page-content" style="width: 120%;">
-    {% assign sorted_vis = site.visualizations | sort: "topic" %}
+<div class="page-content">
+    {% assign sorted_vis = site.visualizations | sort: "topics"  %}
     {% assign topics = "" | split: "," %}
     {% for vis in sorted_vis %}
         {% for topic in vis.topics %}
@@ -24,9 +24,8 @@ layout: default
         </tr>
         <tr style="height: 15px;"></tr>
         <tr>
-            <th style="border: none; text-align: left; width: 60%;">Title</th>
-            <th style="border: none; text-align: left; width: 20%;">Tags</th>
-            <th style="border: none; text-align: left; width: 20%;">Last modified</th>
+            <th style="border: none; text-align: left; width: 90%;">Title</th>
+            <th style="border: none; text-align: left; width: 10%;">Last modified</th>
         </tr>
       {% for vis in sorted_vis %}
         {% if vis.topics contains topic %}
@@ -35,13 +34,7 @@ layout: default
               <a href="{{ vis.url }}">{{ vis.title }}</a>
             </td>
             <td style="border: none; text-align: left;">
-              {% for tag in vis.tags %}
-                {{ tag }}
-                {% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-            </td>
-            <td style="border: none; text-align: left;">
-              {{ vis.date | date: "%b %d, %Y" }}
+              {{ vis.date | date: "%d %b %y" }}
             </td>
           </tr>
         {% endif %}
