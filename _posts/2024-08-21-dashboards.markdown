@@ -2,7 +2,7 @@
 layout: post
 title: "Data dashboards"
 date: 2024-08-21 12:00 +0100
-modified: 2024-09-24 12:00 +0100
+modified: 2024-11-11 12:00 +0100
 categories: posts
 tags: Data
 ---
@@ -36,4 +36,4 @@ This page is a list of data dashboards I find interesting or useful.
 * [Minnesota Violent Death Reporting System](https://www.health.state.mn.us/communities/injury/midas/mnvdrs.html)
 
 ### Elections
-* Minnesota results ([2022](https://www.gis.lcc.mn.gov/iMaps/elections/2022/), [2020](https://www.gis.lcc.mn.gov/iMaps/elections/2020/), [2018](https://www.gis.lcc.mn.gov/iMaps/elections/2018/all/), [2016](https://www.gis.lcc.mn.gov/iMaps/elections/2016/all/))
+* Minnesota results ([2024](https://www.gis.lcc.mn.gov/iMaps/elections/2024/), [2022](https://www.gis.lcc.mn.gov/iMaps/elections/2022/), [2020](https://www.gis.lcc.mn.gov/iMaps/elections/2020/), [2018](https://www.gis.lcc.mn.gov/iMaps/elections/2018/all/), [2016](https://www.gis.lcc.mn.gov/iMaps/elections/2016/all/), [2012](https://www.gis.lcc.mn.gov/iMaps/elections/2012/all/))
