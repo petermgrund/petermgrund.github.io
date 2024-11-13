@@ -131,7 +131,7 @@ June 2021 – May 2022
     * Assessed county social work practices and advocated for additional resources to address disparities in the county.
 
 **Election Judge** | City of Minneapolis | 2023 – present
-* Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), and [2024 General]().
+* Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), and [2024 General](https://lims.minneapolismn.gov/file/2024-01006).
 
 ## Technical Skills and Certifications 
 <hr>
