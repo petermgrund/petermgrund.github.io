@@ -1,38 +1,42 @@
 ---
 layout: default
 ---
-<div class="grouping">
-  <h1 class="page-heading">
+<div class="container mt-5">
+  <h1 class="display-4">
     Posts
-    <span class="grouping-name">{{ page.prefix }} {{ page.grouping_name }}{% if page.suffix %} {{ page.suffix }}{% endif %}</span>
+    <small class="text-muted">{{ page.prefix }} {{ page.grouping_name }}{% if page.suffix %} {{ page.suffix }}{% endif %}</small>
   </h1>
-  
-  <div class="other-groupings">
-    <details>
-      <summary id="collections-heading">Categories</summary>
-      <ul role="navigation" aria-labelledby="collections-heading">
-        <li><a href="/posts">All</a></li>
+
+  <div class="dropdown mb-3">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="categoriesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+      Categories
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+      <li><a class="dropdown-item" href="/posts">All</a></li>
       {% for grouping in site.groupings %}
-        {% if grouping.id == page.grouping_id %}
-          <li><em>{{ grouping.name }}</em></li>
-        {% else %}
-          <li><a href="/{{ grouping.id }}">{{ grouping.name }}</a></li>
-        {% endif %}
+      <li><a class="dropdown-item" href="/{{ grouping.id }}">{{ grouping.name }}</a></li>
       {% endfor %}
-      </ul>
-    </details>
+    </ul>
   </div>
 
-  {{ content }}
+  {{ content }}
   {% for tagName in page.grouping_tags %}
     {% if page.grouping_tags.size > 1 %}
-    <h2 id="{{ tagName | slugify }}">{{ tagName }}</h2>
+    <h2 id="{{ tagName | slugify }}" class="mt-4">{{ tagName }}</h2>
     {% endif %}
-    <ul class="post-list">
+    <div class="list-group mb-3">
       {% assign postsWithTag = site.tags[tagName] | group_by_exp:"post", "post.date | date: '%s'" | map: "items" | reverse %}
       {% for post in postsWithTag %}
-      <li>{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}<span class="post-meta">{{ post.date | date: date_format }}</span><a class="post-link" href="{{ post.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ post.title | escape }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
+      <a href="{{ post.url | relative_url }}" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">{{ post.title | escape }}</h5>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <small class="text-muted">{{ post.date | date: date_format }}</small>
+        </div>
+        <p class="mb-1">{{ post.excerpt }}</p>
+        <small class="text-muted">{{ post.author }}</small>
+      </a>
+      {% endfor %}
+    </div>
+  {% endfor %}
 </div>

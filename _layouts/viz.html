@@ -3,47 +3,137 @@ layout: default
 ---
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .card {
+  border: 3px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: auto;
+  height: 300px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 1px;
+}
+
+.card-content .card-title {
+  margin-bottom: 10px;
+}
+
+.card-content .card-text {
+  margin-bottom: 10px;
+}
+
+.card-content hr {
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.sources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sources li {
+  margin-bottom: 5px;
+}
+
+.external-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.candidate-name {
+  margin-bottom: 5px; 
+}
+
+.candidates {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.candidate {
+  flex-basis: calc(33.33% - 10px); 
+  flex-grow: 1; 
+  margin-bottom: 10px; 
+}
+  </style>
 </head>
 
-<div class="breadcrumbs">
-  <a href="{{ site.baseurl }}/visualizations"><i class="fas fa-arrow-left"></i> Visualizations</a>
-</div>
+<div class="container">
+  <div class="col-lg-8 mx p-4 py-md-5">
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/visualizations/">Viz</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title}} </li>
+      </ol>
+    </nav>
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-      {% if page.tags %}
-      <h4 class="post-tags" style="text-transform: uppercase; color: rgb(109, 109, 109);">
-        {{ page.tags | join: ", " }}
-      </h4>
-    {% endif %}
-
-      <p class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
-          Last modified {{ page.date | date: date_format }}
-        </time>
-        {% if page.author %}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-        {% endif %}</p>
-    </header>
-  
-    <div class="post-content" itemprop="articleBody">
-      {% assign content_parts = content | split: "<!--cards-->" %}
-      {{ content_parts[0] | markdownify }}
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+            Last modified {{ page.date | date: date_format }}
+          </time>
+          {% if page.author %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+          {% endif %}</p>
+      </header>
     
-      {% for card in page.cards %}
-        {% include card.html image=card.image title=card.title description=card.description link=card.link pubdate=card.pubdate %}
-      {% endfor %}
+      <div class="post-content" itemprop="articleBody">
+        {% assign content_parts = content | split: "<!--cards-->" %}
+        {{ content_parts[0] | markdownify }}
+      
+        {% for card in page.cards %}
+          {% include card.html image=card.image title=card.title description=card.description link=card.link pubdate=card.pubdate %}
+        {% endfor %}
+      
+        {{ content_parts[1] | markdownify }}
+      </div>
     
-      {{ content_parts[1] | markdownify }}
-    </div>
-  
-    {% if site.disqus.shortname %}
-      {% include disqus_comments.html %}
-    {% endif %}
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
 
-  </article>
-
-  
+    </article>
+  </div>
+</div>  
+    
