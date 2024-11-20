@@ -1,20 +1,35 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
+<head>
   {% include head.html %}
+  <style>
+    h3 {
+      margin-top: 1.5em;
+    }
+  </style>
+</head>
+<div class="col-lg-8 mx p-4 py-md-5">
+  <h1 class="display-4 mb-7">CV</h1> 
+  <div class="container mt-4"> 
+    <nav id="toc" data-toggle="toc"></nav>
+    {{ content }}
+    <p>Last modified {{ page.last_modified | date: "%d %b %Y" }} (<span id="days-since-modified"></span> days ago)</p>
+  </div>
+</div>
 
-  <body>
-    <a class="skiplink" href="#content">Skip to main content</a>
-    {% include header.html %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const lastModifiedAt = new Date("{{ page.last_modified }}");
+    const today = new Date();
 
-    <main class="page-content main-cv" aria-label="Content" id="content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    const lastModifiedAtDate = new Date(lastModifiedAt.getFullYear(), lastModifiedAt.getMonth(), lastModifiedAt.getDate());
+    const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
-    {% include footer.html %}
-  </body>
+    const timeDiff = Math.abs(todayDate - lastModifiedAtDate);
+    const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
 
-  {% include scripts.html %}
-</html>
+    document.getElementById("days-since-modified").textContent = daysDiff;
+  });
+</script>

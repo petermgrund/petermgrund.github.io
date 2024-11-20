@@ -1,18 +1,43 @@
-<header class="site-header" role="banner">
-
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">
-      <span class="site-title-subtitle">Peter M. Grund</span>
-    </a>
-    <ul class="site-about">
-      <li><a href="/">Home</a></li>
-      <li><a href="/posts">Posts</a></li>
-      <li><a href="/visualizations">Viz</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/cv">CV</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
+<div class="p-3 bg-primary text-white text-left">
+  <div class="container">
+    <h1>Peter M. Grund</h1>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item me-3">
+          <a class="btn btn-outline-secondary {% if page.url == '/' %}active{% endif %}" href="/" role="button">Home</a>       
+        </li>
+        <li class="nav-item me-3">
+          <a class="btn btn-outline-secondary {% if page.url contains '/posts/' %}active{% endif %}" href="/posts/" role="button">Posts</a>       
+        </li>
+        <li class="nav-item dropdown me-3">
+          <a class="btn btn-outline-secondary dropdown-toggle {% if page.url contains '/projects' %}active{% endif %}" href="/projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item {% if page.url contains '/projects/crp' %}active{% endif %}" href="/projects/crp">CRP</a></li>
+            <li><a class="dropdown-item {% if page.url contains '/projects/wikipedia' %}active{% endif %}" href="/projects/wikipedia">Wikipedia</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item {% if page.url ==  '/projects' %}active{% endif %}" href="/projects">All projects</a></li>
+          </ul>
+        </li>
+        <li class="nav-item me-3">
+          <a class="btn btn-outline-secondary {% if page.url contains '/cv' %}active{% endif %}" href="/cv" role="button">CV</a>       
+        </li>
+        <li class="nav-item me-3">
+          <a class="btn btn-outline-secondary {% if page.url contains '/visualizations' %}active{% endif %}" href="/visualizations" role="button">Visualizations</a>       
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary disabled" type="submit">Search</button>
+      </form>
+    </div>
   </div>
-</header>
+</nav>

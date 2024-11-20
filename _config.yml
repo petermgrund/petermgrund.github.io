@@ -21,6 +21,15 @@ email: "peter_grund@me.com"
 twitter_username: "petermgrund"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: 
+alert: "The site is undergoing a redesign"
+alert-type: "primary"
+alert-date: "2024-11-20"
+proj-alert: "This section's formatting is problematic and needs to be redesigned"
+proj-alert-type: "warning"
+proj-alert-date: "2024-11-20"
+viz-alert: "This section's formatting is problematic and needs to be redesigned"
+viz-alert-type: "warning"
+viz-alert-date: "2024-11-20"
 groupings:
 - id: religion
   name: "Religion"

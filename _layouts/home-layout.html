@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% if site.alert %}
+<div class="container p-3">
+  <div class="alert alert-{{ site.alert-type }}" role="alert">
+    {{ site.alert }} (last updated {{ site.alert-date | date: "%d %b %Y" }})
+  </div>
+</div>
+{% endif %}
+<div class="container p-3 py-md-5">
+  <main>
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-6">
+        <h1 class="display-3">About</h1>
+        <p class="fs-5">Peter Grund is a researcher in the Department of Neurology at the University of Minnesota.</p>
+        <div style="text-align: left;">
+          <img src="{{ site.baseurl }}/assets/images/graphics/bike.svg" alt="Logo" style="height: 250px;">
+        </div>
+      </div>
+
+      <!-- Pages -->
+      <div class="col-md-6">
+        <h1 class="display-3">Pages</h1>
+        <p class="fs-5">Explore the following pages about me:</p>
+        <ul class="list-unstyled ps-0">
+          <li>
+            <a class="icon-link mb-1" href="/cv" rel="noopener">
+              <svg class="bi"><use xlink:href="#arrow-right-circle"/></svg>
+              <h3>CV</h3>
+            </a>
+          </li>
+          <li>
+            <a class="icon-link mb-1" href="/posts" rel="noopener">
+              <svg class="bi"><use xlink:href="#arrow-right-circle"/></svg>
+              <h3>Posts</h3>
+            </a>
+          </li>
+          <li>
+            <a class="icon-link mb-1" href="/projects" rel="noopener">
+              <svg class="bi"><use xlink:href="#arrow-right-circle"/></svg>
+              <h3>Projects</h3>
+            </a>
+          </li>
+          <li>
+            <a class="icon-link mb-1" href="/visualizations" rel="noopener">
+              <svg class="bi"><use xlink:href="#arrow-right-circle"/></svg>
+              <h3>Visualizations</h3>
+            </a>
+          </li>
+          <li>
+            <a class="icon-link mb-1" href="/contact" rel="noopener">
+              <svg class="bi"><use xlink:href="#arrow-right-circle"/></svg>
+              <h3>Contact me</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</div>

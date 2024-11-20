@@ -3,6 +3,7 @@ layout: post
 title: "A history of ELCA membership in Minnesota"
 date: 2021-12-31 12:00 +0100
 categories: posts
+summary: "A look at the decline of the Evangelical Lutheran Church in America in Minnesota"
 tags: Christianity
 ---
 
