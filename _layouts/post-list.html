@@ -3,45 +3,26 @@ layout: default
 ---
 <div class="container">
   <div class="col-lg-8 mx p-4 py-md-5">
-
-    <main>
-      <h1 class="text-body-emphasis">Posts</h1>
-</main>   
-
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Categories
-    </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">All</a></li>
-      {% for grouping in site.groupings %}
-      <li><a class="dropdown-item" href="/{{ grouping.id }}">{{ grouping.name }}</a></li>
-      {% endfor %}
-      </ul>
-  </div>
-  
-
-  {{ content }}
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-{% for year in postsByYear %}
-  <h2>{{ year.name }}</h2>
-  <ul class="post-list">
-    {% assign postsInYear = year.items | sort: 'date' | reverse %}
-    {% for post in postsInYear %}
-    <li>{% assign date_format = site.minima.date_format | default: "%bb %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}
-      {% if post.modified %}
-      <time datetime="{{ post.modified | date_to_xmlschema }}" itemprop="dateModified">
-        <span class="updated-highlight">updated</span>
-      </time>
-      {% endif %}  
-      </span>
-      <a class="post-link" href="{{ post.url | relative_url }}"><span class="visuallyhidden">Name of post: </span>{{ post.title | escape }}</a></li>
-    {% endfor %}
-  </ul>
-  {% endfor %}
-</div>
-
+    <h1 class="display-3 mb-4">Posts</h1> 
+    <div class="container mt-4"> 
+      <div class="row">
+        {% for post in site.posts %}
+          <div class="col-md-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%d %b %Y" }}</h6>
+                <p class="card-text">{{ post.summary}}</p>
+                <div class="tags">
+                  {% for tag in post.tags %}
+                    <a href="/tags/{{ tag | slugify }}" class="badge rounded-pill text-bg-secondary text-decoration-none">{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
-

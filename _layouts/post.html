@@ -3,41 +3,47 @@ layout: default
 ---
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .post img {
+      max-width: 500px;
+      height: auto; 
+    }
+  </style>
 </head>
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="container">
 
   <div class="col-lg-8 mx p-4 py-md-5">
 
     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
       <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
         <li class="breadcrumb-item"><a href="/posts/">Posts</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ page.title}} </li>
       </ol>
     </nav>
 
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% for tag in page.tags %}
     <p class="post-meta">
-      
+    Tags: <a href="/tags/{{ tag | slugify }}" class="badge rounded-pill text-bg-secondary text-decoration-none">{{ tag }}</a>
+    {% endfor %}
+  </p>
+    <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
         {{ page.date | date: date_format }}
         {% if page.modified %}
           <time datetime="{{ page.date_modified | date_to_xmlschema }}" itemprop="dateModified">
-            (<span class="updated-highlight">updated</span><small> {{ page.modified | date: date_format }}</small>)
+            (updated {{ page.modified | date: date_format }})
           </time>
         {% endif %}</p>
       </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
   </header>
 
   <hr>
 
-  <div class="post-content" itemprop="articleBody">
     {% if page.cards %}
       {% for card in page.cards %}
         {% assign i = forloop.index %}
@@ -53,4 +59,4 @@ layout: default
     <div class="content-part">{{ content | markdownify }}</div>
   </div>
   </div>
-</article>
+</div>

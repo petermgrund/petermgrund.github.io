@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: cv
 title: CV
 permalink: /cv/
+last_modified: 2024-11-19
 ---
 
-## Education 
+### Education
 <hr>
 
 **[B.S. in Psychology](https://umtc.catalog.prod.coursedog.com/programs/081220117), University of Minnesota, Twin Cities**, 2022
@@ -14,7 +15,7 @@ permalink: /cv/
 * Honors thesis: [Genetic Influences on Verbal Memory Efficiency Following a Mild Traumatic Brain Injury](/assets/uploads/honors_thesis.pdf)
 * Honors advisors: Dr. Seth Disner, Dr. Scott Sponheim, Dr. Monica Luciana
 
-## Honors, Awards, and Grants 
+### Honors, Awards, and Grants
 <hr>
 
 * [1st Place Poster Award](https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience) – Minnesota Symposium on Addiction Neuroscience (2022)
@@ -24,7 +25,7 @@ permalink: /cv/
 * [UMN Diversity in Psychology Program](https://cla.umn.edu/psychology/about/diversity-and-inclusion/diversity-psychology-program) Participant
 * [University of Minnesota Undergraduate Research Opportunities Program](https://ugresearch.umn.edu/opportunities/urop) Scholarship (2020)
 
-## Research Experience 
+### Research Experience
 <hr>
 
 **Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund)) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – present
@@ -69,7 +70,7 @@ June 2021 – May 2022
 * Conducted in-depth phone screenings for all participants to ensure study eligibility.
 * Participated in TBI outpatient rounds and consensus meetings.
 
-## Publications
+### Publications
 <hr>
 
 * Butler, R., Brinda, A., Blumenfeld, M., Bryants, M., **Grund, P.M.**, Pandey, S., Cornish, C., Sullivan, D., Krieg, J., Umoh, M., Vitek, J., Almeida, L., Orcutt, T., Cooper, S., Johnson, M. (2024). Differentiating Postural and Kinetic Tremor Responses to Deep Brain Stimulation in Essential Tremor. *Movement Disorders*. DOI: [10.1002/mdc3.14256](http://doi.org/10.1002/mdc3.14256)
@@ -77,7 +78,7 @@ June 2021 – May 2022
 * Alschuler, V., Klein, S., **Grund, P.M.** Collins, P.F, Luciana, M. (accepted pending revisions). *Within-person imbalance between reward sensitivity and executive control from adolescence through adulthood: longitudinal associations with alcohol use quantity and frequency*. Development and Psychopathology.
 * **Grund, P.M.**, [Klein, S.](https://cablab.umn.edu/sam-klein), [Alschuler, V.](https://lucianalab.psych.umn.edu/people/vanessa-alschuler), [Collins, P.F](https://lucianalab.psych.umn.edu/people/paul-collins), [Luciana, M.](https://lucianalab.psych.umn.edu/people/monica-luciana) (accepted pending revisions) *Associations between Delay Discounting and Alcohol Use Patterns in Adolescence Vary by Age: A Longitudinal Study Using Generalized Additive Mixture Models*. Psychological Medicine.
 
-## Presentations and Non-Peer Reviewed Papers
+### Presentations and Non-Peer Reviewed Papers
 <hr>
 
 * Lozano Wun, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2023). *Within-person mismatch of reward responsiveness and executive functioning: A longitudinal validation of the dual systems model from childhood to adulthood*. Presented at the Research Society of Alcoholism. Bellevue, WA. View poster [here](/assets/uploads/rsa_2023.pdf).
@@ -90,7 +91,7 @@ June 2021 – May 2022
 * **Grund, P.M.**, Sponheim, S., Disner, S. (2021). *Role of the APOE Gene on Verbal Learning Following a Minor Traumatic Brain Injury*. Presented at VA Research Week. Minneapolis VA Health Care System, MN.
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund).
 
-## Clinical and Teaching Experience
+### Clinical and Teaching Experience
 <hr>
 
 **Patient Advocate** | [SE Seniors](https://www.seseniors.org) | Minneapolis | June 2023 – present
@@ -104,7 +105,7 @@ June 2021 – May 2022
 * Led three human cadaver labs in which I performed dissections, reviewed medical histories, and taught anatomy of the brain and its relationships to the body's major arteries, veins, cranial nerves, foramina, and sinuses.
 * Instructed students on topics such as the ventricles, cerebral and spinal blood supply, membrane potential, somatosensory and motor pathways, mechanosensation, the visual and auditory systems, and disorders of the nervous system.
 
-## Affiliations
+### Affiliations
 <hr>
 
 **[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** | University of Minnesota Medical School | 2024 – present
@@ -133,7 +134,7 @@ June 2021 – May 2022
 **Election Judge** | City of Minneapolis | 2023 – present
 * Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), and [2024 General](https://lims.minneapolismn.gov/file/2024-01006).
 
-## Technical Skills and Certifications 
+### Technical Skills and Certifications 
 <hr>
 
 * Advanced proficiency in [R programming language](https://www.r-project.org)
@@ -145,14 +146,12 @@ June 2021 – May 2022
 * CITI certifications in Research Involving Human Subjects, Good Clinical Practice, and Social and Behavioral Research Best Practices for Clinical Research
 * Assessment administration and scoring including the Rey Auditory Verbal Learning Test, Digit Span, tests originating from the Cambridge Neuropsychological Test Automated Battery and E-Prime digital tasks
 
-## References 
+### References 
 <hr>
 
 To protect the privacy of my references, their contact information may be made available upon request. Please [contact me](/contact) for more information.
 
-## Alternative Formats 
+### Alternative Formats 
 <hr>
 
 Download my CV as a [PDF](/assets/uploads/cv.pdf). The PDF version may be slightly out of date relative to the version you see here.
-
-Last updated: 22 July 2024

@@ -15,7 +15,6 @@ a {
 }
 
 a:hover {
-  color: #936d95 !important;
   text-decoration: none;
 }
 
@@ -28,6 +27,32 @@ button:focus {
   box-shadow: 0 3px 0 0 black;
   text-decoration: none;
 }
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Adjust spacing between icon and text */
+  }
+
+  .icon-link svg {
+    width: 1em; /* Match the text size */
+    height: 1em;
+    vertical-align: middle;
+  }
+
+  .icon-link h3, .icon-link span {
+    margin: 0; /* Reset margin for consistent spacing */
+    line-height: 1; /* Align text vertically */
+  }
+
+  /* Add space between list items */
+  .list-unstyled li {
+    margin-bottom: 1.5rem; /* Adjust spacing as needed */
+  }
 
   </style>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="arrow-right-circle" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    </symbol>
+  </svg>
 </head>

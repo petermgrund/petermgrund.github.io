@@ -1,11 +1,18 @@
 ---
 layout: default
 ---
-<div class="container">
 
-    <main>
-      <h1 class="text-body-emphasis">Visualizations</h1>
-    </main>   
+{% if site.viz-alert %}
+<div class="container p-3">
+  <div class="alert alert-{{ site.viz-alert-type }}" role="alert">
+    {{ site.viz-alert }} (last updated {{ site.viz-alert-date | date: "%d %b %Y" }})
+  </div>
+</div>
+{% endif %}
+
+<div class="container">
+  <div class="col-lg-8 mx p-4 py-md-5">
+  <h1 class="display-4 mb-7">{{ page.title | escape }}</h1> 
 
 <div class="page-content">
     {% assign sorted_vis = site.visualizations | sort: "topics"  %}
@@ -18,7 +25,7 @@ layout: default
         {% endfor %}
     {% endfor %}
 
-    <table style="border: none; margin: 0; clear: both; text-align: left; table-layout: fixed; width: 100%;">
+    <table style="border: none; margin: 0; clear: both; text-align: left; table-layout: fixed;">
     {% for topic in topics %}
         <tr>
             <th colspan="3" style="border: none; text-align: left; margin-bottom: 50px;"><h4>{{ topic }}</h4></th>
@@ -46,6 +53,7 @@ layout: default
   </div>
 </div>
 
+</div>
 
 </div>
 

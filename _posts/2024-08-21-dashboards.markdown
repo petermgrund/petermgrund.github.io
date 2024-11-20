@@ -5,6 +5,7 @@ date: 2024-08-21 12:00 +0100
 modified: 2024-11-11 12:00 +0100
 categories: posts
 tags: Data
+summary: "A list of data dashboards I find interesting or useful"
 ---
 
 This page is a list of data dashboards I find interesting or useful.
