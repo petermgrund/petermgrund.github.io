@@ -1,6 +1,7 @@
 ---
 layout: project-page
 title: "List of PAC resolutions"
+project: "Pedestrian advocacy"
 permalink: /projects/ped/resolutions
 ---
 

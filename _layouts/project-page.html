@@ -14,23 +14,70 @@ layout: default
 </head>
 
 <div class="col-lg-8 mx p-4 py-md-5">
+  
 
-  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/projects/">Projects</a></li>
-      <li class="breadcrumb-item active" aria-current="page">{{ page.title}}</li>
-    </ol>
-  </nav>
+{% assign relative_url = page.url | remove_first:'/projects/' %}
+{% assign segments = relative_url | split:'/' | reject:'' %}
 
+<nav style="--bs-breadcrumb-divider: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%228%22%20height%3D%228%22%3E%3Cpath%20d%3D%22M2.5%200L1%201.5%203.5%204%201%206.5%202.5%208l4-4-4-4z%22%20fill%3D%22%236c757d%22/%3E%3C/svg%3E');" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/projects/">Projects</a></li>
+    {% assign num_segments = segments | size %}
+    {% assign current_path = '/projects/' %}
+
+    {% if num_segments >= 1 %}
+      {% assign segment = segments[0] %}
+      {% assign current_path = current_path | append: segment | append: '/' %}
+      {% if num_segments >= 2 %}
+        <!-- There are 2 or more segments after /projects/ -->
+        <li class="breadcrumb-item"><a href="{{ current_path }}">{{ page.project }}</a></li>
+      {% else %}        
+      {% endif %}
+    {% endif %}
+
+    {% if num_segments >= 2 %}
+      {% for i in (1..num_segments-1) %}
+        {% assign segment = segments[i] %}
+        {% assign current_path = current_path | append: segment | append: '/' %}
+        {% if forloop.last %}
+          <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        {% else %}
+          <li class="breadcrumb-item"><a href="{{ current_path }}">{{ segment | capitalize }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </ol>
+</nav>
+
+
+
+{% if page.project %}
+<h1 class="mb-4">{{ page.title }}</h1> 
+{% else %}        
   <h4 class="display-5 mb-7">{{ page.title }}</h4> 
+  {% endif %}
+
+  {% if page.alert %}
+  <div class="container p-3">
+    <div class="alert alert-{{ page.alert-type }}" role="alert">
+      {{ page.alert }} (last updated {{ page.alert-date | date: "%d %b %Y" }})
+    </div>
+  </div>
+  {% endif %}
+
 
   {% if page.image %}
-  <div style="text-align: left;">
-    <img src="{{ site.baseurl }}/assets/images/graphics/{{ page.image }}" alt="Logo" style="height: 200px; margin-top: 20px; margin-bottom: 20px">
+  <div class="container">
+    <img src="{{ site.baseurl }}/assets/images/graphics/{{ page.image }}" alt="Logo" style="height: 250px;"
+    src="{{ site.baseurl }}/assets/images/graphics/{{ page.image }}" 
+      alt="Logo" 
+      class="img-fluid my-4"
+    >
   </div>
   {% endif %}
 
   <div class="container">
     {{ content }}
   </div>
-
+</div>

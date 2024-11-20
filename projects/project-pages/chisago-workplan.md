@@ -1,12 +1,12 @@
 ---
 layout: project-page
 title: "Chisago County CRP Work Plan, 2024-25"
+project: "Citizen Review Panel"
 permalink: /projects/crp/plan
+alert: "This document is not finalized"
+alert-type: primary
+alert-date: 2024-11-11
 ---
-
-<div class="emphasis-box">
-  <b>Note</b>: This work plan is a draft and incomplete. It will continue to be updated as the CRP meets.
-</div>
 
 The Chisago County Citizen Review Panel (CRP) work plan for 2024-25 outlines the goals, strategies, and action items that the CRP will focus on in the coming year. The work plan is a living document that will be updated throughout the year.
 
