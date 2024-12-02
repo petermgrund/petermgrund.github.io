@@ -18,7 +18,7 @@ description: |
   Personal website for Peter M. Grund
 baseurl: "" # the subpath of your site, e.g. /blog
 email: "peter_grund@me.com"
-twitter_username: "petermgrund"
+email_work: "grund130@umn.edu"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: 
 alert: "The site is undergoing a redesign"
