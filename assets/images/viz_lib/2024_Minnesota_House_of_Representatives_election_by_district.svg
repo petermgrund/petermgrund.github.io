@@ -25,15 +25,15 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.50256923"
-   inkscape:cx="1430.6487"
-   inkscape:cy="1770.9003"
-   inkscape:window-width="1520"
-   inkscape:window-height="847"
-   inkscape:window-x="0"
-   inkscape:window-y="282"
+   inkscape:zoom="0.36064251"
+   inkscape:cx="1030.106"
+   inkscape:cy="1335.1171"
+   inkscape:window-width="1512"
+   inkscape:window-height="856"
+   inkscape:window-x="1600"
+   inkscape:window-y="38"
    inkscape:window-maximized="0"
-   inkscape:current-layer="layer1" />
+   inkscape:current-layer="DFL-color" />
     <g
    transform="matrix(0.676843,0,0,0.676843,1123.96,-121.921)"
    id="g3">
@@ -3028,9 +3028,11 @@
      sodipodi:role="line"
      id="tspan1-54"
      x="1222.4059"
-     y="440.40656">50<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana-Bold, Verdana, sans-serif;-inkscape-font-specification:'Verdana-Bold, Verdana, sans-serif'"
-   id="tspan2">.11</tspan></tspan></text>
+     y="440.40656"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana-Bold, Verdana, sans-serif;-inkscape-font-specification:'Verdana-Bold, Verdana, sans-serif'"
+       id="tspan2"><tspan
+   style="font-weight:bold"
+   id="tspan4">49</tspan>.95</tspan></tspan></text>
         </g><g
    transform="matrix(0.26482364,0,0,0.26482364,637.88936,145.90941)"
    id="g27-5-2"
@@ -3048,7 +3050,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana-Bold, Verdana, sans-serif;-inkscape-font-specification:'Verdana-Bold, Verdana, sans-serif'"
        id="tspan2-3"><tspan
    style="font-weight:bold"
-   id="tspan3">49</tspan>.64</tspan></tspan></text>
+   id="tspan3">49</tspan>.48</tspan></tspan></text>
         </g><g
    transform="matrix(0.26482364,0,0,0.26482364,637.40588,144.59046)"
    id="g27-9"

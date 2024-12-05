@@ -107,5 +107,24 @@ cards:
     description: "The GOP took the last DFL district on the Iron Range outside of Duluth. The DFL's representation was reduced to the Twin Cities and a few other cities in Greater Minnesota."
     legend: 
     link: "https://commons.wikimedia.org/wiki/File:MN_House_2024_seats_won.svg"  
+  - image: "/assets/images/viz_lib/2024_MN_2B.svg"
+    title: "2024 District 2B by county"
+    pubdate: 2024-11-21
+    description: ""
+    legend: 
+    link: "https://commons.wikimedia.org/wiki/File:2024_Minnesota_House_District_2B_results_by_county.svg" 
+  - image: "/assets/images/viz_lib/2024_MN_3A.svg"
+    title: "2024 District 3A by county"
+    pubdate: 2024-11-21
+    description: ""
+    legend: 
+    link: "https://commons.wikimedia.org/wiki/File:2024_Minnesota_House_District_3A_results_by_county.svg" 
+  - image: "/assets/images/viz_lib/2024_MN_12A.svg"
+    title: "2024 District 12A by county"
+    pubdate: 2024-11-21
+    description: ""
+    legend: 
+    link: "https://commons.wikimedia.org/wiki/File:2024_Minnesota_House_District_12A_results_by_county.svg" 
+
 ---
 
