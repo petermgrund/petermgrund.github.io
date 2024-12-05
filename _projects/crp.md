@@ -16,6 +16,8 @@ The Chisago County Citizen Review Panel (CRP) is a group of community members wh
     Youth Demographics of Chisago County Dashboard
 </a>
 
+* [Presentation on youth demographics](https://rpubs.com/petermgrund/chisago-youth)
+
 ### 2024 work plan documents
 * [CRP Work Plan 2024-25](/projects/crp/plan) ([PDF draft](/assets/uploads/crp-workplan-draft.pdf))
 * [CRP principles review](/assets/uploads/crp-principles.pdf)

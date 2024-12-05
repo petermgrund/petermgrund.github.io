@@ -41,10 +41,11 @@ action_items:
     goal_id: 1
   - id: 3
     title: Share presentation with CRP members
-    details: Scheduled for December meeting
+    details: Completed at the December meeting; a copy is available on the main CRP project page
     due_date: 2024-12-01
+    updated: 2024-12-03
     assigned_to: "Peter Grund"
-    status: In progress
+    status: Complete
     goal_id: 1
   - id: 4
     title: Presentation about state CAPTA provisions
@@ -58,7 +59,7 @@ action_items:
     title: Move to monthly meetings
     description: Move from 2 hour, bi-monthly meetings to 1 hour, monthly meetings
     details: Also find a meeting time that Jill O. can attend
-    due_date: 
+    due_date: 2025-02-01
     assigned_to: All members
     status: In progress
     goal_id: 5
