@@ -3,6 +3,41 @@ layout: default
 ---
 
 <div class="col-lg-8 mx p-4 py-md-5">
+
+  {% assign relative_url = page.url | remove_first:'/projects/' %}
+  {% assign segments = relative_url | split:'/' | reject:'' %}
+  
+  <nav style="--bs-breadcrumb-divider: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%228%22%20height%3D%228%22%3E%3Cpath%20d%3D%22M2.5%200L1%201.5%203.5%204%201%206.5%202.5%208l4-4-4-4z%22%20fill%3D%22%236c757d%22/%3E%3C/svg%3E');" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/projects/">Projects</a></li>
+      {% assign num_segments = segments | size %}
+      {% assign current_path = '/projects/' %}
+  
+      {% if num_segments >= 1 %}
+        {% assign segment = segments[0] %}
+        {% assign current_path = current_path | append: segment | append: '/' %}
+        {% if num_segments >= 2 %}
+          <!-- There are 2 or more segments after /projects/ -->
+          <li class="breadcrumb-item"><a href="{{ current_path }}">{{ page.project }}</a></li>
+        {% else %}        
+        {% endif %}
+      {% endif %}
+  
+      {% if num_segments >= 2 %}
+        {% for i in (1..num_segments-1) %}
+          {% assign segment = segments[i] %}
+          {% assign current_path = current_path | append: segment | append: '/' %}
+          {% if forloop.last %}
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+          {% else %}
+            <li class="breadcrumb-item"><a href="{{ current_path }}">{{ segment | capitalize }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ol>
+  </nav>
+
   <h1 class="mb-4">{{ page.title }}</h1>
 
   {{ content }}
