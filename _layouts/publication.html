@@ -16,27 +16,33 @@ layout: default
   
       {% if num_segments >= 1 %}
         {% assign segment = segments[0] %}
-        {% assign current_path = current_path | append: segment | append: '/' %}
+        {% if num_segments > 1 %}
+          {% assign current_path = current_path | append: segment | append: '/' %}
+        {% else %}
+          {% assign current_path = current_path | append: segment %}
+        {% endif %}
+        
         {% if num_segments >= 2 %}
-          <!-- There are 2 or more segments after /projects/ -->
           <li class="breadcrumb-item"><a href="{{ current_path }}">{{ page.project }}</a></li>
-        {% else %}        
+        {% else %}
+          <li class="breadcrumb-item active" aria-current="page">{{ page.project }}</li>
         {% endif %}
       {% endif %}
   
       {% if num_segments >= 2 %}
         {% for i in (1..num_segments-1) %}
           {% assign segment = segments[i] %}
-          {% assign current_path = current_path | append: segment | append: '/' %}
-          {% if forloop.last %}
-            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-          {% else %}
+          {% if i < num_segments-1 %}
+            {% assign current_path = current_path | append: segment | append: '/' %}
             <li class="breadcrumb-item"><a href="{{ current_path }}">{{ segment | capitalize }}</a></li>
+          {% else %}
+            {% assign current_path = current_path | append: segment %}
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
           {% endif %}
         {% endfor %}
       {% endif %}
     </ol>
-  </nav>
+  </nav>  
 
   <h1 class="mb-4">{{ page.title }}</h1>
 
