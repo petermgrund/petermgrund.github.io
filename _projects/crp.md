@@ -2,7 +2,7 @@
 layout: project-page
 title: "Citizen Review Panel"
 description: "Child protection system advocacy"
-permalink: /projects/crp
+permalink: /projects/crp/
 image: childcare.svg
 ---
 

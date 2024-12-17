@@ -2,7 +2,7 @@
 layout: project-page
 title: "Pedestrian advocacy"
 description: "My work on pedestrian issues"
-permalink: /projects/ped
+permalink: /projects/ped/
 archived: "true"
 archived-date: "2024-12-04"
 image: landscape.svg
