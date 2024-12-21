@@ -33,7 +33,7 @@ layout: default
         {% for i in (1..num_segments-1) %}
           {% assign segment = segments[i] %}
           {% if i < num_segments-1 %}
-            {% assign current_path = current_path | append: segment | append: '/' %}
+            {% assign current_path = current_path | append: segment %}
             <li class="breadcrumb-item"><a href="{{ current_path }}">{{ segment | capitalize }}</a></li>
           {% else %}
             {% assign current_path = current_path | append: segment %}

@@ -3,83 +3,87 @@ layout: default
 ---
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
   <style>
     .card {
-  border: 3px solid #ddd;
-  padding: 15px;
-  margin-bottom: 20px;
-}
+      border: 3px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
 
-.card img {
-  width: auto;
-  height: 300px;
-}
+    .card img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+    }
 
-.card-body {
-  padding: 15px;
-}
+    .card-body {
+      padding: 15px;
+    }
 
-.card-title {
-  font-size: 20px;
-  font-weight: bold;
-}
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
 
-.card-text {
-  margin-bottom: 1px;
-}
+    .card-text {
+      margin-bottom: 1px;
+    }
 
-.card-content .card-title {
-  margin-bottom: 10px;
-}
+    .card-content .card-title {
+      margin-bottom: 10px;
+    }
 
-.card-content .card-text {
-  margin-bottom: 10px;
-}
+    .card-content .card-text {
+      margin-bottom: 10px;
+    }
 
-.card-content hr {
-  border-top: 1px solid #ddd;
-  margin-bottom: 10px;
-}
+    .card-content hr {
+      border-top: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
 
-.sources ul {
-  list-style: none;
-  padding: 0;
-}
+    .sources ul {
+      list-style: none;
+      padding: 0;
+    }
 
-.sources li {
-  margin-bottom: 5px;
-}
+    .sources li {
+      margin-bottom: 5px;
+    }
 
-.external-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  text-decoration: none;
-}
+    .external-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      text-decoration: none;
+    }
 
-.legend-color {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
-  vertical-align: middle;
-}
+    .legend-color {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
 
-.candidate-name {
-  margin-bottom: 5px; 
-}
+    .candidate-name {
+      margin-bottom: 5px; 
+    }
 
-.candidates {
-  display: flex;
-  flex-wrap: wrap;
-}
+    .candidates {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
-.candidate {
-  flex-basis: calc(33.33% - 10px); 
-  flex-grow: 1; 
-  margin-bottom: 10px; 
-}
+    .candidate {
+      flex-basis: calc(33.33% - 10px); 
+      flex-grow: 1; 
+      margin-bottom: 10px; 
+    }
   </style>
 </head>
 
@@ -92,36 +96,50 @@ layout: default
       </ol>
     </nav>
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-meta">
+        <p class="text-muted">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
             Last modified {{ page.date | date: date_format }}
           </time>
           {% if page.author %}
             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-          {% endif %}</p>
+          {% endif %}
+        </p>
       </header>
-    
+      
       <div class="post-content" itemprop="articleBody">
         {% assign content_parts = content | split: "<!--cards-->" %}
         {{ content_parts[0] | markdownify }}
       
-        {% for card in page.cards %}
-          {% include card.html image=card.image title=card.title description=card.description link=card.link pubdate=card.pubdate %}
-        {% endfor %}
+        <!-- Cards Section -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          {% for card in page.cards %}
+            <div class="col">
+              {% include card.html 
+                image=card.image 
+                title=card.title 
+                description=card.description 
+                link=card.link 
+                pubdate=card.pubdate 
+                legend=card.legend 
+                sources=card.sources 
+                index=forloop.index 
+              %}
+            </div>
+          {% endfor %}
+        </div>
+        <!-- End of Cards Section -->
       
         {{ content_parts[1] | markdownify }}
       </div>
-    
+      
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
-
     </article>
   </div>
-</div>  
-    
+</div>

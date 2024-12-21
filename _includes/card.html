@@ -1,46 +1,79 @@
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<div class="card">
-  <img src="{{ include.image }}" alt="{{ include.title }}">
+<div class="card h-100">
+  {% if include.image %}
+    <img src="{{ include.image }}" class="card-img-top" alt="{{ include.title | escape }}">
+  {% endif %}
   <div class="card-body">
     <div class="card-content">
       <h5 class="card-title">{{ include.title }}</h5>
-      <p class="card-text">{{ include.description }}</p>
-      {% if card.legend %}
-      <div class="legend">
-        <div class="candidates {% if card.legend | size == 1 %}single-candidate{% endif %}">
-          {% for candidate in card.legend %}
-            <div class="candidate">
-              <h5 class="candidate-name">{{ candidate[0] }}:</h5>
-              {% for item in candidate[1] %}
-                <div>
-                  <span style="display: inline-block; width: 20px; height: 20px; background-color: {{ item.color }};"></span>
-                  {{ item.range }}
-                </div>
-              {% endfor %}
-            </div>
-          {% endfor %}
-        </div>
-      </div>
+      
+      {% assign has_optional_sections = include.description or include.legend or include.sources %}
+      
+      <!-- button -->
+      {% if has_optional_sections %}
+        <p class="d-inline-flex gap-1">
+          <button class="btn btn-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#optionalCollapse{{ include.index }}" aria-expanded="false" aria-controls="optionalCollapse{{ include.index }}">
+            Toggle description
+          </button>
+        </p>
       {% endif %}
-      <hr>
-      <div style="display: flex; justify-content: space-between;">
-        <p class="card-text">Published {{ include.pubdate | date: date_format }}</p>
-        {% if include.link %}
-          <a href="{{ include.link }}" class="external-link">Commons Link&nbsp;<i class="fas fa-external-link-alt"></i></a>
-        {% endif %}
-      </div>
-      {% if card.sources %}
-      <p style="margin-bottom: 0;">Source(s):</p>
-      <div class="sources" style="display: flex; justify-content: space-between;">
-        <ul style="margin-top: 0;">
-          {% for source in card.sources %}
-            <li><a href="{{ source.url }}">{{ source.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+      
+      {% if has_optional_sections %}
+        <div class="collapse" id="optionalCollapse{{ include.index }}">
+          
+          <!-- descr -->
+          {% if include.description %}
+            <div class="description mt-2">
+              <p class="card-text">{{ include.description }}</p>
+            </div>
+          {% endif %}
+          
+          <!-- Legend  -->
+          {% if include.legend %}
+            <div class="legend mt-2">
+              <div class="candidates {% if include.legend | size == 1 %}single-candidate{% endif %}">
+                {% for candidate in include.legend %}
+                  <div class="candidate">
+                    <h5 class="candidate-name">{{ candidate[0] }}:</h5>
+                    {% for item in candidate[1] %}
+                      <div>
+                        <span class="legend-color" style="background-color: {{ item.color }};"></span>
+                        {{ item.range }}
+                      </div>
+                    {% endfor %}
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+          
+          <!-- Source -->
+          {% if include.sources %}
+            <div class="sources mt-2">
+              <p style="margin-bottom: 0;">Source(s):</p>
+              <div class="sources-content" style="display: flex; justify-content: space-between;">
+                <ul style="margin-top: 0;">
+                  {% for source in include.sources %}
+                    <li><a href="{{ source.url }}">{{ source.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          {% endif %}
+          
+        </div>
       {% endif %}
     </div>
   </div>
+  
+  <!-- ftr -->
+  {% if include.link or include.pubdate %}
+    <div class="card-footer" style="display: flex; justify-content: space-between; align-items: center;">
+      {% if include.link %}
+        <a href="{{ include.link }}" class="btn btn-primary btn-sm">Commons link&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-creative-commons-by"></i>&nbsp;<i class="fa-brands fa-creative-commons-sa"></i></a>
+      {% endif %}
+      {% if include.pubdate %}
+        <p class="card-text mb-0"><small class="text-muted">{{ include.pubdate | date: "%d %b %Y" }}</small></p>
+      {% endif %}
+    </div>
+  {% endif %}
 </div>
