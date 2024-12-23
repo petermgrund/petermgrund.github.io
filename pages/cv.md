@@ -92,6 +92,14 @@ June 2021 – May 2022
 * **Grund, P.M.**, Sponheim, S., Disner, S. (2021). *Role of the APOE Gene on Verbal Learning Following a Minor Traumatic Brain Injury*. Presented at VA Research Week. Minneapolis VA Health Care System, MN.
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund).
 
+### Advisory Publications
+<hr>
+
+*I was involved in the following publications in an advisory capacity, and my contributions are not reflected in the authorship. My name may be listed in the acknowledgments or at the end of the publication.*
+
+* Gates, T.J. (2024) Pedestrian Safety and Accessibility Best Practices for Channelized Right-Turn Lanes. Minnesota Department of Transportation Office of Research & Innovation. Represented the MACOPD. [PDF](/assets/uploads/right_turns.pdf)
+
+
 ### Clinical and Teaching Experience
 <hr>
 
