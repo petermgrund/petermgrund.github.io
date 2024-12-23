@@ -146,8 +146,9 @@ June 2021 – May 2022
 ### Technical Skills and Certifications 
 <hr>
 
-* Advanced proficiency in [R programming language](https://www.r-project.org)
+* Advanced proficiency in [R programming language](https://www.r-project.org), including the packages [tidycensus](https://walker-data.com/tidycensus/), [targets](https://books.ropensci.org/targets/), [tidyverse](https://www.tidyverse.org)
 * Advanced proficiency in [REDCap API](https://projectredcap.org/about//)
+* Proficiency in [Python](https://www.python.org), [SQL](https://en.wikipedia.org/wiki/SQL)
 * Experience using [Statistical Package for the Social Sciences (SPSS)](https://www.ibm.com/analytics/spss-statistics-software)
 * Experience using [FreeSurfer](https://freesurfer.net) imaging software for functional and structural brain analysis
 * Essentials for Regulatory Specialists certification 

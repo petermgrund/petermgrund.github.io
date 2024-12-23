@@ -27,9 +27,9 @@ alert-date:
 proj-alert: 
 proj-alert-type: 
 proj-alert-date: 
-viz-alert: "This section's formatting is problematic and needs to be redesigned"
-viz-alert-type: "warning"
-viz-alert-date: "2024-11-20"
+viz-alert: 
+viz-alert-type: 
+viz-alert-date: 
 groupings:
 - id: religion
   name: "Religion"
