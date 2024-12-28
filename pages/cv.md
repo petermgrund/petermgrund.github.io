@@ -18,7 +18,7 @@ last_modified: 2024-11-19
 ### Honors, Awards, and Grants
 <hr>
 
-* [1st Place Poster Award](https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience) – Minnesota Symposium on Addiction Neuroscience (2022)
+* [1st Place Poster Award](https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience) <a href="https://web.archive.org/web/20241228183251/https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience"><i class="fa-regular fa-clone fa-xs"></i></a> – Minnesota Symposium on Addiction Neuroscience (2022) 
 * [University of Minnesota Undergraduate Honors Program](https://honors.umn.edu) (2020-2022)
 * University of Minnesota National Scholarship (2018-2022)
 * [College of Liberal Arts Dean’s List](https://cla.umn.edu/undergraduate-students/events-recognition/cla-deans-list/about-cla-deans-list) (2018-2022)
@@ -26,13 +26,13 @@ last_modified: 2024-11-19
 * [University of Minnesota Undergraduate Research Opportunities Program](https://ugresearch.umn.edu/opportunities/urop) Scholarship (2020)
 
 ### Research Experience
-<hr>
+<hr> 
 
-**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund)) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – present
+**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund) <a href="https://web.archive.org/web/20241228185058/https://nmrc.umn.edu/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – present
 * Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
     * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
     * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
-    * Gather [EMG](https://medlineplus.gov/ency/article/003929.htm) and behavioral data [during surgery](https://stanfordhealthcare.org/medical-treatments/d/deep-brain-stimulation/what-to-expect/during-surgery.html) to inform models predicting effective DBS settings post-placement.
+    * Gather [EMG](https://medlineplus.gov/ency/article/003929.htm) and behavioral data during surgery to inform models predicting effective DBS settings post-placement.
     * Helped write an accessible and [plain language](https://www.plainlanguage.gov/about/definitions/short-definition/) informed consent document for patients.
     * Developed accessible front-end surveys in REDCap for patients and staff to report treatment outcomes.
 * Algorithms for programming DBS systems for ET ([NCT03984643](https://www.clinicaltrials.gov/study/NCT03984643))
@@ -44,7 +44,7 @@ last_modified: 2024-11-19
 * Sleep-specific DBS Therapy in Parkinson's Disease ([NCT05962489](https://www.clinicaltrials.gov/study/NCT05962489))
     * Developed REDCap database to store and analyze sleep data.
 
-**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
+**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund) <a href="https://web.archive.org/web/20241228184626/https://lucianalab.psych.umn.edu/people/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
 * Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
 * Scheduled behavioral and imaging sessions, coordinating with several research centers outside of the Department of Psychology, including the Departments of Pharmacology and Radiology. 
 * Developed algorithm in R to approximate daily intake of THC/CBD for study participants from baseline to 4-month follow-up visit; demonstrated a high correlation with actual levels found in blood samples.

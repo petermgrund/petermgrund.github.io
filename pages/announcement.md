@@ -1,7 +1,7 @@
 ---
 layout: plain
 title: Wedding Announcement
-permalink: /marriage
+permalink: /save-the-date
 ---
 
 <html lang="en">
@@ -9,7 +9,7 @@ permalink: /marriage
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <meta charset="UTF-8" />
-  <title>Wedding announcement</title>
+  <title>Save the date</title>
   <style>
     /* Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap');
@@ -83,14 +83,10 @@ permalink: /marriage
   <div class="announcement-container">
     <h1>We're Getting Married!</h1>
     <h2 class="couple">Peter &amp; Beatrice</h2>
-    <b><p class="date-time">Saturday, July 12, 2025 • 3:00 PM</p></b>
+    <b><p class="date-time">Saturday, July 12, 2025 • 2:00 PM</p></b>
     <p class="location"><i class="fa-solid fa-church"></i> Our Lady of Lourdes • Minneapolis, MN</p>
+    <p class="info">Invitation to follow</p>
     <hr>
-    <p class="info">
-      <i class="fa-solid fa-champagne-glasses"></i> Reception to follow.<br />
-      <i class="fa-solid fa-clock"></i> Please RSVP by [date].<br />
-    </p>
-    <p> See details <a href="/marriage/details">here</a>.</p>
   </div>
 </body>
 </html>
