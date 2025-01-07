@@ -14,7 +14,7 @@ layout: default
   <h1 class="display-4 mb-7">CV</h1> 
   <div class="container mt-4"> 
     {{ content }}
-    <p>Last modified {{ page.last_modified | date: "%d %b %Y" }} (<span id="days-since-modified"></span> days ago)</p>
+    <p>Last modified {{ page.last_modified | date: "%d %b %Y" }} (about <span id="days-since-modified"></span> days ago)</p>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ layout: default
     const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
     const timeDiff = Math.abs(todayDate - lastModifiedAtDate);
-    const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+    const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)-1);
 
     document.getElementById("days-since-modified").textContent = daysDiff;
   });

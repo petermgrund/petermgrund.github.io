@@ -16,6 +16,7 @@ My username on Wikipedia is [Petermgrund](https://en.wikipedia.org/wiki/User:Pet
 #### Politics
 * [93rd Minnesota Legislature](https://en.wikipedia.org/wiki/93rd_Minnesota_Legislature) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/93rd_Minnesota_Legislature))
 * [94th Minnesota Legislature](https://en.wikipedia.org/wiki/94th_Minnesota_Legislature) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/94th_Minnesota_Legislature))
+* [2001 Minneapolis City Council election](https://en.wikipedia.org/wiki/2001_Minneapolis_City_Council_election) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/2001_Minneapolis_City_Council_election))
 * [2022 Minnesota House of Representatives election](https://en.wikipedia.org/wiki/2022_Minnesota_House_of_Representatives_election) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/2022_Minnesota_House_of_Representatives_election))
 * [2024 Minnesota House of Representatives election](https://en.wikipedia.org/wiki/2024_Minnesota_House_of_Representatives_election) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/2024_Minnesota_House_of_Representatives_election))
 * [List of mayors of Duluth, Minnesota](https://en.wikipedia.org/wiki/List_of_mayors_of_Duluth,_Minnesota) ([stats](https://xtools.wmcloud.org/articleinfo/en.wikipedia.org/List_of_mayors_of_Duluth,_Minnesota))
