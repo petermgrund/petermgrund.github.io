@@ -14,12 +14,6 @@ goals:
     title: "Become familiar with state CAPTA provisions"
     description: "This will help us determine how we should be evaluating the county’s performance."
   - id: 3
-    title: "Collect more data about reconsideration cases"
-    description: 
-  - id: 4
-    title: Continue to build relationships with local school districts
-    description: "The most common sources of notifications are schools in Chisago County."
-  - id: 5
     title: Miscellaneous
     description: "Other items that do not fit into the other categories."
 action_items:
@@ -34,10 +28,10 @@ action_items:
   - id: 2
     title: Create demographic profile of youth population
     description:
-    details: TBD
+    details: A profile of the youth population has been created and is available on the main CRP project page.
     due_date: 
     assigned_to: "Peter Grund"
-    status: In progress
+    status: Complete
     goal_id: 1
   - id: 3
     title: Share presentation with CRP members
@@ -61,18 +55,9 @@ action_items:
     details: Also find a meeting time that Jill O. can attend
     due_date: 2025-02-01
     assigned_to: All members
-    status: In progress
-    goal_id: 5
-  - id: 6
-    title: Identify SSIS contact person for data requests
-    description: Ask how to correctly request data
-    assigned_to: All members
-    details: TBD
-    status: Not started
-    goal_id: 1
-
+    status: Complete
+    goal_id: 3
 ---
-
 
 The Chisago County Citizen Review Panel (CRP) work plan for 2024-25 outlines the goals, strategies, and action items that the CRP will focus on in the coming year. The work plan will be updated throughout the year.
 
