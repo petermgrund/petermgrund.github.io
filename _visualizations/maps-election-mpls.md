@@ -1,19 +1,19 @@
 ---
 layout: viz
 title: "Maps of Minneapolis"
-date: 2024-02-06
+date: 2025-01-06
 topics: Elections
 tags: 
 - Maps
 - Minneapolis
 description:
 cards:
-  - image: "/assets/images/viz_lib/2023_Minneapolis_City_Council_election_by_PAC.svg"
-    title: "2023 Minneapolis City Council election by PAC"
-    pubdate: 2023-11-15
+  - image: "/assets/images/viz_lib/2001_minneapolis.svg"
+    title: "2001 Minneapolis City Council election by party vote total"
+    pubdate: 2025-01-06
     description: 
     legend: 
-    link: "https://commons.wikimedia.org/wiki/File:2023_Minneapolis_City_Council_election_by_PAC.svg"
+    link: "https://commons.wikimedia.org/wiki/File:2001_Minneapolis_City_Council_election_map.svg"
   - image: "/assets/images/viz_lib/2009_Minneapolis_City_Council_election_map.svg"
     title: "2009 Minneapolis City Council election by party vote total"
     pubdate: 2023-11-11
@@ -44,4 +44,11 @@ cards:
     description: 
     legend: 
     link: "https://commons.wikimedia.org/wiki/File:2023_Minneapolis_City_Council_election_by_party_vote_total.svg"
+  - image: "/assets/images/viz_lib/2023_Minneapolis_City_Council_election_by_PAC.svg"
+    title: "2023 Minneapolis City Council election by PAC"
+    pubdate: 2023-11-15
+    description: 
+    legend: 
+    link: "https://commons.wikimedia.org/wiki/File:2023_Minneapolis_City_Council_election_by_PAC.svg"
+
 ---
