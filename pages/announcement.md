@@ -81,10 +81,11 @@ permalink: /save-the-date
 </head>
 <body>
   <div class="announcement-container">
+    <h4>Save the date!</h4>
     <h1>We're Getting Married!</h1>
     <h2 class="couple">Peter &amp; Beatrice</h2>
-    <b><p class="date-time">Saturday, July 12, 2025 • 2:00 PM</p></b>
-    <p class="location"><i class="fa-solid fa-church"></i> Our Lady of Lourdes • Minneapolis, MN</p>
+    <b><p class="date-time">Saturday, July 12, 2025 • Ceremony 2:00 PM</p></b>
+    <p class="location"><i class="fa-solid fa-church"></i> <a href="https://lourdesmpls.org/history">Our Lady of Lourdes</a> • <a href="https://maps.app.goo.gl/2bbnaRyqmrNAeP4h7">1 Lourdes Pl, Minneapolis, MN</a></p>
     <p class="info">Invitation to follow</p>
     <hr>
   </div>
