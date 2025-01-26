@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-01-02
+last_modified: 2025-01-26
 ---
 
 ### Education
@@ -117,15 +117,15 @@ June 2021 – May 2022
 ### Affiliations
 <hr>
 
-**[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** | University of Minnesota Medical School | 2024 – present
+**[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** <a href="https://web.archive.org/web/20250126182628/https://med.umn.edu/odei/about/dei-council"><i class="fa-regular fa-clone fa-xs"></i></a> | University of Minnesota Medical School | 2024 – present
 * Staff member representing the Department of Neurology.
 * Leader of the Metrics and Outcomes Taskforce, which assesses the effectiveness of DEI initiatives.
 
-**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** | City of Minneapolis | 2024 – present
+**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2024 – present
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
-**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** | City of Minneapolis | 2023 – present
+**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** <a href="https://web.archive.org/web/20240908124447/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2023 – present
 * **Chair**, [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) (Jul 2024 – present)
     * Lead meetings and prepare agendas.
 * **Member** (Jul 2023 – present)
@@ -140,8 +140,12 @@ June 2021 – May 2022
     * Reviewed child welfare cases in the county.
     * Assessed county social work practices and advocated for additional resources to address disparities in the county.
 
+
+https://web.archive.org/web/20241103165027/https://commissionsandappointments.sos.state.mn.us/Agency/Details/345
+
 **Election Judge** | City of Minneapolis | 2023 – present
-* Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), and [2024 General](https://lims.minneapolismn.gov/file/2024-01006).
+* Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), [2024 General](https://lims.minneapolismn.gov/file/2024-01006), [SD 60 special primary](https://lims.minneapolismn.gov/file/2025-00074), SD 60 special.
+* See *Supporting Documents* on each page for record of appointments.
 
 ### Technical Skills and Certifications 
 <hr>
@@ -165,3 +169,7 @@ To protect the privacy of my references, their contact information may be made a
 <hr>
 
 Download my CV as a [PDF](/assets/uploads/cv.pdf). The PDF version may be slightly out of date relative to the version you see here.
+
+### Notes
+<hr>
+An <a href="https://web.archive.org/web/"><i class="fa-regular fa-clone fa-xs"></i></a> icon indicates that the link is to an archived version of the page. Use this link if the original page is no longer available or if my name has been removed from the page.
