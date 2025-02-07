@@ -2,13 +2,13 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-01-26
+last_modified: 2025-02-07
 ---
 
 ### Education
 <hr>
 
-**[B.S. in Psychology](https://umtc.catalog.prod.coursedog.com/programs/081220117), University of Minnesota, Twin Cities**, 2022
+**[B.S. in Psychology](https://umtc.catalog.prod.coursedog.com/programs/081220117) <a href="https://web.archive.org/web/20250131203549/https://umtc.catalog.prod.coursedog.com/programs/081220117"><i class="fa-regular fa-clone fa-xs"></i></a>, University of Minnesota, Twin Cities**, 2022
 * Summa Cum Laude, High Distinction 
 * Minor: [Integrative Neuroscience](https://umtc.catalog.prod.coursedog.com/programs/0590MIN10)	
 * Cumulative GPA: 4.000/4.000
@@ -73,10 +73,10 @@ June 2021 – May 2022
 ### Publications
 <hr>
 
-* Butler, R., Brinda, A., Blumenfeld, M., Bryants, M., **Grund, P.M.**, Pandey, S., Cornish, C., Sullivan, D., Krieg, J., Umoh, M., Vitek, J., Almeida, L., Orcutt, T., Cooper, S., Johnson, M. (2024). Differentiating Postural and Kinetic Tremor Responses to Deep Brain Stimulation in Essential Tremor. *Movement Disorders*. DOI: [10.1002/mdc3.14256](http://doi.org/10.1002/mdc3.14256)
-* Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (accepted pending revisions). *Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations*. Journal of Neuroscience.
-* Alschuler, V., Klein, S., **Grund, P.M.** Collins, P.F, Luciana, M. (accepted pending revisions). *Within-person imbalance between reward sensitivity and executive control from adolescence through adulthood: longitudinal associations with alcohol use quantity and frequency*. Development and Psychopathology.
-* **Grund, P.M.**, [Klein, S.](https://cablab.umn.edu/sam-klein), [Alschuler, V.](https://lucianalab.psych.umn.edu/people/vanessa-alschuler), [Collins, P.F](https://lucianalab.psych.umn.edu/people/paul-collins), [Luciana, M.](https://lucianalab.psych.umn.edu/people/monica-luciana) (accepted pending revisions) *Associations between Delay Discounting and Alcohol Use Patterns in Adolescence Vary by Age: A Longitudinal Study Using Generalized Additive Mixture Models*. Psychological Medicine.
+* Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (2025). *Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations*. Journal of Neuroscience.
+* Butler, R., Brinda, A., Blumenfeld, M., Bryants, M., **Grund, P.M.**, Pandey, S., Cornish, C., Sullivan, D., Krieg, J., Umoh, M., Vitek, J., Almeida, L., Orcutt, T., Cooper, S., Johnson, M. (2024). Differentiating Postural and Kinetic Tremor Responses to Deep Brain Stimulation in Essential Tremor. *Movement Disorders*. DOI: [10.1002/mdc3.14256](http://doi.org/10.1002/mdc3.14256) ([PDF](/assets/uploads/100086459.pdf))
+<!---* Alschuler, V., Klein, S., **Grund, P.M.** Collins, P.F, Luciana, M. (accepted pending revisions). *Within-person imbalance between reward sensitivity and executive control from adolescence through adulthood: longitudinal associations with alcohol use quantity and frequency*. Development and Psychopathology.-->
+<!---* **Grund, P.M.**, [Klein, S.](https://cablab.umn.edu/sam-klein), [Alschuler, V.](https://lucianalab.psych.umn.edu/people/vanessa-alschuler), [Collins, P.F](https://lucianalab.psych.umn.edu/people/paul-collins), [Luciana, M.](https://lucianalab.psych.umn.edu/people/monica-luciana) (accepted pending revisions) *Associations between Delay Discounting and Alcohol Use Patterns in Adolescence Vary by Age: A Longitudinal Study Using Generalized Additive Mixture Models*. Psychological Medicine.-->
 
 ### Presentations and Non-Peer Reviewed Papers
 <hr>
@@ -90,7 +90,7 @@ June 2021 – May 2022
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Temporal Discounting-based Cognitive Impulsivity in Adolescents Pre versus Post Substance Use Initiation*. Presented at the biennial meeting of the Society for Research on Adolescence. New Orleans, LA. View poster [here](/assets/uploads/sra_2022.pdf).
 * **Grund, P.M.** (2021) *The Role of the Nordic State Churches in the Establishment and Decline of Social Taboos in Norway, Sweden, and Iceland*. Honors paper written for SCAN 3505. Read paper [here](/assets/uploads/nordic.pdf).
 * **Grund, P.M.**, Sponheim, S., Disner, S. (2021). *Role of the APOE Gene on Verbal Learning Following a Minor Traumatic Brain Injury*. Presented at VA Research Week. Minneapolis VA Health Care System, MN.
-* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund).
+* **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund) <a href="https://web.archive.org/web/20201211171404/https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>.
 
 ### Advisory Publications
 <hr>
@@ -117,15 +117,11 @@ June 2021 – May 2022
 ### Affiliations
 <hr>
 
-**[Diversity, Equity, and Inclusion Council](https://med.umn.edu/odei/about/dei-council), member** <a href="https://web.archive.org/web/20250126182628/https://med.umn.edu/odei/about/dei-council"><i class="fa-regular fa-clone fa-xs"></i></a> | University of Minnesota Medical School | 2024 – present
-* Staff member representing the Department of Neurology.
-* Leader of the Metrics and Outcomes Taskforce, which assesses the effectiveness of DEI initiatives.
-
 **[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2024 – present
-* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/), covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
+* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a>  member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
-**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** <a href="https://web.archive.org/web/20240908124447/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2023 – present
+**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** <a href="https://web.archive.org/web/20240418134749/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2023 – present
 * **Chair**, [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) (Jul 2024 – present)
     * Lead meetings and prepare agendas.
 * **Member** (Jul 2023 – present)
