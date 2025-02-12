@@ -1,7 +1,7 @@
 ---
 layout: viz
 title: "Maps of the Minnesota Senate"
-date: 2024-05-11
+date: 2025-02-11
 topics: Elections
 tags: 
 - Maps
@@ -23,4 +23,14 @@ cards:
     pubdate: 2021-09-30
     description: 
     link: "https://commons.wikimedia.org/wiki/File:92nd_Minnesota_Senate_district_map.svg"  
+  - image: "/assets/images/viz_lib/2025_Minnesota_Senate_District_60_DFL_primary.svg"
+    title: "2025 Minnesota Senate District 60 special election DFL primary results"
+    pubdate: 2025-01-14
+    description: 
+    link: "https://commons.wikimedia.org/wiki/File:2025_Minnesota_Senate_District_60_DFL_primary.svg" 
+  - image: "/assets/images/viz_lib/2025_Minnesota_Senate_District_60_general.svg"
+    title: "2025 Minnesota Senate District 60 special election results"
+    pubdate: 2025-01-28
+    description: 
+    link: "https://commons.wikimedia.org/wiki/File:2025_Minnesota_Senate_District_60_general_election_by_precinct.svg"  
 ---

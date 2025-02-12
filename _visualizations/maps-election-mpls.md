@@ -1,7 +1,7 @@
 ---
 layout: viz
 title: "Maps of Minneapolis"
-date: 2025-01-06
+date: 2025-02-11
 topics: Elections
 tags: 
 - Maps
@@ -38,6 +38,13 @@ cards:
     description: 
     legend: 
     link: "https://commons.wikimedia.org/wiki/File:2021_Minneapolis_City_Council_election.svg"
+  - image: "/assets/images/viz_lib/2021_Minneapolis_City_Council_Ward_2_election.svg"
+    title: "2021 Minneapolis City Council election Ward 2 by first-choice vote"
+    pubdate: 2025-02-11
+    description: 
+    legend: 
+    link: "https://commons.wikimedia.org/wiki/File:2021_Minneapolis_City_Council_Ward_2_election.svg"
+
   - image: "/assets/images/viz_lib/2023_Minneapolis_City_Council_election_by_party_vote_total.svg"
     title: "2023 Minneapolis City Council election by party vote total"
     pubdate: 2023-11-10
