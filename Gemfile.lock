@@ -224,7 +224,7 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    nokogiri (1.18.3)
+    nokogiri (1.17.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -277,7 +277,7 @@ DEPENDENCIES
   webrick (~> 1.8)
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.0.6p216
 
 BUNDLED WITH
    2.5.5

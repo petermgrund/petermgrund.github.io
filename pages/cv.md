@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-02-07
+last_modified: 2025-03-12
 ---
 
 ### Education
@@ -73,7 +73,7 @@ June 2021 – May 2022
 ### Publications
 <hr>
 
-* Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (2025). *Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations*. Journal of Neuroscience.
+* Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (2025). Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations. *Journal of Neuroscience*. DOI: [10.1523/JNEUROSCI.1233-23.2025](http://doi.org/10.1523/JNEUROSCI.1233-23.2025)
 * Butler, R., Brinda, A., Blumenfeld, M., Bryants, M., **Grund, P.M.**, Pandey, S., Cornish, C., Sullivan, D., Krieg, J., Umoh, M., Vitek, J., Almeida, L., Orcutt, T., Cooper, S., Johnson, M. (2024). Differentiating Postural and Kinetic Tremor Responses to Deep Brain Stimulation in Essential Tremor. *Movement Disorders*. DOI: [10.1002/mdc3.14256](http://doi.org/10.1002/mdc3.14256) ([PDF](/assets/uploads/100086459.pdf))
 <!---* Alschuler, V., Klein, S., **Grund, P.M.** Collins, P.F, Luciana, M. (accepted pending revisions). *Within-person imbalance between reward sensitivity and executive control from adolescence through adulthood: longitudinal associations with alcohol use quantity and frequency*. Development and Psychopathology.-->
 <!---* **Grund, P.M.**, [Klein, S.](https://cablab.umn.edu/sam-klein), [Alschuler, V.](https://lucianalab.psych.umn.edu/people/vanessa-alschuler), [Collins, P.F](https://lucianalab.psych.umn.edu/people/paul-collins), [Luciana, M.](https://lucianalab.psych.umn.edu/people/monica-luciana) (accepted pending revisions) *Associations between Delay Discounting and Alcohol Use Patterns in Adolescence Vary by Age: A Longitudinal Study Using Generalized Additive Mixture Models*. Psychological Medicine.-->
