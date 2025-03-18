@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-03-12
+last_modified: 2025-03-18
 ---
 
 ### Education
@@ -99,7 +99,6 @@ June 2021 – May 2022
 
 * Gates, T.J. (2024) Pedestrian Safety and Accessibility Best Practices for Channelized Right-Turn Lanes. Minnesota Department of Transportation Office of Research & Innovation. Represented the MACOPD. [PDF](/assets/uploads/right_turns.pdf)
 
-
 ### Clinical and Teaching Experience
 <hr>
 
@@ -117,27 +116,21 @@ June 2021 – May 2022
 ### Affiliations
 <hr>
 
-**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2024 – present
+**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jan 2024 – present
 * [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a>  member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
-**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac)** <a href="https://web.archive.org/web/20240418134749/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | 2023 – present
-* **Chair**, [Program & Policy Subcommittee](https://lims.minneapolismn.gov/Boards/Meetings/PAC-PP) (Jul 2024 – present)
-    * Lead meetings and prepare agendas.
-* **Member** (Jul 2023 – present)
-    * [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
-    * Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
+**[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), member** <a href="https://web.archive.org/web/20240418134749/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jul 2023 – December 2024
+* [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
+* Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
 
-**[Citizen Review Panel](https://commissionsandappointments.sos.state.mn.us/Agency/Details/345)** | Chisago County | 2023 – present
+**[Citizen Review Panel](https://commissionsandappointments.sos.state.mn.us/Agency/Details/345)** <a href="https://web.archive.org/web/20241103165027/https://commissionsandappointments.sos.state.mn.us/Agency/Details/345"><i class="fa-regular fa-clone fa-xs"></i></a> | Chisago County | 2023 – present
 * **Vice chair** (2024 – present)
     * Run meetings and prepare agendas.
     * Prepare annual reports to state and county authorities. 
 * **Member** (2023 – 2024)
     * Reviewed child welfare cases in the county.
     * Assessed county social work practices and advocated for additional resources to address disparities in the county.
-
-
-https://web.archive.org/web/20241103165027/https://commissionsandappointments.sos.state.mn.us/Agency/Details/345
 
 **Election Judge** | City of Minneapolis | 2023 – present
 * Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), [2024 General](https://lims.minneapolismn.gov/file/2024-01006), [SD 60 special primary](https://lims.minneapolismn.gov/file/2025-00074), SD 60 special.
