@@ -1,68 +1,71 @@
 ---
 layout: publication
-title: "Chisago County CRP Work Plan, 2024-25"
+title: "2025 Chisago County CRP Work Plan"
 project: "Citizen Review Panel"
 permalink: /projects/crp/plan
-alert: "This document is not finalized"
-alert-type: primary
-alert-date: 2024-11-11
+active-date: true
+updated-last: 2025-03-28
+alert: 
+alert-type: 
+alert-date: 
 goals:
   - id: 1
-    title: "Understand Chisago County's youth demographics"
-    description: "It is necessary that we understand the population we are serving and to what degree the new 2024 legislation will impact the county once it is implimented in 2027."
-  - id: 2
-    title: "Become familiar with state CAPTA provisions"
-    description: "This will help us determine how we should be evaluating the county’s performance."
-  - id: 3
-    title: Miscellaneous
-    description: "Other items that do not fit into the other categories."
+    title: "Ensure children in out-of-home care receive timely medical exams"
+    description: "Improve data accuracy so SSIS reflects all completed exams. We want every case to meet the 30-day exam requirement."
 action_items:
   - id: 1
-    title: Collect demographic data from county records and census data
-    description: 
-    details: Census data has been pulled. Not sure what county records we should request.
-    assigned_to: Peter Grund
-    status: In progress
+    title: Presentation on the documenting exams in SSIS
+    description: Presentation by Chris (Chisago County) on the local process for documenting medical exams in SSIS
+    details: 
+    assigned_to: April
+    status: Scheduled
     goal_id: 1
-    updated: 2024-11-11
+    updated: 2025-03-27
+    due_date: 2025-04-01
   - id: 2
-    title: Create demographic profile of youth population
-    description:
-    details: A profile of the youth population has been created and is available on the main CRP project page.
+    title: Review new DCYF data and re-check performance rates
+    description: Review any updated data from DCYF (Jon Pedersen) or via Tableau to understand if newly entered data changes 2023–2024 performance rates
+    details: 
     due_date: 
-    assigned_to: "Peter Grund"
-    status: Complete
+    assigned_to: May
+    status: Not started
     goal_id: 1
   - id: 3
-    title: Share presentation with CRP members
-    details: Completed at the December meeting; a copy is available on the main CRP project page
-    due_date: 2024-12-01
-    updated: 2024-12-03
-    assigned_to: "Peter Grund"
-    status: Complete
+    title: Compile findings, identify gaps in data and practice
+    details: 
+    due_date: 
+    updated: 
+    assigned_to: June
+    status: Not started
     goal_id: 1
   - id: 4
-    title: Presentation about state CAPTA provisions
-    description: 
-    details: Members had expert present on state CAPTA provisions during October meeting
+    title: Explore creating survey for other counties
+    details: Potentially develop a short survey for other counties with similar trends to compare strategies and common barriers
     due_date: 
-    assigned_to: All members
-    status: Complete
-    goal_id: 2
+    updated: 
+    assigned_to: June
+    status: Not started
+    goal_id: 1
   - id: 5
-    title: Move to monthly meetings
-    description: Move from 2 hour, bi-monthly meetings to 1 hour, monthly meetings
-    details: Also find a meeting time that Jill O. can attend
-    due_date: 2025-02-01
-    assigned_to: All members
-    status: Complete
-    goal_id: 3
+    title: Begin drafting recommendations
+    details: 
+    due_date: 
+    updated: 
+    assigned_to: August–September
+    status: Not started
+    goal_id: 1
+  - id: 6
+    title: Finalize recommendations for the annual report
+    details: 
+    due_date: 
+    updated: 
+    assigned_to: November
+    status: Not started
+    goal_id: 1
 ---
 
-The Chisago County Citizen Review Panel (CRP) work plan for 2024-25 outlines the goals, strategies, and action items that the CRP will focus on in the coming year. The work plan will be updated throughout the year.
+The Chisago County Citizen Review Panel (CRP) work plan for 2025 outlines the goals, strategies, and action items that the CRP will focus on in the coming year. The work plan will be updated throughout the year.
 
-The focus of this year's work plan is data collection and analysis. Our goal is to better understand the county's child population, its child protection system, and how the two interact. With many legislative changes on the horizon it is important that we have a clear picture of the current state of Chisago County.
-
-The work plan is organized at a high level by goals. Each goal is broken down into strategies/action items.
+The focus of this year's work plan is ensuring children in out-of-home care receive timely medical exams and that SSIS data accurately reflects compliance.
 
 <hr>
