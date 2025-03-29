@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='576.00pt' height='360.00pt' viewBox='0 0 576.00 360.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1NzYuMDB8MC4wMHwzNjAuMDA='>
+    <rect x='0.00' y='0.00' width='576.00' height='360.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1NzYuMDB8MC4wMHwzNjAuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNDkuMDB8NDE2Ljg5fDIzLjI4fDMwNy45NA=='>
+    <rect x='49.00' y='23.28' width='367.89' height='284.66' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDkuMDB8NDE2Ljg5fDIzLjI4fDMwNy45NA==)'>
+<polyline points='49.00,288.64 416.89,288.64 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,213.69 416.89,213.69 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,138.74 416.89,138.74 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,63.79 416.89,63.79 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='65.72,307.94 65.72,23.28 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='149.33,307.94 149.33,23.28 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='232.94,307.94 232.94,23.28 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='316.55,307.94 316.55,23.28 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='400.16,307.94 400.16,23.28 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,251.16 416.89,251.16 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,176.22 416.89,176.22 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,101.27 416.89,101.27 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='49.00,26.32 416.89,26.32 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='107.53,307.94 107.53,23.28 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='191.14,307.94 191.14,23.28 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='274.75,307.94 274.75,23.28 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='358.36,307.94 358.36,23.28 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='65.72,36.22 107.53,47.24 149.33,48.82 191.14,55.66 232.94,60.23 274.75,68.70 316.55,75.39 358.36,77.67 400.16,81.00 ' style='stroke-width: 2.13; stroke: #F8766D; stroke-linecap: butt;' />
+<polyline points='65.72,268.91 107.53,269.68 149.33,273.70 191.14,276.38 232.94,277.79 274.75,279.36 316.55,285.17 358.36,290.02 400.16,292.96 ' style='stroke-width: 2.13; stroke: #B79F00; stroke-linecap: butt;' />
+<polyline points='65.72,283.71 107.53,285.59 149.33,285.75 191.14,286.37 232.94,288.52 274.75,288.67 316.55,290.38 358.36,292.93 400.16,295.00 ' style='stroke-width: 2.13; stroke: #00BA38; stroke-linecap: butt;' />
+<polyline points='65.72,62.14 107.53,66.73 149.33,86.04 191.14,98.69 232.94,105.10 274.75,108.65 316.55,112.37 358.36,109.08 400.16,110.68 ' style='stroke-width: 2.13; stroke: #00BFC4; stroke-linecap: butt;' />
+<polyline points='65.72,196.22 107.53,197.86 149.33,200.07 191.14,201.24 232.94,200.59 274.75,205.89 316.55,208.82 358.36,216.68 400.16,220.37 ' style='stroke-width: 2.13; stroke: #619CFF; stroke-linecap: butt;' />
+<polyline points='65.72,259.36 107.53,262.67 149.33,265.70 191.14,267.48 232.94,268.62 274.75,268.47 316.55,269.60 358.36,272.61 400.16,275.36 ' style='stroke-width: 2.13; stroke: #F564E3; stroke-linecap: butt;' />
+</g>
+<g clip-path='url(#cpMC4wMHw1NzYuMDB8MC4wMHwzNjAuMDA=)'>
+<text x='44.07' y='254.36' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='16.78px' lengthAdjust='spacingAndGlyphs'>500</text>
+<text x='44.07' y='179.41' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='16.78px' lengthAdjust='spacingAndGlyphs'>750</text>
+<text x='44.07' y='104.46' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='25.58px' lengthAdjust='spacingAndGlyphs'>1,000</text>
+<text x='44.07' y='29.51' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='25.58px' lengthAdjust='spacingAndGlyphs'>1,250</text>
+<text x='107.53' y='319.27' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='22.38px' lengthAdjust='spacingAndGlyphs'>2016</text>
+<text x='191.14' y='319.27' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='22.38px' lengthAdjust='spacingAndGlyphs'>2018</text>
+<text x='274.75' y='319.27' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='22.38px' lengthAdjust='spacingAndGlyphs'>2020</text>
+<text x='358.36' y='319.27' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Verdana";' textLength='22.38px' lengthAdjust='spacingAndGlyphs'>2022</text>
+<text x='232.94' y='331.83' text-anchor='middle' style='font-size: 11.00px; font-family: "Verdana";' textLength='23.93px' lengthAdjust='spacingAndGlyphs'>Year</text>
+<text transform='translate(13.48,165.61) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: "Verdana";' textLength='148.11px' lengthAdjust='spacingAndGlyphs'>Members per congregation</text>
+<text x='433.32' y='115.03' style='font-size: 11.00px; font-family: "Verdana";' textLength='34.37px' lengthAdjust='spacingAndGlyphs'>Synod</text>
+<line x1='435.05' y1='130.28' x2='448.88' y2='130.28' style='stroke-width: 2.13; stroke: #F8766D; stroke-linecap: butt;' />
+<line x1='435.05' y1='147.56' x2='448.88' y2='147.56' style='stroke-width: 2.13; stroke: #B79F00; stroke-linecap: butt;' />
+<line x1='435.05' y1='164.84' x2='448.88' y2='164.84' style='stroke-width: 2.13; stroke: #00BA38; stroke-linecap: butt;' />
+<line x1='435.05' y1='182.12' x2='448.88' y2='182.12' style='stroke-width: 2.13; stroke: #00BFC4; stroke-linecap: butt;' />
+<line x1='435.05' y1='199.40' x2='448.88' y2='199.40' style='stroke-width: 2.13; stroke: #619CFF; stroke-linecap: butt;' />
+<line x1='435.05' y1='216.68' x2='448.88' y2='216.68' style='stroke-width: 2.13; stroke: #F564E3; stroke-linecap: butt;' />
+<text x='456.08' y='133.48' style='font-size: 8.80px; font-family: "Verdana";' textLength='75.11px' lengthAdjust='spacingAndGlyphs'>Minneapolis Area</text>
+<text x='456.08' y='150.76' style='font-size: 8.80px; font-family: "Verdana";' textLength='105.85px' lengthAdjust='spacingAndGlyphs'>Northeastern Minnesota</text>
+<text x='456.08' y='168.04' style='font-size: 8.80px; font-family: "Verdana";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Northwestern Minnesota</text>
+<text x='456.08' y='185.32' style='font-size: 8.80px; font-family: "Verdana";' textLength='67.59px' lengthAdjust='spacingAndGlyphs'>Saint Paul Area</text>
+<text x='456.08' y='202.60' style='font-size: 8.80px; font-family: "Verdana";' textLength='107.09px' lengthAdjust='spacingAndGlyphs'>Southeastern Minnesota</text>
+<text x='456.08' y='219.88' style='font-size: 8.80px; font-family: "Verdana";' textLength='108.96px' lengthAdjust='spacingAndGlyphs'>Southwestern Minnesota</text>
+<text x='49.00' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='64.45px' lengthAdjust='spacingAndGlyphs'>Baptized</text>
+<text x='117.96' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='69.04px' lengthAdjust='spacingAndGlyphs'>members</text>
+<text x='191.51' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='24.54px' lengthAdjust='spacingAndGlyphs'>per</text>
+<text x='220.56' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='97.77px' lengthAdjust='spacingAndGlyphs'>congregation</text>
+<text x='322.84' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='14.63px' lengthAdjust='spacingAndGlyphs'>of</text>
+<text x='341.97' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='24.17px' lengthAdjust='spacingAndGlyphs'>the</text>
+<text x='370.65' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='37.20px' lengthAdjust='spacingAndGlyphs'>ELCA</text>
+<text x='412.35' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='13.90px' lengthAdjust='spacingAndGlyphs'>in</text>
+<text x='430.77' y='15.07' style='font-size: 13.20px; font-weight: bold; font-family: "Verdana";' textLength='76.27px' lengthAdjust='spacingAndGlyphs'>Minnesota</text>
+<text x='336.47' y='345.39' style='font-size: 8.00px; font-weight: bold; font-family: "Verdana";' textLength='80.42px' lengthAdjust='spacingAndGlyphs'>petermgrund.com</text>
+<text x='284.49' y='352.86' style='font-size: 6.00px; font-family: "Verdana";' textLength='16.91px' lengthAdjust='spacingAndGlyphs'>Data:</text>
+<text x='303.51' y='352.86' style='font-size: 6.00px; font-family: "Verdana";' textLength='15.36px' lengthAdjust='spacingAndGlyphs'>ELCA</text>
+<text x='320.98' y='352.86' style='font-size: 6.00px; font-family: "Verdana";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Congregational</text>
+<text x='368.62' y='352.86' style='font-size: 6.00px; font-family: "Verdana";' textLength='11.13px' lengthAdjust='spacingAndGlyphs'>and</text>
+<text x='381.86' y='352.86' style='font-size: 6.00px; font-family: "Verdana";' textLength='18.73px' lengthAdjust='spacingAndGlyphs'>Synod</text>
+<text x='402.70' y='352.86' style='font-size: 6.00px; font-family: "Verdana";' textLength='14.18px' lengthAdjust='spacingAndGlyphs'>Data</text>
+</g>
+</svg>
