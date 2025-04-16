@@ -1,0 +1,56 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+.emphasis-box {
+  background-color: #e6e6fa; /* Lavender background */
+  color: #4b0082; /* Indigo text */
+  padding: 15px; /* Some padding */
+  border-left: 6px solid #4b0082; /* Indigo left border */
+  margin-bottom: 15px; /* Space below the box */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px; /* Font size */
+}
+.emphasis-box code {
+  background-color: #f1f1f1; /* Light grey background for code */
+  padding: 2px 4px; /* Small padding */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font */
+  border-radius: 3px; /* Slightly rounded corners */
+}
+.warning-box {
+  background-color: #ffdddd; /* Lavender background */
+  color: #d8000c; /* Indigo text */
+  padding: 15px; /* Some padding */
+  border-left: 6px solid #d8000c; /* Indigo left border */
+  margin-bottom: 15px; /* Space below the box */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px; /* Font size */
+}
+.warning-box code {
+  background-color: #dbdbdb; /* Light grey background for code */
+  padding: 2px 4px; /* Small padding */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font */
+  border-radius: 3px; /* Slightly rounded corners */
+}
+/* Style for images within paragraph tags to ensure they do not stick to the captions */
+p img {
+  display: block;
+  margin-bottom: 10px; 
+}
+
+/* Style for captions to ensure they do not stick to subsequent paragraphs */
+.figcaption {
+  font-style: italic;
+  color: #636363;
+  margin-bottom: 20px; 
+}

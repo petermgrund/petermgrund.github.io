@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Section 5 Preprocessing data | DDKtor-DBS SOP</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Section 5 Preprocessing data | DDKtor-DBS SOP" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Section 5 Preprocessing data | DDKtor-DBS SOP" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  
+
+<meta name="author" content="Peter M. Grund, BS" />
+
+
+<meta name="date" content="2025-04-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="working-with-praat.html"/>
+<link rel="next" href="ddktor.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">DDKtor-DBS SOP</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About this SOP</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#purpose"><i class="fa fa-check"></i><b>1.1</b> Purpose</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#program-repository"><i class="fa fa-check"></i><b>1.2</b> Program repository</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i><b>1.3</b> Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="scientific-background.html"><a href="scientific-background.html"><i class="fa fa-check"></i><b>2</b> Scientific background</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="scientific-background.html"><a href="scientific-background.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="scientific-background.html"><a href="scientific-background.html#dbs-and-speech"><i class="fa fa-check"></i><b>2.2</b> DBS and speech</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="set-up.html"><a href="set-up.html"><i class="fa fa-check"></i><b>3</b> Set up</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="set-up.html"><a href="set-up.html#software"><i class="fa fa-check"></i><b>3.1</b> Software</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="set-up.html"><a href="set-up.html#box-drive"><i class="fa fa-check"></i><b>3.1.1</b> Box Drive</a></li>
+<li class="chapter" data-level="3.1.2" data-path="set-up.html"><a href="set-up.html#praat"><i class="fa fa-check"></i><b>3.1.2</b> Praat</a></li>
+<li class="chapter" data-level="3.1.3" data-path="set-up.html"><a href="set-up.html#python"><i class="fa fa-check"></i><b>3.1.3</b> Python</a></li>
+<li class="chapter" data-level="3.1.4" data-path="set-up.html"><a href="set-up.html#r-and-rstudio"><i class="fa fa-check"></i><b>3.1.4</b> R and RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="set-up.html"><a href="set-up.html#access"><i class="fa fa-check"></i><b>3.2</b> Access</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="working-with-praat.html"><a href="working-with-praat.html"><i class="fa fa-check"></i><b>4</b> Working with Praat</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="working-with-praat.html"><a href="working-with-praat.html#loading-sound-files"><i class="fa fa-check"></i><b>4.1</b> Loading sound files</a></li>
+<li class="chapter" data-level="4.2" data-path="working-with-praat.html"><a href="working-with-praat.html#creating-textgrids"><i class="fa fa-check"></i><b>4.2</b> Creating TextGrids</a></li>
+<li class="chapter" data-level="4.3" data-path="working-with-praat.html"><a href="working-with-praat.html#viewing-the-files"><i class="fa fa-check"></i><b>4.3</b> Viewing the files</a></li>
+<li class="chapter" data-level="4.4" data-path="working-with-praat.html"><a href="working-with-praat.html#playing-the-audio-file"><i class="fa fa-check"></i><b>4.4</b> Playing the audio file</a></li>
+<li class="chapter" data-level="4.5" data-path="working-with-praat.html"><a href="working-with-praat.html#defining-the-windows"><i class="fa fa-check"></i><b>4.5</b> Defining the windows</a></li>
+<li class="chapter" data-level="4.6" data-path="working-with-praat.html"><a href="working-with-praat.html#saving-the-textgrid"><i class="fa fa-check"></i><b>4.6</b> Saving the TextGrid</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="preprocessing-data.html"><a href="preprocessing-data.html"><i class="fa fa-check"></i><b>5</b> Preprocessing data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="preprocessing-data.html"><a href="preprocessing-data.html#clear-out-the-ddktor-dbsdataraw-folder-using-clear_raw.py"><i class="fa fa-check"></i><b>5.1</b> Clear out the <code>ddktor-dbs/data/raw</code> folder using <code>clear_raw.py</code></a></li>
+<li class="chapter" data-level="5.2" data-path="preprocessing-data.html"><a href="preprocessing-data.html#run-m4a_to_mp3-if-needed"><i class="fa fa-check"></i><b>5.2</b> Run <code>m4a_to_mp3</code> (if needed)</a></li>
+<li class="chapter" data-level="5.3" data-path="preprocessing-data.html"><a href="preprocessing-data.html#run-mp3_to_wav.py"><i class="fa fa-check"></i><b>5.3</b> Run <code>mp3_to_wav.py</code></a></li>
+<li class="chapter" data-level="5.4" data-path="preprocessing-data.html"><a href="preprocessing-data.html#run-match.py-optional"><i class="fa fa-check"></i><b>5.4</b> Run <code>match.py</code> (optional)</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ddktor.html"><a href="ddktor.html"><i class="fa fa-check"></i><b>6</b> DDKtor</a></li>
+<li class="chapter" data-level="7" data-path="post-processing.html"><a href="post-processing.html"><i class="fa fa-check"></i><b>7</b> Post-processing</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DDKtor-DBS SOP</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="preprocessing-data" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Section 5</span> Preprocessing data<a href="preprocessing-data.html#preprocessing-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="clear-out-the-ddktor-dbsdataraw-folder-using-clear_raw.py" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Clear out the <code>ddktor-dbs/data/raw</code> folder using <code>clear_raw.py</code><a href="preprocessing-data.html#clear-out-the-ddktor-dbsdataraw-folder-using-clear_raw.py" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before running the preprocessing scripts, ensure that the <code>ddktor-dbs/data/raw</code> folder is empty. This folder is where the audio files and corresponding TextGrid files will be transferred to after running the <code>mp3_to_wav.py</code> script.</p>
+<p>You can easily clear out the <code>ddktor-dbs/data/raw</code> folder by running the following command from the <code>ddktor-dbs</code> directory: <code>python3 clear_raw.py</code> This script will delete all files in the <code>ddktor-dbs/data/raw</code> folder.</p>
+</div>
+<div id="run-m4a_to_mp3-if-needed" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Run <code>m4a_to_mp3</code> (if needed)<a href="preprocessing-data.html#run-m4a_to_mp3-if-needed" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before running the <code>mp3_to_wav.py</code> script, you may need to convert your audio files from m4a to mp3 format. If your audio files are in m4a format, you can convert them to mp3 format before running the <code>mp3_to_wav.py</code> script.</p>
+<p>It will ask you for the root directory containing the m4a files to convert. Press Enter to use the default directory. It will then ask you for a subdirectory or multiple subdirectories (separated by commas) of <code>data/raw/</code> containing m4a files to convert. Enter them as a comma-separated list. An example is provided in the prompt.</p>
+<p>An example input is provided below:</p>
+<p><code>crp-01/visit2/speech</code></p>
+</div>
+<div id="run-mp3_to_wav.py" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Run <code>mp3_to_wav.py</code><a href="preprocessing-data.html#run-mp3_to_wav.py" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>DDKtor requires all audio files to be in wav format. If your audio files are in mp3 format, you can convert them to wav format.</p>
+<p>A script titled <code>mp3_to_wav.py</code> is provided in the <code>pipeline</code> folder. This script will convert all mp3 files in the <code>data</code> folder to wav files. Additionally, it will transfer these wav files to the <code>ddktor-dbs/data/raw</code> folder along with the corresponding TextGrid files. In order for this script to run, ALL files must be organized in the following manner:</p>
+<ul>
+<li>All files must be located in the <code>data/raw/</code> folder.<br />
+</li>
+<li>All files must be in the format <code>subjectID_visitID_instanceID.mp3</code> (e.g., <code>crp-01_v1_01.mp3</code>)
+<ul>
+<li>Don’t forget the leading zero for single-digit instance subject and instance IDs.</li>
+</ul></li>
+<li>All files must have a corresponding TextGrid file in the format <code>subjectID_visitID_instanceID.TextGrid</code> that is <strong>exactly the same</strong> as the audio file. (e.g., <code>crp-01_v1_01.TextGrid</code>)</li>
+</ul>
+<p>Ensure your data is organized in a similar manner to the following:</p>
+<pre><code>data
+├── raw
+│   ├── crp-01
+│   │   ├── visit1
+│   │   │   ├── speech
+│   │   │   │   ├── crp-01_v1_01.mp3
+│   │   │   │   ├── crp-01_v1_01.TextGrid
+│   │   │   │   ├── (...)
+│   │   ├── visit2
+│   │   │   ├── speech
+│   │   │   │   ├── crp-01_v2_01.mp3
+│   │   │   │   ├── crp-01_v2_01.TextGrid
+│   │   │   │   ├── (...)
+│   ├── crp-xx
+│   │   ├── visitx
+│   │   │   ├── speech
+│   │   │   │   ├── crp-xx_vx_0x.mp3
+│   │   │   │   ├── crp-xx_vx_0x.TextGrid
+│   │   │   │   ├── (...)
+(...)</code></pre>
+<p>To run the script, navigate to the <code>pipeline</code> folder and run the following command: <code>python3 mp3_to_wav.py</code>. The script will prompt you for several inputs:</p>
+<ol style="list-style-type: decimal">
+<li><code>Please enter the root directory containing mp3 files to convert. Press Enter to use the default directory.</code>: Press Enter to use the default directory.</li>
+<li><code>Please enter a subdirectory or multiple subdirectories (separated by commas) of ../../data/raw/ containing mp3 files to convert. Example: crp-01/visit2/speech,crp-03/visit5/speech</code>: Enter one or more subdirectories containing the mp3 files you would like to convert. Enter them as a comma-separated list. An example is provided in the prompt.</li>
+<li>You should see a message indicating that the script is converting the mp3 files to wav files. Each file will either be successfully converted or an error message will be displayed.</li>
+<li>Once the script has finished running, you should see a green message indicating <code>All conversions are complete and have been saved to DDKtor.</code></li>
+<li>Importantly, it should also display a message indicating <code>TextGrid files have also been transferred to DDKtor.</code> Make sure that the number of TextGrid files transferred matches the number of wav files transferred.</li>
+</ol>
+<div class="float">
+<img src="img/preprocess-transfer.png" width="500" alt="Screenshot of a successful pre-processing script run." />
+<div class="figcaption">Screenshot of a successful pre-processing script run.</div>
+</div>
+<p>Now, navigate to the <code>ddktor-dbs/data/raw</code> folder and ensure that all of the wav files and corresponding TextGrid files have been transferred successfully.</p>
+</div>
+<div id="run-match.py-optional" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Run <code>match.py</code> (optional)<a href="preprocessing-data.html#run-match.py-optional" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>If you have a large number of files and would like to ensure that all audio files have corresponding TextGrid files, you can run the <code>match.py</code> script. This script will check for any audio files that do not have corresponding TextGrid, or vice versa. If any files are missing, the script will display a message indicating which files are missing. It also returns the number of matches.</p>
+<p>This step is not required, but it can be helpful to ensure that all files have been transferred successfully.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="working-with-praat.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ddktor.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.umn.edu/coordinated-reset/speech-sop/edit/main/03-preprocessing.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

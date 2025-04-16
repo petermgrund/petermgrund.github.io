@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Section 4 Working with Praat | DDKtor-DBS SOP</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Section 4 Working with Praat | DDKtor-DBS SOP" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Section 4 Working with Praat | DDKtor-DBS SOP" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  
+
+<meta name="author" content="Peter M. Grund, BS" />
+
+
+<meta name="date" content="2025-04-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="set-up.html"/>
+<link rel="next" href="preprocessing-data.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">DDKtor-DBS SOP</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About this SOP</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#purpose"><i class="fa fa-check"></i><b>1.1</b> Purpose</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#program-repository"><i class="fa fa-check"></i><b>1.2</b> Program repository</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i><b>1.3</b> Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="scientific-background.html"><a href="scientific-background.html"><i class="fa fa-check"></i><b>2</b> Scientific background</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="scientific-background.html"><a href="scientific-background.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="scientific-background.html"><a href="scientific-background.html#dbs-and-speech"><i class="fa fa-check"></i><b>2.2</b> DBS and speech</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="set-up.html"><a href="set-up.html"><i class="fa fa-check"></i><b>3</b> Set up</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="set-up.html"><a href="set-up.html#software"><i class="fa fa-check"></i><b>3.1</b> Software</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="set-up.html"><a href="set-up.html#box-drive"><i class="fa fa-check"></i><b>3.1.1</b> Box Drive</a></li>
+<li class="chapter" data-level="3.1.2" data-path="set-up.html"><a href="set-up.html#praat"><i class="fa fa-check"></i><b>3.1.2</b> Praat</a></li>
+<li class="chapter" data-level="3.1.3" data-path="set-up.html"><a href="set-up.html#python"><i class="fa fa-check"></i><b>3.1.3</b> Python</a></li>
+<li class="chapter" data-level="3.1.4" data-path="set-up.html"><a href="set-up.html#r-and-rstudio"><i class="fa fa-check"></i><b>3.1.4</b> R and RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="set-up.html"><a href="set-up.html#access"><i class="fa fa-check"></i><b>3.2</b> Access</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="working-with-praat.html"><a href="working-with-praat.html"><i class="fa fa-check"></i><b>4</b> Working with Praat</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="working-with-praat.html"><a href="working-with-praat.html#loading-sound-files"><i class="fa fa-check"></i><b>4.1</b> Loading sound files</a></li>
+<li class="chapter" data-level="4.2" data-path="working-with-praat.html"><a href="working-with-praat.html#creating-textgrids"><i class="fa fa-check"></i><b>4.2</b> Creating TextGrids</a></li>
+<li class="chapter" data-level="4.3" data-path="working-with-praat.html"><a href="working-with-praat.html#viewing-the-files"><i class="fa fa-check"></i><b>4.3</b> Viewing the files</a></li>
+<li class="chapter" data-level="4.4" data-path="working-with-praat.html"><a href="working-with-praat.html#playing-the-audio-file"><i class="fa fa-check"></i><b>4.4</b> Playing the audio file</a></li>
+<li class="chapter" data-level="4.5" data-path="working-with-praat.html"><a href="working-with-praat.html#defining-the-windows"><i class="fa fa-check"></i><b>4.5</b> Defining the windows</a></li>
+<li class="chapter" data-level="4.6" data-path="working-with-praat.html"><a href="working-with-praat.html#saving-the-textgrid"><i class="fa fa-check"></i><b>4.6</b> Saving the TextGrid</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="preprocessing-data.html"><a href="preprocessing-data.html"><i class="fa fa-check"></i><b>5</b> Preprocessing data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="preprocessing-data.html"><a href="preprocessing-data.html#clear-out-the-ddktor-dbsdataraw-folder-using-clear_raw.py"><i class="fa fa-check"></i><b>5.1</b> Clear out the <code>ddktor-dbs/data/raw</code> folder using <code>clear_raw.py</code></a></li>
+<li class="chapter" data-level="5.2" data-path="preprocessing-data.html"><a href="preprocessing-data.html#run-m4a_to_mp3-if-needed"><i class="fa fa-check"></i><b>5.2</b> Run <code>m4a_to_mp3</code> (if needed)</a></li>
+<li class="chapter" data-level="5.3" data-path="preprocessing-data.html"><a href="preprocessing-data.html#run-mp3_to_wav.py"><i class="fa fa-check"></i><b>5.3</b> Run <code>mp3_to_wav.py</code></a></li>
+<li class="chapter" data-level="5.4" data-path="preprocessing-data.html"><a href="preprocessing-data.html#run-match.py-optional"><i class="fa fa-check"></i><b>5.4</b> Run <code>match.py</code> (optional)</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ddktor.html"><a href="ddktor.html"><i class="fa fa-check"></i><b>6</b> DDKtor</a></li>
+<li class="chapter" data-level="7" data-path="post-processing.html"><a href="post-processing.html"><i class="fa fa-check"></i><b>7</b> Post-processing</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DDKtor-DBS SOP</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="working-with-praat" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Section 4</span> Working with Praat<a href="working-with-praat.html#working-with-praat" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="loading-sound-files" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Loading sound files<a href="working-with-praat.html#loading-sound-files" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Once Praat is installed, you can open the software from the Applications folder. Two windows will open: one for the Praat objects and one for the Praat picture. The objects window is where you will load and manipulate sound files. You can close the picture window as it is not necessary for the pipeline.</p>
+<p>In the Praat Objects window, open the MP3 file by going to the top left of the screen and select:</p>
+<ul>
+<li><p>Open → Read from file</p></li>
+<li><p>Navigate to the folder where the .mp3 audio files are you want to process.</p></li>
+</ul>
+<p>Select as many files as you want to process. You can select multiple files by holding down the <code>shift</code> key and clicking on the files you want to process. Once you have selected the files, click <code>Open</code>. The files will load into the Praat Objects window.</p>
+<p>Once the files are loaded, select all of the files by clicking on the first file, holding down the <code>shift</code> key, and clicking on the last file.</p>
+<p>Then, go to the right side of the screen and select <code>Annotation</code> → <code>To TextGrid</code>. This will create a TextGrid for each sound file.</p>
+<p>A window will pop up asking you to specify tier names and point tiers. You must delete the default value for <code>All tier names</code> to <code>window</code> and leave <code>Which of these are point tiers?</code> empty. Then click <code>OK</code>.</p>
+<!DOCTYPE html>
+<div class="emphasis-box">
+  <b>Note</b>: <code>window</code> is the only tier name that will work with the pipeline. If you use a different tier name, the pipeline will not work. Changing tier names is challenging, so it is best to make sure you type <code>window</code> from the start.
+</div>
+<div class="float">
+<img src="img/praat-settings.png" width="350" alt="Screenshot of a step-by-step flowchart for how to create TextGrids for all audio files simultaneously." />
+<div class="figcaption">Screenshot of a step-by-step flowchart for how to create TextGrids for all audio files simultaneously.</div>
+</div>
+</div>
+<div id="creating-textgrids" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Creating TextGrids<a href="working-with-praat.html#creating-textgrids" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Once the TextGrids are created, you will see a new file for each audio recording in the Praat Objects window. You want to select both the sound file and the TextGrid file for each recording. You can do this by holding down the <code>shift</code> key and clicking on the 2 files you want to select. Make sure that the sound file and the TextGrid file have the same name. A good way to check is to look at the configuration number in the file name. This will be a number between 00 and 15 and is located right after the timepoint (e.g., <code>12mo_04</code>). If the sound file is <code>ETC07_R_12mo_07_5_0mA</code>, the TextGrid file should be the same.</p>
+<div class="float">
+<img src="img/praat-both-selected.png" width="350" alt="Screenshot of how to select both the sound file and the TextGrid file in Praat." />
+<div class="figcaption">Screenshot of how to select both the sound file and the TextGrid file in Praat.</div>
+</div>
+<p>With both files selected, go to the right side and select View &amp; Edit. This will open a new window with the sound file and the TextGrid file.</p>
+</div>
+<div id="viewing-the-files" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Viewing the files<a href="working-with-praat.html#viewing-the-files" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The top two windows are audio file modules; the top window shows the waveform and the middle window shows the spectrogram. You will need to zoom in further to view the spectogram.</p>
+<p>The TextGrid file is located in the bottom window. Off to the right you will see letters and symbols (not shown in screenshot). You can ignore these.</p>
+<div class="float">
+<img src="img/praat-layout.png" width="500" alt="Screenshot of the Praat layout with the waveform, spectrogram, and TextGrid windows." />
+<div class="figcaption">Screenshot of the Praat layout with the waveform, spectrogram, and TextGrid windows.</div>
+</div>
+<p>The waveform is helpful for seeing when the syllable begins and ends because it goes from a flat line to a wave and vice versa.</p>
+<p>The spectrogram is helpful for fine tuning the beginning and end of the syllable. The tool shows the <a href="http://www.phys.unsw.edu.au/jw/formant.html">formants</a>, with the blue line indicating the base formant. Each formant corresponds to a resonance of the vocal tract (frequency at which the vocal folds are vibrating). The formants run horizontal, but when stacked, they look like dark black bands running vertically from the top to the bottom of the spectrogram window.</p>
+<div class="float">
+<img src="img/praat-spectrogram.png" width="500" alt="Screenshot of the Praat spectrogram with the formants highlighted." />
+<div class="figcaption">Screenshot of the Praat spectrogram with the formants highlighted.</div>
+</div>
+</div>
+<div id="playing-the-audio-file" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Playing the audio file<a href="working-with-praat.html#playing-the-audio-file" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Click on the left-hand side of the wave in the top window to move the red cursor line. Then click <code>tab</code>. This will play everything to the right of the cursor that is in the playable window.</p>
+<p>To listen to a specific part of the audio file, click and drag the mouse over the waveform. Then click <code>tab</code> to play the selected portion.</p>
+<p>There should be roughly 10 of each syllable, but listen to the recording to make sure you are analyzing the correct syllables.</p>
+</div>
+<div id="defining-the-windows" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Defining the windows<a href="working-with-praat.html#defining-the-windows" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Each TextGrid should be divided into 7 windows. The order of the windows is as follows:</p>
+<ol style="list-style-type: decimal">
+<li><p>Cushion</p></li>
+<li><p>Vowels (ka/)</p></li>
+<li><p>Cushion</p></li>
+<li><p>Vowels (ta/)</p></li>
+<li><p>Cushion</p></li>
+<li><p>Vowels (pa/)</p></li>
+<li><p>Cushion</p></li>
+</ol>
+<p>The order could vary if the syllables are not recited in the order ka/ta/pa/. This will not affect the pipeline.</p>
+<!DOCTYPE html>
+<div class="emphasis-box">
+  <b>Note</b>: The pipeline will not work if there is not a window after <code>pa/</code>. It’s okay if this window is very short, but it must be present.
+</div>
+<p>The three vowel windows should include all repetitions of each syllable. It is recommended to include a few milliseconds of silence before and after the syllable. This will help the pipeline identify the syllable.</p>
+<p>The silence or background noise windows should cushion the vowel windows. There should be at least 4 of these windows.</p>
+<p>Avoid overlapping windows. If you have overlapping windows, the pipeline will not work.</p>
+<p>To define the windows, click on the waveform and drag the mouse to the right. This will define a window. If the window is too large or too small, click outside of the window and define a new area. To save the window, click <code>Interval</code> → <code>New interval on tier 1</code>.</p>
+<div class="float">
+<img src="img/praat-add-int.png" width="500" alt="Screenshot of how to add an interval in Praat." />
+<div class="figcaption"><em>Screenshot of how to add an interval in Praat.</em></div>
+</div>
+<p>Once all the windows are defined, select each syllable interval and type either <code>k</code>, <code>t</code>, or <code>p</code>. This will label the interval with the corresponding syllable. Leave the cushion intervals blank.</p>
+<p>Below is a screenshot of what the TextGrid should look like when it is complete. Check that in the bottom left you see <code>window (#/7)</code>.</p>
+<div class="float">
+<img src="img/praat-final.png" width="500" alt="Screenshot of a completed TextGrid with 7 windows." />
+<div class="figcaption">Screenshot of a completed TextGrid with 7 windows.</div>
+</div>
+</div>
+<div id="saving-the-textgrid" class="section level2 hasAnchor" number="4.6">
+<h2><span class="header-section-number">4.6</span> Saving the TextGrid<a href="working-with-praat.html#saving-the-textgrid" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before you close the window, save the TextGrid by going to <code>File</code> → <code>Save as text file</code>. <strong>Save the file in the same folder as the audio file.</strong> The file should have the same name as the audio file with the extension <code>.TextGrid</code>. In order for the pipeline to work, the TextGrid file must be saved in the same folder as the audio file AND have the exact same name as the audio file.</p>
+<p>Now, repeat this process for all of the audio files in the folder that you want to analyze.</p>
+<p><img src="img/praat-filenames.png" width="800" alt="Screenshot of a Finder window with matching Praat file names." />
+<a href="working-with-praat.html#working-with-praat">To top of page ↑</a></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="set-up.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="preprocessing-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.umn.edu/coordinated-reset/speech-sop/edit/main/02-praat.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
