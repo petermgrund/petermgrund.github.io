@@ -501,13 +501,30 @@ Once DDKtor has finished running, check to see if new \texttt{.textgrid} files h
 Next, the \texttt{.textgrid} files need to be converted to \texttt{.csv} for analysis.
 
 To do this, run \texttt{textgrid\_to\_csv.py}. The script will do the following:
-* It starts by setting up a temporary folder (mid/) to hold intermediate files during processing.
-* The reads .TextGrid files from the output directory, extracts key speech intervals (letters and timing details), and saves them as .csv files.
-* It standardizes the data by renaming columns for clarity, adding metadata (like study ID or visit number) from filenames, and cleaning up text entries (e.g., fixing letter formats).
-* Next, it pairs specific intervals (e.g., VOT and vowel segments), calculates their durations, and organizes them into a single dataset with additional details like sequence order.
-* Finally, it combines all the processed data into one CSV file, names it based on the study ID (e.g., STUDY\_ID\_merged\_\#.csv), and removes the temporary folder.
+
+\begin{itemize}
+\tightlist
+\item
+  It starts by setting up a temporary folder (\texttt{mid/}) to hold intermediate files during processing.
+\item
+  Then, it reads .TextGrid files from the output directory, extracts key speech intervals (letters and timing details), and saves them as .csv files.
+\item
+  It standardizes the data by renaming columns for clarity, adding metadata (like study ID or visit number) from filenames, and cleaning up text entries (e.g., fixing letter formats).
+\item
+  Next, it pairs specific intervals (e.g., VOT and vowel segments), calculates their durations, and organizes them into a single dataset with additional details like sequence order.
+\item
+  Finally, it combines all the processed data into one CSV file, names it based on the study ID (e.g., STUDY\_ID\_merged\_\#.csv), and removes the temporary folder.
+\end{itemize}
 
 You can find the finished \texttt{.csv} file in \texttt{CR-DBS\_for\_ET\_UH3/data/processed/speech/csv\_files}.
+
+It should be formatted like the example below:
+
+\begin{figure}
+\centering
+\includegraphics{img/postprocessing-final.png}
+\caption{Screenshot of the fully processed .csv file}
+\end{figure}
 
   \bibliography{book.bib,packages.bib}
 
