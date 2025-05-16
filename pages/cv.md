@@ -18,6 +18,7 @@ last_modified: 2025-03-18
 ### Honors, Awards, and Grants
 <hr>
 
+* 1st Place Poster Award – Kennedy Research Symposium (2025) 
 * [1st Place Poster Award](https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience) <a href="https://web.archive.org/web/20241228183251/https://lucianalab.psych.umn.edu/news/2022-peter-addiction-neuroscience"><i class="fa-regular fa-clone fa-xs"></i></a> – Minnesota Symposium on Addiction Neuroscience (2022) 
 * [University of Minnesota Undergraduate Honors Program](https://honors.umn.edu) (2020-2022)
 * University of Minnesota National Scholarship (2018-2022)
@@ -81,6 +82,7 @@ June 2021 – May 2022
 ### Presentations and Non-Peer Reviewed Papers
 <hr>
 
+* **Grund, P.M.**, Almeida, L.B., Holker, E., Cooper, S. (2025). *Impact of Unilateral and Bilateral DBS on The Essential Tremor Rating Scale*. Presented at the William F. Kennedy Research Symposium. View poster [here]().
 * **Grund, P.M.** (2024). *Youth Demographics of Chisago County, MN*. Data dashboard presented to the Chisago County Citizen Review Panel. View dashboard [here](https://petergrund.shinyapps.io/chisago-youth/).
 * Lozano Wun, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2023). *Within-person mismatch of reward responsiveness and executive functioning: A longitudinal validation of the dual systems model from childhood to adulthood*. Presented at the Research Society of Alcoholism. Bellevue, WA. View poster [here](/assets/uploads/rsa_2023.pdf).
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Greater Temporal Discounting is Associated with Higher Alcohol Consumption in Adolescents and Young Adults*. Presented at the Minnesota Symposium on Addiction Neuroscience. Minneapolis, MN.
