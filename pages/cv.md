@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-03-18
+last_modified: 2025-05-17
 ---
 
 ### Education
@@ -82,7 +82,7 @@ June 2021 – May 2022
 ### Presentations and Non-Peer Reviewed Papers
 <hr>
 
-* **Grund, P.M.**, Almeida, L.B., Holker, E., Cooper, S. (2025). *Impact of Unilateral and Bilateral DBS on The Essential Tremor Rating Scale*. Presented at the William F. Kennedy Research Symposium. View poster [here]().
+* **Grund, P.M.**, Almeida, L.B., Holker, E., Cooper, S. (2025). *Impact of Unilateral and Bilateral DBS on The Essential Tremor Rating Scale*. Presented at the William F. Kennedy Research Symposium. View poster [here](/assets/uploads/kennedy_poster.pdf).
 * **Grund, P.M.** (2024). *Youth Demographics of Chisago County, MN*. Data dashboard presented to the Chisago County Citizen Review Panel. View dashboard [here](https://petergrund.shinyapps.io/chisago-youth/).
 * Lozano Wun, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2023). *Within-person mismatch of reward responsiveness and executive functioning: A longitudinal validation of the dual systems model from childhood to adulthood*. Presented at the Research Society of Alcoholism. Bellevue, WA. View poster [here](/assets/uploads/rsa_2023.pdf).
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Greater Temporal Discounting is Associated with Higher Alcohol Consumption in Adolescents and Young Adults*. Presented at the Minnesota Symposium on Addiction Neuroscience. Minneapolis, MN.
