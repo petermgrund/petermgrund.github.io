@@ -45,7 +45,7 @@ last_modified: 2025-05-17
 * Sleep-specific DBS Therapy in Parkinson's Disease ([NCT05962489](https://www.clinicaltrials.gov/study/NCT05962489))
     * Developed REDCap database to store and analyze sleep data.
 
-**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund) <a href="https://web.archive.org/web/20241228184626/https://lucianalab.psych.umn.edu/people/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
+**Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) (Bio) <a href="https://web.archive.org/web/20241228184626/https://lucianalab.psych.umn.edu/people/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
 * Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
 * Scheduled behavioral and imaging sessions, coordinating with several research centers outside of the Department of Psychology, including the Departments of Pharmacology and Radiology. 
 * Developed algorithm in R to approximate daily intake of THC/CBD for study participants from baseline to 4-month follow-up visit; demonstrated a high correlation with actual levels found in blood samples.
