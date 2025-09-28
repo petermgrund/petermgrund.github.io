@@ -2,7 +2,7 @@
 layout: post
 title: "Data dashboards"
 date: 2024-08-21 12:00 +0100
-modified: 2024-11-11 12:00 +0100
+modified: 2025-09-16 12:00 +0100
 categories: posts
 tags: Data
 summary: "A list of data dashboards I find interesting or useful"
@@ -22,6 +22,8 @@ This page is a list of data dashboards I find interesting or useful.
 ### Health
 * [Opioid-related deaths in Hennepin County and statewide](https://app.powerbigov.us/view?r=eyJrIjoiZTU0NWNhYjYtYzBlYi00NjdiLTkzMmMtNzljM2FiNDNlZjdjIiwidCI6IjhhZWZkZjlmLTg3ODAtNDZiZi04ZmI3LTRjOTI0NjUzYThiZSJ9)
 * [Healthcare trends across communities](https://mnehrconsortium.org/health-trends-across-communities-minnesota-dashboard) 
+* [Youth Risk Behavior Survey Explorer](https://yrbs-explorer.services.cdc.gov/#/)
+* [Vision and Eye Health Surveillance Explorer](https://ddt-vehss.cdc.gov/)
 
 ### Education and child welfare
 * [Minnesota Child Welfare Data Dashboard](https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/child-protection-foster-care-adoption/child-welfare-data-dashboard/)

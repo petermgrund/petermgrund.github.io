@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-05-17
+last_modified: 2025-09-26
 ---
 
 ### Education
@@ -32,10 +32,12 @@ last_modified: 2025-05-17
 **Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund) <a href="https://web.archive.org/web/20241228185058/https://nmrc.umn.edu/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – present
 * Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
     * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
+    * Recruit, screen, and enroll patients.
     * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
     * Gather [EMG](https://medlineplus.gov/ency/article/003929.htm) and behavioral data during surgery to inform models predicting effective DBS settings post-placement.
     * Helped write an accessible and [plain language](https://www.plainlanguage.gov/about/definitions/short-definition/) informed consent document for patients.
     * Developed accessible front-end surveys in REDCap for patients and staff to report treatment outcomes.
+    * Present data at symposiums and conferences.
 * Algorithms for programming DBS systems for ET ([NCT03984643](https://www.clinicaltrials.gov/study/NCT03984643))
     * Assist physicians in administering the Tremor Research Group Essential Tremor Rating Scale (TETRAS) to patients during DBS programming.
     * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
@@ -74,9 +76,10 @@ June 2021 – May 2022
 ### Publications
 <hr>
 
+* Pottinger, T., **Grund, P.M.**, Odland, K., Polly, D. (2025). S1 Pedicle Screw Loosening: A Systematic
+Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of Spine Surgery*. DOI: [10.14444/8773](http://doi.org/10.14444/8773)
 * Klein, S., Collins, P.F, Alschuler, V., **Grund, P.M.**, Luciana, M. (2025). Frontostriatal Networks Exhibit Functional Segregation During Adolescence that Follows a Ventral-Dorsal Gradient: Developmental Trajectories and Longitudinal Associations. *Journal of Neuroscience*. DOI: [10.1523/JNEUROSCI.1233-23.2025](http://doi.org/10.1523/JNEUROSCI.1233-23.2025)
 * Butler, R., Brinda, A., Blumenfeld, M., Bryants, M., **Grund, P.M.**, Pandey, S., Cornish, C., Sullivan, D., Krieg, J., Umoh, M., Vitek, J., Almeida, L., Orcutt, T., Cooper, S., Johnson, M. (2024). Differentiating Postural and Kinetic Tremor Responses to Deep Brain Stimulation in Essential Tremor. *Movement Disorders*. DOI: [10.1002/mdc3.14256](http://doi.org/10.1002/mdc3.14256) ([PDF](/assets/uploads/100086459.pdf))
-<!---* Alschuler, V., Klein, S., **Grund, P.M.** Collins, P.F, Luciana, M. (accepted pending revisions). *Within-person imbalance between reward sensitivity and executive control from adolescence through adulthood: longitudinal associations with alcohol use quantity and frequency*. Development and Psychopathology.-->
 <!---* **Grund, P.M.**, [Klein, S.](https://cablab.umn.edu/sam-klein), [Alschuler, V.](https://lucianalab.psych.umn.edu/people/vanessa-alschuler), [Collins, P.F](https://lucianalab.psych.umn.edu/people/paul-collins), [Luciana, M.](https://lucianalab.psych.umn.edu/people/monica-luciana) (accepted pending revisions) *Associations between Delay Discounting and Alcohol Use Patterns in Adolescence Vary by Age: A Longitudinal Study Using Generalized Additive Mixture Models*. Psychological Medicine.-->
 
 ### Presentations and Non-Peer Reviewed Papers
@@ -118,8 +121,11 @@ June 2021 – May 2022
 ### Affiliations
 <hr>
 
+**[Safe and Thriving Communities work group](https://www.minneapolismn.gov/government/departments/community-safety/safe-thriving-work-group/), [member](https://lims.minneapolismn.gov/Boards/stc%20work%20group)** | City of Minneapolis | August 2025 – present
+* Council-appointed member for Ward 2.
+
 **[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jan 2024 – present
-* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a>  member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
+* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a> (until 2025) and [council-appointed](https://lims.minneapolismn.gov/File/2025-00636) (since 2025) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
 **[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), member** <a href="https://web.archive.org/web/20240418134749/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jul 2023 – December 2024
