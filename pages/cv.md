@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-last_modified: 2025-09-26
+last_modified: 2025-10-24
 ---
 
 ### Education
@@ -29,7 +29,7 @@ last_modified: 2025-09-26
 ### Research Experience
 <hr> 
 
-**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund) <a href="https://web.archive.org/web/20241228185058/https://nmrc.umn.edu/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – present
+**Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund) <a href="https://web.archive.org/web/20241228185058/https://nmrc.umn.edu/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – November 2025
 * Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
     * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
     * Recruit, screen, and enroll patients.
@@ -132,8 +132,8 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 * [Council-appointed](https://lims.minneapolismn.gov/file/2023-00663) member at-large.
 * Advise the City Council and city departments on pedestrian issues, including the city's [Vision Zero](https://www.minneapolismn.gov/government/programs-initiatives/visionzero/) initiative, [Complete Streets](https://www2.minneapolismn.gov/government/departments/public-works/tpp/complete-streets/) policy, and [Safe Routes to School](https://www.minneapolismn.gov/government/programs-initiatives/transportation-programs/safe-routes-school/) program.
 
-**[Citizen Review Panel](https://commissionsandappointments.sos.state.mn.us/Agency/Details/345)** <a href="https://web.archive.org/web/20241103165027/https://commissionsandappointments.sos.state.mn.us/Agency/Details/345"><i class="fa-regular fa-clone fa-xs"></i></a> | Chisago County | 2023 – present
-* **Vice chair** (2024 – present)
+**[Citizen Review Panel](https://commissionsandappointments.sos.state.mn.us/Agency/Details/345)** <a href="https://web.archive.org/web/20241103165027/https://commissionsandappointments.sos.state.mn.us/Agency/Details/345"><i class="fa-regular fa-clone fa-xs"></i></a> | Chisago County | 2023 – 2025
+* **Vice chair** (2024 – 2025)
     * Run meetings and prepare agendas.
     * Prepare annual reports to state and county authorities. 
 * **Member** (2023 – 2024)
@@ -141,7 +141,7 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
     * Assessed county social work practices and advocated for additional resources to address disparities in the county.
 
 **Election Judge** | City of Minneapolis | 2023 – present
-* Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), [2024 General](https://lims.minneapolismn.gov/file/2024-01006), [SD 60 special primary](https://lims.minneapolismn.gov/file/2025-00074), SD 60 special.
+* Worked as a [poll worker](https://vote.minneapolismn.gov/election-workers/) or registration specialist in the following elections: [2023 Municipal](https://lims.minneapolismn.gov/file/2023-00893), [2024 Presidential Primary](https://lims.minneapolismn.gov/file/2024-00043), [2024 State Primary](https://lims.minneapolismn.gov/file/2024-00760), [2024 General](https://lims.minneapolismn.gov/file/2024-01006), [SD 60 special primary](https://lims.minneapolismn.gov/file/2025-00074), SD 60 special, [2025 Municipal](https://lims.minneapolismn.gov/file/2025-00916)
 * See *Supporting Documents* on each page for record of appointments.
 
 ### Technical Skills and Certifications 

@@ -3,6 +3,8 @@ layout: project-page
 title: "Citizen Review Panel"
 description: "Child protection system advocacy"
 permalink: /projects/crp/
+archived: "true"
+archived-date: "2025-10-21"
 image: childcare.svg
 ---
 

@@ -8,7 +8,7 @@ archived-date: "2024-12-04"
 image: landscape.svg
 ---
 
-I am a member of the City of Minneapolis' [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac) (PAC). The PAC advises the Mayor, City Council, and city departments on policies, programs, and actions that affect walking in Minneapolis. We work to make walking safer, easier, and more attractive for people of all ages and abilities.
+I was a member of the City of Minneapolis' [Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac) (PAC) from 2022 to 2024. The PAC advises the Mayor, City Council, and city departments on policies, programs, and actions that affect walking in Minneapolis. We work to make walking safer, easier, and more attractive for people of all ages and abilities.
 
 Here is a list of resolutions adopted by the PAC since 2023.
 * [List of resolutions](/projects/ped/resolutions)
