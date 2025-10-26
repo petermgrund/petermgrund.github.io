@@ -17,17 +17,29 @@ a {
 
 a:hover {
   text-decoration: none;
+  outline: #aaa solid 3px;
 }
 
-a:focus,
-button:focus {
+a:focus {
   background-color: #fdd522 !important;
-  color: #000000 !important;
+  outline: 4px solid #000000;
   outline-offset: 0;
+  color: #000000 !important;
   transition-duration: 0s;
-  box-shadow: 0 3px 0 0 black;
-  text-decoration: none;
 }
+
+button:focus,
+.btn:focus {
+  background-color: #fdd522 !important;
+  outline: 4px solid #000000 !important;
+  outline-offset: 0 !important;
+  color: #000000 !important;
+  transition-duration: 0s;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
 .icon-link {
     display: inline-flex;
     align-items: center;

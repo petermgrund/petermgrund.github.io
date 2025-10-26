@@ -3,7 +3,7 @@
     <h1>Peter M. Grund</h1>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main navigation">
+<nav class="navbar navbar-expand-lg bg-body" aria-label="Main navigation">
   <div class="container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
       <span class="navbar-toggler-icon"></span>
@@ -11,13 +11,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item me-3">
-          <a class="btn btn-outline-secondary {% if page.url == '/' %}active{% endif %}" href="/" role="button" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>       
+          <a class="btn btn-outline-primary {% if page.url == '/' %}active{% endif %}" href="/" role="button" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>       
         </li>
         <li class="nav-item me-3">
-          <a class="btn btn-outline-secondary {% if page.url contains '/posts/' %}active{% endif %}" href="/posts/" role="button" {% if page.url contains '/posts/' %}aria-current="page"{% endif %}>Posts</a>       
+          <a class="btn btn-outline-primary {% if page.url contains '/posts/' %}active{% endif %}" href="/posts/" role="button" {% if page.url contains '/posts/' %}aria-current="page"{% endif %}>Posts</a>       
         </li>
         <li class="nav-item dropdown me-3">
-          <a class="btn btn-outline-secondary dropdown-toggle {% if page.url contains '/projects' %}active{% endif %}" href="/projects" role="button" data-bs-toggle="dropdown" aria-expanded="false" {% if page.url contains '/projects' %}aria-current="page"{% endif %}>
+          <a class="btn btn-outline-primary dropdown-toggle {% if page.url contains '/projects' %}active{% endif %}" href="/projects" role="button" data-bs-toggle="dropdown" aria-expanded="false" {% if page.url contains '/projects' %}aria-current="page"{% endif %}>
             Projects
           </a>
           <ul class="dropdown-menu">
@@ -27,10 +27,10 @@
           </ul>
         </li>
         <li class="nav-item me-3">
-          <a class="btn btn-outline-secondary {% if page.url contains '/cv' %}active{% endif %}" href="/cv" role="button" {% if page.url contains '/cv' %}aria-current="page"{% endif %}>CV</a>       
+          <a class="btn btn-outline-primary {% if page.url contains '/cv' %}active{% endif %}" href="/cv" role="button" {% if page.url contains '/cv' %}aria-current="page"{% endif %}>CV</a>       
         </li>
         <li class="nav-item me-3">
-          <a class="btn btn-outline-secondary {% if page.url contains '/visualizations' %}active{% endif %}" href="/visualizations" role="button" {% if page.url contains '/visualizations' %}aria-current="page"{% endif %}>Visualizations</a>       
+          <a class="btn btn-outline-primary {% if page.url contains '/visualizations' %}active{% endif %}" href="/visualizations" role="button" {% if page.url contains '/visualizations' %}aria-current="page"{% endif %}>Visualizations</a>       
         </li>
       </ul>
       <!-- 
