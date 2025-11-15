@@ -4,6 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
-Email: [{{ site.email }}](mailto:{{ site.email }}) for personal inquiries or [{{ site.email_work }}](mailto:{{ site.email_work }}) for professional-related inquiries.
+You can reach me through the following methods:
 
-GitHub: [petermgrund](https://github.com/petermgrund)
+* For biostatistics consulting, email: [stats@petermgrund.com](mailto:stats@petermgrund.com)
+* For general inquiries, email: [info@petermgrund.com](mailto:info@petermgrund.com)
+
+I am also available on the following platforms:
+* GitHub: [petermgrund](https://github.com/petermgrund)

@@ -21,6 +21,7 @@
             Projects
           </a>
           <ul class="dropdown-menu">
+            <li><a class="dropdown-item {% if page.url contains '/projects/biostats' %}active{% endif %}" href="/projects/biostats" {% if page.url contains '/projects/biostats' %}aria-current="page"{% endif %}>Biostatistics consulting</a></li>
             <li><a class="dropdown-item {% if page.url contains '/projects/wikipedia' %}active{% endif %}" href="/projects/wikipedia" {% if page.url contains '/projects/wikipedia' %}aria-current="page"{% endif %}>Wikipedia</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item {% if page.url ==  '/projects' %}active{% endif %}" href="/projects" {% if page.url == '/projects' %}aria-current="page"{% endif %}>All projects</a></li>
