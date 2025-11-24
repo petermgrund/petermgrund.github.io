@@ -1,20 +1,20 @@
-<!--
+{% comment %}
   Reusable Card Component
 
   Usage:
-  {% include design-system/card-component.html
+  {% raw %}{% include design-system/card-component.html
      title="Card Title"
      subtitle="Card Subtitle"
      content="Card content here"
      image="/path/to/image.jpg"
      variant="default"
-  %}
+  %}{% endraw %}
 
   Or with block content:
-  {% capture card_body %}
+  {% raw %}{% capture card_body %}
     <p>Custom content</p>
   {% endcapture %}
-  {% include design-system/card-component.html title="Title" content=card_body %}
+  {% include design-system/card-component.html title="Title" content=card_body %}{% endraw %}
 
   Parameters:
   - title (optional): Card title
@@ -24,7 +24,7 @@
   - footer (optional): Card footer content
   - variant (optional): default, bordered, shadow, flat (default: default)
   - url (optional): Makes entire card clickable
--->
+{% endcomment %}
 
 {% assign variant = include.variant | default: "default" %}
 

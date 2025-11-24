@@ -1,23 +1,23 @@
-<!--
+{% comment %}
   Reusable Alert Component
 
   Usage:
-  {% include design-system/alert.html
+  {% raw %}{% include design-system/alert.html
      type="info"
      content="This is an alert message"
-  %}
+  %}{% endraw %}
 
   Or with block content:
-  {% capture alert_content %}
+  {% raw %}{% capture alert_content %}
     <p>Custom content here</p>
   {% endcapture %}
-  {% include design-system/alert.html type="warning" content=alert_content %}
+  {% include design-system/alert.html type="warning" content=alert_content %}{% endraw %}
 
   Parameters:
   - type (required): info, success, warning, danger
   - content (required): Alert message or HTML content
   - dismissible (optional): true/false (default: false)
--->
+{% endcomment %}
 
 {% assign type = include.type | default: "info" %}
 

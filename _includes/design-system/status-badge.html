@@ -1,16 +1,16 @@
-<!--
+{% comment %}
   Reusable Status Badge Component
 
   Usage:
-  {% include design-system/status-badge.html
+  {% raw %}{% include design-system/status-badge.html
      status="approved"
      text="Approved"
-  %}
+  %}{% endraw %}
 
   Parameters:
   - status (required): draft, queue, subcommittee, revise, approved, completed, in-progress
   - text (optional): Custom text, defaults to capitalized status
--->
+{% endcomment %}
 
 {% assign status = include.status | downcase %}
 {% assign text = include.text | default: status | capitalize %}
