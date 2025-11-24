@@ -1,13 +1,13 @@
-<!--
+{% comment %}
   Reusable Button Component
 
   Usage:
-  {% include design-system/button.html
+  {% raw %}{% include design-system/button.html
      text="Click Me"
      url="/path"
      variant="primary"
      size="md"
-  %}
+  %}{% endraw %}
 
   Parameters:
   - text (required): Button text
@@ -16,7 +16,7 @@
   - size (optional): sm, md, lg (default: md)
   - block (optional): true/false (default: false)
   - type (optional): button, submit, reset (default: button)
--->
+{% endcomment %}
 
 {% assign variant = include.variant | default: "primary" %}
 {% assign size = include.size | default: "md" %}
