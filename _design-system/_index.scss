@@ -1,0 +1,30 @@
+// Design System - Main Index
+// ========================================
+// Import all design system modules
+// This file should be imported in your main stylesheet
+
+// 1. Design Tokens (Foundation)
+// Import tokens first as they define variables used throughout
+@import "tokens/colors";
+@import "tokens/typography";
+@import "tokens/spacing";
+@import "tokens/layout";
+
+// 2. Base & Normalize
+// Include normalize/reset styles here if needed
+
+// 3. Components
+// Reusable UI components
+@import "components/typography";
+@import "components/buttons";
+@import "components/cards";
+@import "components/alerts";
+@import "components/status";
+@import "components/navigation";
+@import "components/forms";
+
+// 4. Patterns
+// Layout patterns and utilities
+@import "patterns/grid";
+@import "patterns/layout";
+@import "patterns/utilities";

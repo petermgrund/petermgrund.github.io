@@ -1,0 +1,75 @@
+<!--
+  Reusable Card Component
+
+  Usage:
+  {% include design-system/card-component.html
+     title="Card Title"
+     subtitle="Card Subtitle"
+     content="Card content here"
+     image="/path/to/image.jpg"
+     variant="default"
+  %}
+
+  Or with block content:
+  {% capture card_body %}
+    <p>Custom content</p>
+  {% endcapture %}
+  {% include design-system/card-component.html title="Title" content=card_body %}
+
+  Parameters:
+  - title (optional): Card title
+  - subtitle (optional): Card subtitle
+  - content (optional): Card body content
+  - image (optional): Image URL
+  - footer (optional): Card footer content
+  - variant (optional): default, bordered, shadow, flat (default: default)
+  - url (optional): Makes entire card clickable
+-->
+
+{% assign variant = include.variant | default: "default" %}
+
+{% capture card_classes %}
+  card
+  {% if variant == "bordered" %}card-bordered{% endif %}
+  {% if variant == "shadow" %}card-shadow{% endif %}
+  {% if variant == "flat" %}card-flat{% endif %}
+{% endcapture %}
+
+{% if include.url %}
+<a href="{{ include.url }}" class="{{ card_classes | strip }}" style="text-decoration: none; color: inherit;">
+{% else %}
+<div class="{{ card_classes | strip }}">
+{% endif %}
+
+  {% if include.image %}
+    <img src="{{ include.image }}" alt="{{ include.title | default: 'Card image' }}" loading="lazy">
+  {% endif %}
+
+  {% if include.title or include.subtitle %}
+    <div class="card-header">
+      {% if include.title %}
+        <h3 class="card-title">{{ include.title }}</h3>
+      {% endif %}
+      {% if include.subtitle %}
+        <p class="card-subtitle">{{ include.subtitle }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if include.content %}
+    <div class="card-body">
+      {{ include.content }}
+    </div>
+  {% endif %}
+
+  {% if include.footer %}
+    <div class="card-footer">
+      {{ include.footer }}
+    </div>
+  {% endif %}
+
+{% if include.url %}
+</a>
+{% else %}
+</div>
+{% endif %}

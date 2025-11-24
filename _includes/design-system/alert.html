@@ -1,0 +1,29 @@
+<!--
+  Reusable Alert Component
+
+  Usage:
+  {% include design-system/alert.html
+     type="info"
+     content="This is an alert message"
+  %}
+
+  Or with block content:
+  {% capture alert_content %}
+    <p>Custom content here</p>
+  {% endcapture %}
+  {% include design-system/alert.html type="warning" content=alert_content %}
+
+  Parameters:
+  - type (required): info, success, warning, danger
+  - content (required): Alert message or HTML content
+  - dismissible (optional): true/false (default: false)
+-->
+
+{% assign type = include.type | default: "info" %}
+
+<div class="alert alert-{{ type }}" role="alert">
+  {{ include.content }}
+  {% if include.dismissible == true %}
+    <button type="button" class="alert-close" aria-label="Close">×</button>
+  {% endif %}
+</div>

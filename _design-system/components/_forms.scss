@@ -1,0 +1,127 @@
+// Design System - Form Components
+// ========================================
+// Form inputs, labels, and controls
+
+.form-group {
+  margin-bottom: $space-6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: $space-2;
+  font-size: $font-size-base;
+  font-weight: $font-weight-semibold;
+  color: $text-primary;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  display: block;
+  width: 100%;
+  padding: $padding-input;
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-primary;
+  background-color: $bg-default;
+  border: $border-width-base solid $border-default;
+  border-radius: $border-radius-base;
+  transition: $transition-base;
+
+  &:focus {
+    outline: none;
+    background-color: $focus-bg;
+    border-color: $focus-outline;
+    box-shadow: 0 0 0 3px rgba($focus-outline, 0.1);
+  }
+
+  &:disabled {
+    background-color: $bg-light;
+    color: $text-muted;
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: $text-muted;
+  }
+}
+
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right $space-3 center;
+  background-size: 12px;
+  padding-right: $space-8;
+}
+
+// Form Validation States
+.form-input-error,
+.form-textarea-error,
+.form-select-error {
+  border-color: $color-danger;
+
+  &:focus {
+    box-shadow: 0 0 0 3px rgba($color-danger, 0.1);
+  }
+}
+
+.form-input-success,
+.form-textarea-success,
+.form-select-success {
+  border-color: $color-success;
+
+  &:focus {
+    box-shadow: 0 0 0 3px rgba($color-success, 0.1);
+  }
+}
+
+.form-error-message {
+  display: block;
+  margin-top: $space-2;
+  font-size: $font-size-sm;
+  color: $color-danger;
+}
+
+.form-help-text {
+  display: block;
+  margin-top: $space-2;
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}
+
+// Checkbox and Radio
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: $space-3;
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: auto;
+    margin-right: $space-2;
+    cursor: pointer;
+  }
+
+  label {
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+}
+
+// Inline Form
+.form-inline {
+  display: flex;
+  align-items: center;
+  gap: $gap-md;
+
+  .form-group {
+    margin-bottom: 0;
+  }
+}

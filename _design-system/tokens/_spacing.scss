@@ -1,0 +1,45 @@
+// Design System - Spacing Tokens
+// ========================================
+// Defines spacing scale for margins, padding, and gaps
+
+// Base Spacing Unit
+$space-base: 0.8rem; // 8px
+
+// Spacing Scale
+$space-0: 0;
+$space-1: $space-base * 0.5;   // 4px
+$space-2: $space-base;          // 8px
+$space-3: $space-base * 1.5;    // 12px
+$space-4: $space-base * 2;      // 16px
+$space-5: $space-base * 2.5;    // 20px
+$space-6: $space-base * 3;      // 24px
+$space-8: $space-base * 4;      // 32px
+$space-10: $space-base * 5;     // 40px
+$space-12: $space-base * 6;     // 48px
+$space-16: $space-base * 8;     // 64px
+$space-20: $space-base * 10;    // 80px
+$space-24: $space-base * 12;    // 96px
+
+// Semantic Spacing
+$spacing-xs: $space-1;   // 4px
+$spacing-sm: $space-2;   // 8px
+$spacing-md: $space-4;   // 16px
+$spacing-lg: $space-6;   // 24px
+$spacing-xl: $space-8;   // 32px
+$spacing-2xl: $space-12; // 48px
+
+// Component Spacing
+$padding-card: 1.5rem;        // 15px
+$padding-button: $space-3 $space-6; // 12px 24px
+$padding-input: $space-3;     // 12px
+$padding-alert: $space-4;     // 16px
+
+$margin-section: $space-16;   // 64px
+$margin-element: $space-4;    // 16px
+
+// Gap Spacing (for Grid/Flexbox)
+$gap-xs: $space-2;   // 8px
+$gap-sm: $space-3;   // 12px
+$gap-md: $space-4;   // 16px
+$gap-lg: $space-6;   // 24px
+$gap-xl: $space-8;   // 32px

@@ -1,0 +1,105 @@
+// Design System - Status Component
+// ========================================
+// Status indicators and bars
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: $gap-sm;
+  padding: $space-3 0;
+  margin: $space-4 0;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+}
+
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  padding: $space-2 $space-4;
+  border-radius: $border-radius-full;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: $border-radius-full;
+  }
+}
+
+// Status Variants
+.status-draft {
+  background-color: lighten($status-draft, 40%);
+  color: $status-draft;
+
+  &::before {
+    background-color: $status-draft;
+  }
+}
+
+.status-queue {
+  background-color: lighten($status-queue, 40%);
+  color: darken($status-queue, 20%);
+
+  &::before {
+    background-color: $status-queue;
+  }
+}
+
+.status-subcommittee {
+  background-color: lighten($status-subcommittee, 40%);
+  color: $status-subcommittee;
+
+  &::before {
+    background-color: $status-subcommittee;
+  }
+}
+
+.status-revise {
+  background-color: lighten($status-revise, 40%);
+  color: darken($status-revise, 30%);
+
+  &::before {
+    background-color: $status-revise;
+  }
+}
+
+.status-approved {
+  background-color: lighten($status-approved, 50%);
+  color: $status-approved;
+
+  &::before {
+    background-color: $status-approved;
+  }
+}
+
+.status-completed {
+  background-color: lighten($status-completed, 70%);
+  color: $status-completed;
+
+  &::before {
+    background-color: $status-completed;
+  }
+}
+
+.status-in-progress {
+  background-color: lighten($color-info, 40%);
+  color: darken($color-info, 20%);
+
+  &::before {
+    background-color: $color-info;
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
