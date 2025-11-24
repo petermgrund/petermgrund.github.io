@@ -1,0 +1,40 @@
+<!--
+  Reusable Button Component
+
+  Usage:
+  {% include design-system/button.html
+     text="Click Me"
+     url="/path"
+     variant="primary"
+     size="md"
+  %}
+
+  Parameters:
+  - text (required): Button text
+  - url (optional): Link URL, if empty renders as button element
+  - variant (optional): primary, secondary, outline, success, info, warning (default: primary)
+  - size (optional): sm, md, lg (default: md)
+  - block (optional): true/false (default: false)
+  - type (optional): button, submit, reset (default: button)
+-->
+
+{% assign variant = include.variant | default: "primary" %}
+{% assign size = include.size | default: "md" %}
+{% assign type = include.type | default: "button" %}
+
+{% capture btn_classes %}
+  btn btn-{{ variant }}
+  {% if include.size == "sm" %}btn-sm{% endif %}
+  {% if include.size == "lg" %}btn-lg{% endif %}
+  {% if include.block == true %}btn-block{% endif %}
+{% endcapture %}
+
+{% if include.url %}
+  <a href="{{ include.url }}" class="{{ btn_classes | strip }}">
+    {{ include.text }}
+  </a>
+{% else %}
+  <button type="{{ type }}" class="{{ btn_classes | strip }}">
+    {{ include.text }}
+  </button>
+{% endif %}

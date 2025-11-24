@@ -1,0 +1,52 @@
+// Design System - Typography Tokens
+// ========================================
+// Defines all typography variables and scale
+
+// Font Families
+$font-primary: Helvetica, Arial, sans-serif;
+$font-monospace: 'Courier New', Courier, monospace;
+
+// Base Font Size
+$font-size-base-html: 62.55%; // 10px baseline for rem calculations
+$font-size-base-body: 1.6rem; // 16px
+
+// Font Size Scale
+$font-size-xs: 1.2rem;   // 12px
+$font-size-sm: 1.4rem;   // 14px
+$font-size-base: 1.6rem; // 16px
+$font-size-md: 1.8rem;   // 18px
+$font-size-lg: 2.4rem;   // 24px
+$font-size-xl: 3.2rem;   // 32px
+$font-size-2xl: 4.0rem;  // 40px
+$font-size-3xl: 4.8rem;  // 48px
+
+// Heading Sizes
+$font-size-h1: 4.8rem;   // 48px
+$font-size-h2: 3.6rem;   // 36px
+$font-size-h3: 2.7rem;   // 27px
+$font-size-h4: 2.1rem;   // 21px
+$font-size-h5: 1.8rem;   // 18px
+$font-size-h6: 1.6rem;   // 16px
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Line Heights
+$line-height-tight: 1.2;
+$line-height-base: 1.5;
+$line-height-relaxed: 1.6;
+$line-height-loose: 2.0;
+
+// Letter Spacing
+$letter-spacing-tight: -0.05em;
+$letter-spacing-normal: 0;
+$letter-spacing-wide: 0.05em;
+
+// Text Transforms
+$text-uppercase: uppercase;
+$text-lowercase: lowercase;
+$text-capitalize: capitalize;

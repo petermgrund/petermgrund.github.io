@@ -1,0 +1,102 @@
+// Design System - Alert/Info Box Components
+// ========================================
+// Alert boxes and informational containers
+
+.alert {
+  padding: $padding-alert;
+  margin-bottom: $margin-element;
+  border-left: $border-width-extra-thick solid;
+  border-radius: $border-radius-base;
+  font-size: $font-size-base;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: $font-weight-semibold;
+    text-decoration: underline;
+  }
+}
+
+// Alert Variants
+.alert-info,
+.emphasis-box {
+  background-color: $bg-emphasis;
+  border-color: $color-warning;
+
+  &::before {
+    content: "ℹ️ ";
+    font-size: $font-size-lg;
+    margin-right: $space-2;
+  }
+}
+
+.alert-success {
+  background-color: lighten($color-success, 50%);
+  border-color: $color-success;
+
+  &::before {
+    content: "✓ ";
+    font-size: $font-size-lg;
+    margin-right: $space-2;
+    color: $color-success;
+  }
+}
+
+.alert-warning,
+.wip-box {
+  background-color: $bg-wip;
+  border-color: $color-info;
+
+  &::before {
+    content: "⚠️ ";
+    font-size: $font-size-lg;
+    margin-right: $space-2;
+  }
+}
+
+.alert-danger {
+  background-color: lighten($color-danger, 40%);
+  border-color: $color-danger;
+
+  &::before {
+    content: "✖ ";
+    font-size: $font-size-lg;
+    margin-right: $space-2;
+    color: $color-danger;
+  }
+}
+
+// Link Box
+.link-box {
+  background-color: $bg-light;
+  border-color: $color-primary;
+  padding: $space-4;
+  border-left: $border-width-extra-thick solid $color-primary;
+
+  a {
+    font-weight: $font-weight-semibold;
+    color: $link-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+// Construction Alert
+.construction-alert {
+  background-color: lighten($color-warning, 40%);
+  border-color: $color-warning;
+  padding: $space-4;
+  margin: $space-6 0;
+  border-left: $border-width-extra-thick solid $color-warning;
+
+  &::before {
+    content: "🚧 ";
+    font-size: $font-size-xl;
+    margin-right: $space-3;
+  }
+}

@@ -1,0 +1,177 @@
+// Design System - Typography Component
+// ========================================
+// Typography styles and utilities
+
+// Base Typography
+body {
+  font-family: $font-primary;
+  font-size: $font-size-base-body;
+  line-height: $line-height-relaxed;
+  color: $text-primary;
+}
+
+html {
+  font-size: $font-size-base-html;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-primary;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  margin-top: 0;
+  margin-bottom: $space-4;
+}
+
+h1, .h1 {
+  font-size: $font-size-h1;
+}
+
+h2, .h2 {
+  font-size: $font-size-h2;
+}
+
+h3, .h3 {
+  font-size: $font-size-h3;
+}
+
+h4, .h4 {
+  font-size: $font-size-h4;
+}
+
+h5, .h5 {
+  font-size: $font-size-h5;
+}
+
+h6, .h6 {
+  font-size: $font-size-h6;
+}
+
+// Page/Post Headings
+.page-heading,
+.post-title {
+  font-size: $font-size-3xl;
+  font-weight: $font-weight-bold;
+  margin-bottom: $space-6;
+}
+
+// Paragraphs and Text
+p {
+  margin-top: 0;
+  margin-bottom: $margin-element;
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: underline;
+  transition: $transition-base;
+
+  &:hover {
+    color: $link-hover;
+  }
+
+  &:focus {
+    background-color: $focus-bg;
+    outline: $border-width-base solid $focus-outline;
+    box-shadow: 0 -2px $focus-outline, 0 4px $focus-outline;
+  }
+
+  &:visited {
+    color: $link-visited;
+  }
+}
+
+// Lists
+ul, ol {
+  margin-top: 0;
+  margin-bottom: $margin-element;
+  padding-left: $space-8;
+}
+
+li {
+  margin-bottom: $space-2;
+}
+
+// Blockquotes
+blockquote {
+  margin: $space-6 0;
+  padding: $space-4 $space-6;
+  border-left: $border-width-extra-thick solid $border-default;
+  background-color: $bg-light;
+  font-style: italic;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Code
+code {
+  font-family: $font-monospace;
+  font-size: 0.9em;
+  padding: $space-1 $space-2;
+  background-color: $bg-light;
+  border-radius: $border-radius-sm;
+}
+
+pre {
+  margin: $space-6 0;
+  padding: $space-4;
+  background-color: $bg-light;
+  border: $border-width-thin solid $border-default;
+  border-radius: $border-radius-base;
+  overflow-x: auto;
+
+  code {
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
+// Horizontal Rule
+hr {
+  margin: $space-8 0;
+  border: 0;
+  border-top: $border-width-thin solid $border-default;
+}
+
+// Text Utilities
+.text-small {
+  font-size: $font-size-sm;
+}
+
+.text-large {
+  font-size: $font-size-lg;
+}
+
+.text-muted {
+  color: $text-muted;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-bold {
+  font-weight: $font-weight-bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: $text-uppercase;
+}
+
+// Post Meta
+.post-meta {
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}

@@ -1,0 +1,112 @@
+// Design System - Grid Pattern
+// ========================================
+// Grid layout patterns and utilities
+
+// Grid Container
+.grid-container {
+  display: grid;
+  gap: $grid-gap;
+  width: 100%;
+}
+
+// Grid Columns
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+
+  @media screen and (max-width: $breakpoint-wide) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Grid Auto-fit (responsive)
+.grid-auto {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-auto-sm {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-auto-lg {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+// Grid Gap Variants
+.grid-gap-sm {
+  gap: $gap-sm;
+}
+
+.grid-gap-md {
+  gap: $gap-md;
+}
+
+.grid-gap-lg {
+  gap: $gap-lg;
+}
+
+.grid-gap-xl {
+  gap: $gap-xl;
+}
+
+// Flexbox Grid Alternative
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $grid-gap;
+  margin: -#{$grid-gap / 2};
+
+  > * {
+    flex: 1 1 auto;
+    margin: $grid-gap / 2;
+  }
+}
+
+// Column Spans
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3;
+}
+
+.col-span-4 {
+  grid-column: span 4;
+}
+
+// Row Spans
+.row-span-2 {
+  grid-row: span 2;
+}
+
+.row-span-3 {
+  grid-row: span 3;
+}

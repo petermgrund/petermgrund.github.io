@@ -1,0 +1,94 @@
+// Design System - Card Component
+// ========================================
+// Card containers for content
+
+.card {
+  background-color: $bg-default;
+  border: $border-width-thick solid $border-card;
+  border-radius: $border-radius-base;
+  padding: $padding-card;
+  margin-bottom: $margin-element;
+
+  &:focus {
+    outline: $border-width-base solid $focus-outline;
+    background-color: $focus-bg;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.card-header {
+  margin-bottom: $space-4;
+  padding-bottom: $space-3;
+  border-bottom: $border-width-thin solid $border-default;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+}
+
+.card-body {
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-footer {
+  margin-top: $space-4;
+  padding-top: $space-3;
+  border-top: $border-width-thin solid $border-default;
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}
+
+.card-title {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  margin-bottom: $space-3;
+}
+
+.card-subtitle {
+  font-size: $font-size-base;
+  color: $text-secondary;
+  margin-bottom: $space-3;
+}
+
+.card-text {
+  font-size: $font-size-base;
+  line-height: $line-height-relaxed;
+}
+
+// Card Variants
+.card-bordered {
+  border: $border-width-base solid $border-default;
+  box-shadow: $shadow-sm;
+}
+
+.card-shadow {
+  border: none;
+  box-shadow: $shadow-md;
+
+  &:hover {
+    box-shadow: $shadow-lg;
+  }
+}
+
+.card-flat {
+  border: none;
+  background-color: $bg-light;
+}
+
+// Card Grid
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: $grid-gap;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    grid-template-columns: 1fr;
+  }
+}
