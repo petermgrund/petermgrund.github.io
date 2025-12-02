@@ -4,8 +4,15 @@ title: "Somali ancestry in Minnesota by city"
 date: 2025-12-01 12:00 -0600
 categories: posts
 tags: [R, Analysis]
-summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in Chisago County, Minnesota, and displays it in a nicely formatted table.
+summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in Minnesota by city from the 2020 Decennial Census.
 ---
+
+Script last run: `r Sys.time()`
+
+## Primary sources
+- [2020 Decennial Census, Data for Demographic and Housing Characteristics (DDHCA) Summary File](https://www.census.gov/data/tables/2023/dec/2020-census-detailed-dhc-a.html)
+- [2020 Decennial Census, PL Summary File](https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html)
+- Walker K, Herman M (2025). *tidycensus: Load US Census Boundary and Attribute Data as 'tidyverse' and 'sf'-Ready Data Frames*. R package version 1.7.3, [https://walker-data.com/tidycensus/](https://walker-data.com/tidycensus/).
 
 ## Setup
 
@@ -44,12 +51,13 @@ total_by_place <- get_decennial(
 )
 
 place_data <- total_by_place %>%
-  left_join(somali_by_place %>% select(GEOID, somali_pop = value), by = "GEOID") %>%
+  left_join(somali_by_place %>% select(GEOID, somali_count = value), by = "GEOID") %>%
   mutate(
-    pct_somali = somali_pop / value * 100
+    `percent_somali` = somali_count / value * 100
   ) %>%
-  filter(somali_pop >= 1) %>%
-  arrange(desc(pct_somali))
+  select(NAME, total_population = value, somali_count, percent_somali) %>%
+  filter(somali_count >= 1) %>%
+  arrange(desc(percent_somali))
 
 place_data %>%
   kable(format = "markdown") %>%
