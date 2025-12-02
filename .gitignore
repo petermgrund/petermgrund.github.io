@@ -25,6 +25,13 @@ build/
 # Ignore site local files
 _site/
 feed.xml
+.jekyll-cache/
+
+# R/knitr cache files
+_knitr/*_cache/
+_knitr/*_files/
+*.Rhistory
+.Rdata
 
 # Ignore scipts
 scripts/
