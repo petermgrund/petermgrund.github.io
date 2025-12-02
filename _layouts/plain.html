@@ -1,3 +1,13 @@
-{% include head-save.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{{ content }}
+  {% include head-cit.html %}
+
+  <body>
+    <main id="main-content" class="container">
+      {{ content }}
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>

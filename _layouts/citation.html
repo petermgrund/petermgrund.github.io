@@ -1,0 +1,32 @@
+---
+layout: plain
+---
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<div class="container">
+
+  <div class="col-lg-8 mx p-4 py-md-5">
+
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">← to petermgrund.com</a></li>
+      </ol>
+    </nav>
+
+
+  <header class="post-header">
+    <p>CODE</p>
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% if page.summary %}
+    <p>Description: {{ page.summary }}</p>
+    {% endif %}
+  </header>
+
+  <hr>
+
+    <div class="content-part">{{ content | markdownify }}</div>
+  </div>
+  </div>
+</div>

@@ -1,15 +1,15 @@
 #!/usr/bin/env Rscript
 
-# R Markdown to Jekyll Posts Renderer
+# R Markdown to Jekyll Citations Renderer
 # Usage: cd _knitr && Rscript render.R
-# Or to render a specific file: Rscript render.R 2025-12-01-my-post.Rmd
+# Or to render a specific file: Rscript render.R my-citation.Rmd
 
 library(knitr)
 
 # Set directories
-base_dir <- normalizePath("..")
+base_dir <- normalizePath("../")
 knitr_dir <- file.path(base_dir, "_knitr")
-posts_dir <- file.path(base_dir, "_posts")
+citations_dir <- file.path(base_dir, "_citations")
 fig_dir <- file.path(base_dir, "assets", "images", "knitr")
 
 # Create fig directory if needed
@@ -34,9 +34,9 @@ for (rmd_file in rmd_files) {
     next
   }
 
-  # Output filename: 2024-01-01-post-name.Rmd -> 2024-01-01-post-name.md
+  # Output filename: my-citation.Rmd -> my-citation.md
   base_name <- tools::file_path_sans_ext(basename(rmd_file))
-  output_file <- file.path(posts_dir, paste0(base_name, ".md"))
+  output_file <- file.path(citations_dir, paste0(base_name, ".md"))
 
   # Create post-specific figure directory
   post_fig_dir <- file.path(fig_dir, base_name)
@@ -48,7 +48,7 @@ for (rmd_file in rmd_files) {
     root.dir = base_dir
   )
   opts_chunk$set(
-    fig.path = paste0("assets/images/knitr/", base_name, "/"),
+    fig.path = paste0("../assets/images/knitr/", base_name, "/"),
     fig.width = 8,
     fig.height = 5,
     dpi = 150,
@@ -66,4 +66,4 @@ for (rmd_file in rmd_files) {
   })
 }
 
-message("Done! Generated files are in ", posts_dir)
+message("Done! Generated files are in ", citations_dir)
