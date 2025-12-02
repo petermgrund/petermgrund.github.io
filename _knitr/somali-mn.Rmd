@@ -1,0 +1,59 @@
+---
+layout: citation
+title: "Somali ancestry in Minnesota by city"
+date: 2025-12-01 12:00 -0600
+categories: posts
+tags: [R, Analysis]
+summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in Chisago County, Minnesota, and displays it in a nicely formatted table.
+---
+
+## Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r results='asis'}
+library(tidycensus)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# You'll need your own Census API key
+# census_api_key("YOUR_KEY_HERE", install = TRUE)
+
+```
+
+## By city
+```{r}
+somali_by_place <- get_decennial(
+  geography = "place",
+  variables = "T01001_001N",
+  state = "MN",
+  year = 2020,
+  sumfile = "ddhca",
+  pop_group = "1325"
+)
+
+total_by_place <- get_decennial(
+  geography = "place",
+  variables = "P1_001N",
+  state = "MN",
+  year = 2020,
+  sumfile = "pl"
+)
+
+place_data <- total_by_place %>%
+  left_join(somali_by_place %>% select(GEOID, somali_pop = value), by = "GEOID") %>%
+  mutate(
+    pct_somali = somali_pop / value * 100
+  ) %>%
+  filter(somali_pop >= 1) %>%
+  arrange(desc(pct_somali))
+
+place_data %>%
+  kable(format = "markdown") %>%
+  kable_styling()
+
+```
+

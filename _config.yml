@@ -41,7 +41,10 @@ collections:
     output: true
   visualizations:
     output: true
-    permalink: /visualizations/:path   
+    permalink: /visualizations/:path
+  citations:
+    output: true
+    permalink: /citations/:path   
 
 # Build settings
 markdown: kramdown
