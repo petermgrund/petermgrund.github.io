@@ -1,13 +1,13 @@
 ---
 layout: citation
-title: "Somali ancestry in Minnesota by city"
+title: "Demographics of Somali ancestry in the United States"
 date: 2025-12-01 12:00 -0600
 categories: posts
 tags: [R, Analysis]
-summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in Minnesota by city from the 2020 Decennial Census.
+summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in the United States by geographies from the 2020 Decennial Census.
 ---
 
-Script last run: 2025-12-02 00:59:15.159153
+Script last run: 2025-12-14 15:24:33.393811
 
 ## Primary sources
 - [2020 Decennial Census, Data for Demographic and Housing Characteristics (DDHCA) Summary File](https://www.census.gov/data/tables/2023/dec/2020-census-detailed-dhc-a.html)
@@ -28,6 +28,367 @@ library(kableExtra)
 # You'll need your own Census API key
 # census_api_key("YOUR_KEY_HERE", install = TRUE)
 ```
+# National
+
+## By state
+
+``` r
+somali_by_state <- get_decennial(
+  geography = "state",
+  variables = "T01001_001N",
+  year = 2020,
+  sumfile = "ddhca",
+  pop_group = "1325"
+)
+
+total_by_state <- get_decennial(
+  geography = "state",
+  variables = "P1_001N",
+  year = 2020,
+  sumfile = "pl"
+)
+
+state_data <- total_by_state %>%
+  left_join(somali_by_state %>% select(GEOID, somali_count = value), by = "GEOID") %>%
+  mutate(
+    `percent_somali` = somali_count / value * 100
+  ) %>%
+  select(NAME, total_population = value, somali_count, percent_somali) %>%
+  filter(somali_count >= 1) %>%
+  arrange(desc(percent_somali))
+
+state_data %>%
+  kable(format = "markdown") %>%
+  kable_styling()
+```
+
+<table class="table" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> NAME </th>
+   <th style="text-align:right;"> total_population </th>
+   <th style="text-align:right;"> somali_count </th>
+   <th style="text-align:right;"> percent_somali </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Minnesota </td>
+   <td style="text-align:right;"> 5706494 </td>
+   <td style="text-align:right;"> 91111 </td>
+   <td style="text-align:right;"> 1.5966196 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> North Dakota </td>
+   <td style="text-align:right;"> 779094 </td>
+   <td style="text-align:right;"> 2058 </td>
+   <td style="text-align:right;"> 0.2641530 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Maine </td>
+   <td style="text-align:right;"> 1362359 </td>
+   <td style="text-align:right;"> 3443 </td>
+   <td style="text-align:right;"> 0.2527234 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Ohio </td>
+   <td style="text-align:right;"> 11799448 </td>
+   <td style="text-align:right;"> 26160 </td>
+   <td style="text-align:right;"> 0.2217053 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Washington </td>
+   <td style="text-align:right;"> 7705281 </td>
+   <td style="text-align:right;"> 16931 </td>
+   <td style="text-align:right;"> 0.2197324 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Nebraska </td>
+   <td style="text-align:right;"> 1961504 </td>
+   <td style="text-align:right;"> 3788 </td>
+   <td style="text-align:right;"> 0.1931171 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Vermont </td>
+   <td style="text-align:right;"> 643077 </td>
+   <td style="text-align:right;"> 740 </td>
+   <td style="text-align:right;"> 0.1150718 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Oregon </td>
+   <td style="text-align:right;"> 4237256 </td>
+   <td style="text-align:right;"> 3777 </td>
+   <td style="text-align:right;"> 0.0891379 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Kentucky </td>
+   <td style="text-align:right;"> 4505836 </td>
+   <td style="text-align:right;"> 3907 </td>
+   <td style="text-align:right;"> 0.0867098 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Missouri </td>
+   <td style="text-align:right;"> 6154913 </td>
+   <td style="text-align:right;"> 4350 </td>
+   <td style="text-align:right;"> 0.0706752 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Utah </td>
+   <td style="text-align:right;"> 3271616 </td>
+   <td style="text-align:right;"> 2128 </td>
+   <td style="text-align:right;"> 0.0650443 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Colorado </td>
+   <td style="text-align:right;"> 5773714 </td>
+   <td style="text-align:right;"> 3663 </td>
+   <td style="text-align:right;"> 0.0634427 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> South Dakota </td>
+   <td style="text-align:right;"> 886667 </td>
+   <td style="text-align:right;"> 556 </td>
+   <td style="text-align:right;"> 0.0627067 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Massachusetts </td>
+   <td style="text-align:right;"> 7029917 </td>
+   <td style="text-align:right;"> 4184 </td>
+   <td style="text-align:right;"> 0.0595171 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wisconsin </td>
+   <td style="text-align:right;"> 5893718 </td>
+   <td style="text-align:right;"> 3502 </td>
+   <td style="text-align:right;"> 0.0594192 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Arizona </td>
+   <td style="text-align:right;"> 7151502 </td>
+   <td style="text-align:right;"> 3924 </td>
+   <td style="text-align:right;"> 0.0548696 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Iowa </td>
+   <td style="text-align:right;"> 3190369 </td>
+   <td style="text-align:right;"> 1670 </td>
+   <td style="text-align:right;"> 0.0523450 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Alaska </td>
+   <td style="text-align:right;"> 733391 </td>
+   <td style="text-align:right;"> 376 </td>
+   <td style="text-align:right;"> 0.0512687 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Virginia </td>
+   <td style="text-align:right;"> 8631393 </td>
+   <td style="text-align:right;"> 4243 </td>
+   <td style="text-align:right;"> 0.0491578 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Tennessee </td>
+   <td style="text-align:right;"> 6910840 </td>
+   <td style="text-align:right;"> 3180 </td>
+   <td style="text-align:right;"> 0.0460147 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Georgia </td>
+   <td style="text-align:right;"> 10711908 </td>
+   <td style="text-align:right;"> 3725 </td>
+   <td style="text-align:right;"> 0.0347744 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Kansas </td>
+   <td style="text-align:right;"> 2937880 </td>
+   <td style="text-align:right;"> 993 </td>
+   <td style="text-align:right;"> 0.0337999 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> New York </td>
+   <td style="text-align:right;"> 20201249 </td>
+   <td style="text-align:right;"> 6505 </td>
+   <td style="text-align:right;"> 0.0322010 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> District of Columbia </td>
+   <td style="text-align:right;"> 689545 </td>
+   <td style="text-align:right;"> 192 </td>
+   <td style="text-align:right;"> 0.0278444 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Idaho </td>
+   <td style="text-align:right;"> 1839106 </td>
+   <td style="text-align:right;"> 473 </td>
+   <td style="text-align:right;"> 0.0257190 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> New Hampshire </td>
+   <td style="text-align:right;"> 1377529 </td>
+   <td style="text-align:right;"> 314 </td>
+   <td style="text-align:right;"> 0.0227944 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Maryland </td>
+   <td style="text-align:right;"> 6177224 </td>
+   <td style="text-align:right;"> 1239 </td>
+   <td style="text-align:right;"> 0.0200576 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Texas </td>
+   <td style="text-align:right;"> 29145505 </td>
+   <td style="text-align:right;"> 5824 </td>
+   <td style="text-align:right;"> 0.0199825 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Michigan </td>
+   <td style="text-align:right;"> 10077331 </td>
+   <td style="text-align:right;"> 1979 </td>
+   <td style="text-align:right;"> 0.0196381 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> California </td>
+   <td style="text-align:right;"> 39538223 </td>
+   <td style="text-align:right;"> 7750 </td>
+   <td style="text-align:right;"> 0.0196013 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Illinois </td>
+   <td style="text-align:right;"> 12812508 </td>
+   <td style="text-align:right;"> 1844 </td>
+   <td style="text-align:right;"> 0.0143922 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pennsylvania </td>
+   <td style="text-align:right;"> 13002700 </td>
+   <td style="text-align:right;"> 1751 </td>
+   <td style="text-align:right;"> 0.0134664 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> North Carolina </td>
+   <td style="text-align:right;"> 10439388 </td>
+   <td style="text-align:right;"> 1399 </td>
+   <td style="text-align:right;"> 0.0134012 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Nevada </td>
+   <td style="text-align:right;"> 3104614 </td>
+   <td style="text-align:right;"> 374 </td>
+   <td style="text-align:right;"> 0.0120466 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Indiana </td>
+   <td style="text-align:right;"> 6785528 </td>
+   <td style="text-align:right;"> 816 </td>
+   <td style="text-align:right;"> 0.0120256 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Connecticut </td>
+   <td style="text-align:right;"> 3605944 </td>
+   <td style="text-align:right;"> 349 </td>
+   <td style="text-align:right;"> 0.0096785 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rhode Island </td>
+   <td style="text-align:right;"> 1097379 </td>
+   <td style="text-align:right;"> 64 </td>
+   <td style="text-align:right;"> 0.0058321 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> New Mexico </td>
+   <td style="text-align:right;"> 2117522 </td>
+   <td style="text-align:right;"> 81 </td>
+   <td style="text-align:right;"> 0.0038252 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> South Carolina </td>
+   <td style="text-align:right;"> 5118425 </td>
+   <td style="text-align:right;"> 194 </td>
+   <td style="text-align:right;"> 0.0037902 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> New Jersey </td>
+   <td style="text-align:right;"> 9288994 </td>
+   <td style="text-align:right;"> 303 </td>
+   <td style="text-align:right;"> 0.0032619 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Delaware </td>
+   <td style="text-align:right;"> 989948 </td>
+   <td style="text-align:right;"> 32 </td>
+   <td style="text-align:right;"> 0.0032325 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Oklahoma </td>
+   <td style="text-align:right;"> 3959353 </td>
+   <td style="text-align:right;"> 127 </td>
+   <td style="text-align:right;"> 0.0032076 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wyoming </td>
+   <td style="text-align:right;"> 576851 </td>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:right;"> 0.0031204 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hawaii </td>
+   <td style="text-align:right;"> 1455271 </td>
+   <td style="text-align:right;"> 45 </td>
+   <td style="text-align:right;"> 0.0030922 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Louisiana </td>
+   <td style="text-align:right;"> 4657757 </td>
+   <td style="text-align:right;"> 141 </td>
+   <td style="text-align:right;"> 0.0030272 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Florida </td>
+   <td style="text-align:right;"> 21538187 </td>
+   <td style="text-align:right;"> 615 </td>
+   <td style="text-align:right;"> 0.0028554 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Alabama </td>
+   <td style="text-align:right;"> 5024279 </td>
+   <td style="text-align:right;"> 120 </td>
+   <td style="text-align:right;"> 0.0023884 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mississippi </td>
+   <td style="text-align:right;"> 2961279 </td>
+   <td style="text-align:right;"> 63 </td>
+   <td style="text-align:right;"> 0.0021275 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Montana </td>
+   <td style="text-align:right;"> 1084225 </td>
+   <td style="text-align:right;"> 17 </td>
+   <td style="text-align:right;"> 0.0015679 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Arkansas </td>
+   <td style="text-align:right;"> 3011524 </td>
+   <td style="text-align:right;"> 46 </td>
+   <td style="text-align:right;"> 0.0015275 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> West Virginia </td>
+   <td style="text-align:right;"> 1793716 </td>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:right;"> 0.0014495 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Puerto Rico </td>
+   <td style="text-align:right;"> 3285874 </td>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:right;"> 0.0008217 </td>
+  </tr>
+</tbody>
+</table>
+
+
+# Minnesota
 
 ## By city
 

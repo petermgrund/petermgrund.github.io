@@ -1,10 +1,10 @@
 ---
 layout: citation
-title: "Somali ancestry in Minnesota by city"
+title: "Demographics of Somali ancestry in the United States"
 date: 2025-12-01 12:00 -0600
 categories: posts
 tags: [R, Analysis]
-summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in Minnesota by city from the 2020 Decennial Census.
+summary: This is an R script that uses the tidycensus package to get data on Somali ancestry in the United States by geographies from the 2020 Decennial Census.
 ---
 
 Script last run: `r Sys.time()`
@@ -30,6 +30,41 @@ library(kableExtra)
 # census_api_key("YOUR_KEY_HERE", install = TRUE)
 
 ```
+# National
+
+## By state
+```{r}
+somali_by_state <- get_decennial(
+  geography = "state",
+  variables = "T01001_001N",
+  year = 2020,
+  sumfile = "ddhca",
+  pop_group = "1325"
+)
+
+total_by_state <- get_decennial(
+  geography = "state",
+  variables = "P1_001N",
+  year = 2020,
+  sumfile = "pl"
+)
+
+state_data <- total_by_state %>%
+  left_join(somali_by_state %>% select(GEOID, somali_count = value), by = "GEOID") %>%
+  mutate(
+    `percent_somali` = somali_count / value * 100
+  ) %>%
+  select(NAME, total_population = value, somali_count, percent_somali) %>%
+  filter(somali_count >= 1) %>%
+  arrange(desc(percent_somali))
+
+state_data %>%
+  kable(format = "markdown") %>%
+  kable_styling()
+```
+
+
+# Minnesota
 
 ## By city
 ```{r}
