@@ -2,7 +2,7 @@
 layout: post
 title: "Data dashboards"
 date: 2024-08-21 12:00 +0100
-modified: 2025-10-24 12:00 +0100
+modified: 2026-01-25 12:00 +0100
 categories: posts
 tags: Data
 summary: "A list of data dashboards I find interesting or useful"
@@ -19,6 +19,7 @@ This page is a list of data dashboards I find interesting or useful.
 * [Homeownership by Race and Ethnicity of Householder](https://www.census.gov/library/visualizations/interactive/homeownership-by-race-and-ethnicity-of-householder.html)
 * [Massachusetts State Employee Diversity Dashboard](https://www.mass.gov/info-details/state-employee-diversity-dashboard)
 * [Where We Came From and Where We Went, State by State (2014 data)](https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html)
+* [Applicants for international protection in Iceland](https://app.powerbi.com/view?r=eyJrIjoiYTJhMDczNTMtMGY1NS00MGQyLWI3NjEtYmFiMjlhYmE2N2JjIiwidCI6IjUwOTQ4NGE4LWMwZmYtNDk2MC1iNWRhLTNiZGI3NWU5ODQ2MCIsImMiOjl9)
 
 ### Health
 * [Opioid-related deaths in Hennepin County and statewide](https://app.powerbigov.us/view?r=eyJrIjoiZTU0NWNhYjYtYzBlYi00NjdiLTkzMmMtNzljM2FiNDNlZjdjIiwidCI6IjhhZWZkZjlmLTg3ODAtNDZiZi04ZmI3LTRjOTI0NjUzYThiZSJ9)
