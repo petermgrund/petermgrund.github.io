@@ -1,0 +1,172 @@
+---
+layout: default
+---
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/asset-viewer.css">
+</head>
+
+<div class="container">
+  <div class="col-lg-10 mx-auto p-4 py-md-5">
+
+    <!-- Breadcrumb Navigation -->
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/genealogy/">Genealogy Documents</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+      </ol>
+    </nav>
+
+    <header class="mb-4">
+      <h1 class="display-5">{{ page.title | escape }}</h1>
+      {% if page.document_date %}
+        <p class="text-muted">Document Date: {{ page.document_date }}</p>
+      {% endif %}
+    </header>
+
+    <!-- Split Layout Container -->
+    <div class="row">
+
+      <!-- LEFT SIDE: Document Viewer (60%) -->
+      <div class="col-lg-7 mb-4">
+        <div class="card">
+          <div class="card-body p-0">
+            {% if page.document_type == "pdf" %}
+              <!-- PDF Viewer -->
+              <div class="pdf-container">
+                <iframe
+                  src="{{ page.file }}#view=FitH"
+                  width="100%"
+                  height="100%"
+                  style="border: none;"
+                  title="{{ page.title }} PDF viewer">
+                </iframe>
+              </div>
+              <div class="card-footer text-center">
+                <a href="{{ page.file }}" class="btn btn-outline-primary btn-sm" download>
+                  <i class="fas fa-download"></i> Download PDF
+                </a>
+                <a href="{{ page.file }}" class="btn btn-outline-secondary btn-sm" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Open in New Tab
+                </a>
+              </div>
+            {% else %}
+              <!-- Image Viewer with Pan/Zoom -->
+              <div id="openseadragon-viewer"></div>
+              <div class="card-footer text-center">
+                <button id="zoom-in" class="btn btn-outline-primary btn-sm">
+                  <i class="fas fa-search-plus"></i> Zoom In
+                </button>
+                <button id="zoom-out" class="btn btn-outline-primary btn-sm">
+                  <i class="fas fa-search-minus"></i> Zoom Out
+                </button>
+                <button id="reset-view" class="btn btn-outline-secondary btn-sm">
+                  <i class="fas fa-undo"></i> Reset
+                </button>
+                <a href="{{ page.file }}" class="btn btn-outline-secondary btn-sm" download>
+                  <i class="fas fa-download"></i> Download
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE: Metadata (40%) -->
+      <div class="col-lg-5">
+
+        <!-- Document Date Section -->
+        {% if page.document_date %}
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-calendar-alt"></i> Date
+          </div>
+          <div class="card-body">
+            <p class="mb-0">{{ page.document_date }}</p>
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Translation Section -->
+        {% if page.translation %}
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-language"></i> Translation
+          </div>
+          <div class="card-body">
+            {{ page.translation | markdownify }}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Source Information -->
+        {% if page.source %}
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-archive"></i> Source
+          </div>
+          <div class="card-body">
+            {% if page.source.repository %}
+              <p class="mb-1"><strong>Repository:</strong> {{ page.source.repository }}</p>
+            {% endif %}
+            {% if page.source.collection %}
+              <p class="mb-1"><strong>Collection:</strong> {{ page.source.collection }}</p>
+            {% endif %}
+            {% if page.source.reference_number %}
+              <p class="mb-1"><strong>Reference:</strong> {{ page.source.reference_number }}</p>
+            {% endif %}
+            {% if page.source.url %}
+              <p class="mb-0">
+                <a href="{{ page.source.url }}" target="_blank" rel="noopener">
+                  View Original <i class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Additional Content from Markdown -->
+        {% if content != "" %}
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-info-circle"></i> Additional Information
+          </div>
+          <div class="card-body">
+            {{ content }}
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if page.document_type != "pdf" %}
+<script>
+  var viewer = OpenSeadragon({
+    id: "openseadragon-viewer",
+    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+    tileSources: {
+      type: 'image',
+      url: '{{ page.file }}'
+    },
+    showNavigationControl: false,
+    gestureSettingsMouse: {
+      scrollToZoom: true
+    }
+  });
+
+  document.getElementById('zoom-in').addEventListener('click', function() {
+    viewer.viewport.zoomBy(1.5);
+  });
+  document.getElementById('zoom-out').addEventListener('click', function() {
+    viewer.viewport.zoomBy(0.67);
+  });
+  document.getElementById('reset-view').addEventListener('click', function() {
+    viewer.viewport.goHome();
+  });
+</script>
+{% endif %}

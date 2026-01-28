@@ -44,7 +44,10 @@ collections:
     permalink: /visualizations/:path
   citations:
     output: true
-    permalink: /citations/:path   
+    permalink: /citations/:path
+  assets:
+    output: true
+    permalink: /genealogy/:path   
 
 # Build settings
 markdown: kramdown

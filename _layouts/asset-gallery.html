@@ -1,0 +1,107 @@
+---
+layout: default
+---
+<head>
+  <link rel="stylesheet" href="/assets/css/asset-viewer.css">
+</head>
+
+<div class="container">
+  <div class="col-lg-10 mx-auto p-4 py-md-5">
+    <h1 class="display-4 mb-4">{{ page.title | escape }}</h1>
+
+    {% if page.description %}
+      <p class="lead mb-4">{{ page.description }}</p>
+    {% endif %}
+
+    <!-- Filter Controls -->
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <label for="type-filter" class="form-label">Filter by Type:</label>
+        <select id="type-filter" class="form-select">
+          <option value="">All Documents</option>
+          <option value="image">Images</option>
+          <option value="pdf">PDFs</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="asset-gallery">
+      {% assign sorted_assets = site.assets | sort: "document_date" | reverse %}
+      {% for asset in sorted_assets %}
+      <div class="col asset-item" data-type="{{ asset.document_type }}">
+        <div class="card h-100 asset-card">
+          {% if asset.thumbnail %}
+            <img src="{{ asset.thumbnail }}"
+                 class="card-img-top asset-thumbnail"
+                 alt="{{ asset.title | escape }}">
+          {% elsif asset.document_type == "pdf" %}
+            <div class="card-img-top d-flex align-items-center justify-content-center bg-light asset-thumbnail">
+              <i class="fas fa-file-pdf fa-4x text-danger"></i>
+            </div>
+          {% else %}
+            <img src="{{ asset.file }}"
+                 class="card-img-top asset-thumbnail"
+                 alt="{{ asset.title | escape }}">
+          {% endif %}
+          <div class="card-body">
+            <h6 class="card-title">{{ asset.title }}</h6>
+            {% if asset.document_date %}
+              <p class="card-text text-muted small mb-2">{{ asset.document_date }}</p>
+            {% endif %}
+          </div>
+          <div class="card-footer">
+            <a href="{{ asset.url }}" class="btn btn-primary btn-sm w-100">View Document</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- No results message -->
+    <div id="no-results" class="alert alert-info d-none" role="alert">
+      No documents match your current filter.
+    </div>
+
+    <!-- Empty collection message -->
+    {% if site.assets.size == 0 %}
+    <div class="alert alert-secondary" role="alert">
+      No documents have been added yet. Add documents to the <code>_assets</code> folder to see them here.
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const typeFilter = document.getElementById('type-filter');
+    const gallery = document.getElementById('asset-gallery');
+    const items = gallery.querySelectorAll('.asset-item');
+    const noResults = document.getElementById('no-results');
+
+    function filterItems() {
+      const selectedType = typeFilter.value;
+      let visibleCount = 0;
+
+      items.forEach(function(item) {
+        const type = item.dataset.type || '';
+        const matchesType = !selectedType || type === selectedType;
+
+        if (matchesType) {
+          item.classList.remove('d-none');
+          visibleCount++;
+        } else {
+          item.classList.add('d-none');
+        }
+      });
+
+      if (visibleCount === 0 && items.length > 0) {
+        noResults.classList.remove('d-none');
+      } else {
+        noResults.classList.add('d-none');
+      }
+    }
+
+    typeFilter.addEventListener('change', filterItems);
+  });
+</script>
