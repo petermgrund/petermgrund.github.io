@@ -30,27 +30,10 @@ last_modified: 2025-10-24
 <hr> 
 
 **Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund) <a href="https://web.archive.org/web/20241228185058/https://nmrc.umn.edu/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – November 2025
-* Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
-    * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
-    * Recruit, screen, and enroll patients.
-    * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
-    * Gather [EMG](https://medlineplus.gov/ency/article/003929.htm) and behavioral data during surgery to inform models predicting effective DBS settings post-placement.
-    * Helped write an accessible and [plain language](https://www.plainlanguage.gov/about/definitions/short-definition/) informed consent document for patients.
-    * Developed accessible front-end surveys in REDCap for patients and staff to report treatment outcomes.
-    * Present data at symposiums and conferences.
-* Algorithms for programming DBS systems for ET ([NCT03984643](https://www.clinicaltrials.gov/study/NCT03984643))
-    * Assist physicians in administering the Tremor Research Group Essential Tremor Rating Scale (TETRAS) to patients during DBS programming.
-    * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
-    * Developed pipeline to quantify speech data to assess stimulation-induced dysarthria.
-    * Use statistical models to predict neural activation of axonal pathways near active electrodes.
-    * Developed a Shiny app to visualize and interact with patient data.
-* Sleep-specific DBS Therapy in Parkinson's Disease ([NCT05962489](https://www.clinicaltrials.gov/study/NCT05962489))
-    * Developed REDCap database to store and analyze sleep data.
+* .
 
 **Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) (Bio) <a href="https://web.archive.org/web/20241228184626/https://lucianalab.psych.umn.edu/people/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
-* Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
-* Scheduled behavioral and imaging sessions, coordinating with several research centers outside of the Department of Psychology, including the Departments of Pharmacology and Radiology. 
-* Developed algorithm in R to approximate daily intake of THC/CBD for study participants from baseline to 4-month follow-up visit; demonstrated a high correlation with actual levels found in blood samples.
+* .
 
 **Independent Research Project** | Monica Luciana, Ph.D., Samuel Klein, M.S. | June 2020 – current
 * Wrote proposal for original research on the predictive role of cognitive impulsivity in a longitudinal study of alcohol and cannabis use and was awarded $1550 to conduct analysis and cover research expenses.
@@ -59,19 +42,9 @@ last_modified: 2025-10-24
 * Currently revising a manuscript of results for publication in Psychology of Addictive Behaviors.
 
 **Research Assistant** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | September 2019 – May 2022
-* Managed undergraduate research assistants, including training in human subjects and data collection.
-* Oversaw participant recruitment for two studies and maintained secure recruitment databases.
-* Conducted behavioral assessments for [a study of reward processing and motivational systems](https://lucianalab.psych.umn.edu/research/reward-motivation-study) in young adults
 
-**Data Manager** | [Minnesota Center for Twin and Family Research](https://mctfr.psych.umn.edu) | University of Minnesota | 
-June 2021 – May 2022
-* Created datasets and scripts for MCTFR researchers collected by several ongoing research studies such as the Adolescent Brain and Cognitive Development study (ABCD) and the Sibling Interaction and Behavior Study (SIBS).		
-* Entered behavioral data onto the University’s servers.
 
 **Health Scientist** | [Cognition and Brain in Psychopathology Lab](https://cablab.umn.edu) | Minneapolis Veterans Affairs Health Care System | Seth Disner, Ph.D., Scott Sponheim, Ph.D. | July 2020 – November 2021
-* Analyzed veteran medical records to determine eligibility in study relating to traumatic brain injury rehabilitation.
-* Conducted in-depth phone screenings for all participants to ensure study eligibility.
-* Participated in TBI outpatient rounds and consensus meetings.
 
 ### Publications
 <hr>
@@ -107,16 +80,9 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 ### Clinical and Teaching Experience
 <hr>
 
-**Patient Advocate** | [SE Seniors](https://www.seseniors.org) | Minneapolis | June 2023 – present
-* Serve as [patient advocate](https://en.wikipedia.org/wiki/Patient_advocacy) during medical appointments with older adults in my neighborhood.
-* Assist with transportation to and from appointments.
-* Provide support in understanding and following medical advice.
+**Patient Advocate** | [SE Seniors](https://www.seseniors.org) | Minneapolis | June 2023 – December 2025
 
 **Teaching Assistant** | [Human Neuroanatomy (NSCI 2101)](https://umtc.catalog.prod.coursedog.com/courses/8080521) | University of Minnesota | Maureen Riedl, Ph.D., Martin Wessendorf, Ph.D. | August 2020 – December 2021
-* Prepared and guided students through sheep brain dissections.
-* Assisted students in identifying major brain regions in the intact brain and dissected brainstem, and Nissl slides of human specimens.
-* Led three human cadaver labs in which I performed dissections, reviewed medical histories, and taught anatomy of the brain and its relationships to the body's major arteries, veins, cranial nerves, foramina, and sinuses.
-* Instructed students on topics such as the ventricles, cerebral and spinal blood supply, membrane potential, somatosensory and motor pathways, mechanosensation, the visual and auditory systems, and disorders of the nervous system.
 
 ### Affiliations
 <hr>
