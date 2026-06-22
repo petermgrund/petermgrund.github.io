@@ -3,6 +3,7 @@ layout: cv
 title: CV
 permalink: /cv/
 last_modified: 2025-10-24
+published: false
 ---
 
 ### Education
