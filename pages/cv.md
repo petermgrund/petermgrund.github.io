@@ -3,7 +3,7 @@ layout: cv
 title: CV
 permalink: /cv/
 last_modified: 2025-10-24
-published: false
+#published: false
 ---
 
 ### Education
@@ -59,6 +59,7 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 ### Presentations and Non-Peer Reviewed Papers
 <hr>
 
+* Meka, S., **Grund, P. M.**, Amoozegar, S., Brito de Almeida, L., Aman, J. E., Alberico, S., Johnson, M. D., Harel, N., Cooper, S. E., Park, M. C., Zheng, L., Johnson, L. A., Vitek, J. L., Wang., J. (2025) *Pilot Case Study on Thalamic Coordinated Reset Deep Brain Stimulation for Essential Tremor*. Presented at Society for Neuroscience. San Diego, California, United States.
 * **Grund, P.M.**, Almeida, L.B., Holker, E., Cooper, S. (2025). *Impact of Unilateral and Bilateral DBS on The Essential Tremor Rating Scale*. Presented at the William F. Kennedy Research Symposium. View poster [here](/assets/uploads/kennedy_poster.pdf).
 * **Grund, P.M.** (2024). *Youth Demographics of Chisago County, MN*. Data dashboard presented to the Chisago County Citizen Review Panel. View dashboard [here](https://petergrund.shinyapps.io/chisago-youth/).
 * Lozano Wun, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2023). *Within-person mismatch of reward responsiveness and executive functioning: A longitudinal validation of the dual systems model from childhood to adulthood*. Presented at the Research Society of Alcoholism. Bellevue, WA. View poster [here](/assets/uploads/rsa_2023.pdf).
@@ -67,7 +68,6 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 * Alschuler, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2022). *Dual-System Model as Indicated by Working Memory, Discounting, and Reward Sensitivity: Impacts of Age and Sex*. Presented at the Annual Meeting of the Cognitive Neuroscience Society. San Francisco, CA. 
 * **Grund, P.M.**, Disner, S., Sponheim, S. (2022). *Genetic Influences on Verbal Memory Efficiency Following a Minor Traumatic Brain Injury*. Presented at the Minnesota Undergraduate Psychology Conference. Saint Paul, MN. Read paper [here](/assets/uploads/honors_thesis.pdf).
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Temporal Discounting-based Cognitive Impulsivity in Adolescents Pre versus Post Substance Use Initiation*. Presented at the biennial meeting of the Society for Research on Adolescence. New Orleans, LA. View poster [here](/assets/uploads/sra_2022.pdf).
-* **Grund, P.M.** (2021) *The Role of the Nordic State Churches in the Establishment and Decline of Social Taboos in Norway, Sweden, and Iceland*. Honors paper written for SCAN 3505. Read paper [here](/assets/uploads/nordic.pdf).
 * **Grund, P.M.**, Sponheim, S., Disner, S. (2021). *Role of the APOE Gene on Verbal Learning Following a Minor Traumatic Brain Injury*. Presented at VA Research Week. Minneapolis VA Health Care System, MN.
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund) <a href="https://web.archive.org/web/20201211171404/https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>.
 
@@ -88,11 +88,8 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 ### Affiliations
 <hr>
 
-**[Safe and Thriving Communities work group](https://www.minneapolismn.gov/government/departments/community-safety/safe-thriving-work-group/), [member](https://lims.minneapolismn.gov/Boards/stc%20work%20group)** | City of Minneapolis | August 2025 – present
-* Council-appointed member for Ward 2.
-
-**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jan 2024 – present
-* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a> (until 2025) and [council-appointed](https://lims.minneapolismn.gov/File/2025-00636) (since 2025) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
+**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jan 2024 – June 2026
+* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a> (until 2025) and [council-appointed](https://lims.minneapolismn.gov/File/2025-00636) (from 2025) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
 **[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), member** <a href="https://web.archive.org/web/20240418134749/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jul 2023 – December 2024
