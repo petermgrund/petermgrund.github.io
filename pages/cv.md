@@ -3,6 +3,7 @@ layout: cv
 title: CV
 permalink: /cv/
 last_modified: 2025-10-24
+#published: false
 ---
 
 ### Education
@@ -30,27 +31,10 @@ last_modified: 2025-10-24
 <hr> 
 
 **Clinical Researcher (Researcher 2)** | [Department of Neurology](https://med.umn.edu/neurology) - University of Minnesota Medical School ([Bio](https://nmrc.umn.edu/peter-grund) <a href="https://web.archive.org/web/20241228185058/https://nmrc.umn.edu/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | Jing Wang, Ph.D., Matthew Johnson, Ph.D., Luke Johnson, Ph.D. | May 2023 – November 2025
-* Coordinated reset for DBS in ET clinical trial ([NCT05897775](https://www.clinicaltrials.gov/study/NCT05897775))
-    * Initiating an FDA-regulated clinical trial to assess the efficacy and safety of coordinated reset deep brain stimulation (DBS) for treatment-refractory upper extremity essential tremor.
-    * Recruit, screen, and enroll patients.
-    * Perform patient evaluations before and after DBS surgery to assess study eligibility and medical history.
-    * Gather [EMG](https://medlineplus.gov/ency/article/003929.htm) and behavioral data during surgery to inform models predicting effective DBS settings post-placement.
-    * Helped write an accessible and [plain language](https://www.plainlanguage.gov/about/definitions/short-definition/) informed consent document for patients.
-    * Developed accessible front-end surveys in REDCap for patients and staff to report treatment outcomes.
-    * Present data at symposiums and conferences.
-* Algorithms for programming DBS systems for ET ([NCT03984643](https://www.clinicaltrials.gov/study/NCT03984643))
-    * Assist physicians in administering the Tremor Research Group Essential Tremor Rating Scale (TETRAS) to patients during DBS programming.
-    * Conduct quantitative analyses aiming to correlate self-reported intensity and location of paresthesia with DBS configuration and lead placement.
-    * Developed pipeline to quantify speech data to assess stimulation-induced dysarthria.
-    * Use statistical models to predict neural activation of axonal pathways near active electrodes.
-    * Developed a Shiny app to visualize and interact with patient data.
-* Sleep-specific DBS Therapy in Parkinson's Disease ([NCT05962489](https://www.clinicaltrials.gov/study/NCT05962489))
-    * Developed REDCap database to store and analyze sleep data.
+* .
 
 **Lab Coordinator (Researcher 1)** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu/) (Bio) <a href="https://web.archive.org/web/20241228184626/https://lucianalab.psych.umn.edu/people/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>) | University of Minnesota | Monica Luciana, Ph.D. | May 2022 – May 2023
-* Conducted eligibility screenings and behavioral testing for [a longitudinal neurobehavioral study](https://med.umn.edu/addiction/news/2020-mdt-addiction-pilot-grant-awards-fund-three-proposals) of adult medical cannabis users recruited from the community.
-* Scheduled behavioral and imaging sessions, coordinating with several research centers outside of the Department of Psychology, including the Departments of Pharmacology and Radiology. 
-* Developed algorithm in R to approximate daily intake of THC/CBD for study participants from baseline to 4-month follow-up visit; demonstrated a high correlation with actual levels found in blood samples.
+* .
 
 **Independent Research Project** | Monica Luciana, Ph.D., Samuel Klein, M.S. | June 2020 – current
 * Wrote proposal for original research on the predictive role of cognitive impulsivity in a longitudinal study of alcohol and cannabis use and was awarded $1550 to conduct analysis and cover research expenses.
@@ -59,19 +43,9 @@ last_modified: 2025-10-24
 * Currently revising a manuscript of results for publication in Psychology of Addictive Behaviors.
 
 **Research Assistant** | [Brain & Behavioral Processes Lab](https://lucianalab.psych.umn.edu) ([Bio](https://lucianalab.psych.umn.edu/people/peter-grund)) | University of Minnesota | Monica Luciana, Ph.D. | September 2019 – May 2022
-* Managed undergraduate research assistants, including training in human subjects and data collection.
-* Oversaw participant recruitment for two studies and maintained secure recruitment databases.
-* Conducted behavioral assessments for [a study of reward processing and motivational systems](https://lucianalab.psych.umn.edu/research/reward-motivation-study) in young adults
 
-**Data Manager** | [Minnesota Center for Twin and Family Research](https://mctfr.psych.umn.edu) | University of Minnesota | 
-June 2021 – May 2022
-* Created datasets and scripts for MCTFR researchers collected by several ongoing research studies such as the Adolescent Brain and Cognitive Development study (ABCD) and the Sibling Interaction and Behavior Study (SIBS).		
-* Entered behavioral data onto the University’s servers.
 
 **Health Scientist** | [Cognition and Brain in Psychopathology Lab](https://cablab.umn.edu) | Minneapolis Veterans Affairs Health Care System | Seth Disner, Ph.D., Scott Sponheim, Ph.D. | July 2020 – November 2021
-* Analyzed veteran medical records to determine eligibility in study relating to traumatic brain injury rehabilitation.
-* Conducted in-depth phone screenings for all participants to ensure study eligibility.
-* Participated in TBI outpatient rounds and consensus meetings.
 
 ### Publications
 <hr>
@@ -85,6 +59,7 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 ### Presentations and Non-Peer Reviewed Papers
 <hr>
 
+* Meka, S., **Grund, P. M.**, Amoozegar, S., Brito de Almeida, L., Aman, J. E., Alberico, S., Johnson, M. D., Harel, N., Cooper, S. E., Park, M. C., Zheng, L., Johnson, L. A., Vitek, J. L., Wang., J. (2025) *Pilot Case Study on Thalamic Coordinated Reset Deep Brain Stimulation for Essential Tremor*. Presented at Society for Neuroscience. San Diego, California, United States.
 * **Grund, P.M.**, Almeida, L.B., Holker, E., Cooper, S. (2025). *Impact of Unilateral and Bilateral DBS on The Essential Tremor Rating Scale*. Presented at the William F. Kennedy Research Symposium. View poster [here](/assets/uploads/kennedy_poster.pdf).
 * **Grund, P.M.** (2024). *Youth Demographics of Chisago County, MN*. Data dashboard presented to the Chisago County Citizen Review Panel. View dashboard [here](https://petergrund.shinyapps.io/chisago-youth/).
 * Lozano Wun, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2023). *Within-person mismatch of reward responsiveness and executive functioning: A longitudinal validation of the dual systems model from childhood to adulthood*. Presented at the Research Society of Alcoholism. Bellevue, WA. View poster [here](/assets/uploads/rsa_2023.pdf).
@@ -93,7 +68,6 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 * Alschuler, V., Collins, P.F, Klein, S., **Grund, P.M.**, Luciana, M. (2022). *Dual-System Model as Indicated by Working Memory, Discounting, and Reward Sensitivity: Impacts of Age and Sex*. Presented at the Annual Meeting of the Cognitive Neuroscience Society. San Francisco, CA. 
 * **Grund, P.M.**, Disner, S., Sponheim, S. (2022). *Genetic Influences on Verbal Memory Efficiency Following a Minor Traumatic Brain Injury*. Presented at the Minnesota Undergraduate Psychology Conference. Saint Paul, MN. Read paper [here](/assets/uploads/honors_thesis.pdf).
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2022). *Temporal Discounting-based Cognitive Impulsivity in Adolescents Pre versus Post Substance Use Initiation*. Presented at the biennial meeting of the Society for Research on Adolescence. New Orleans, LA. View poster [here](/assets/uploads/sra_2022.pdf).
-* **Grund, P.M.** (2021) *The Role of the Nordic State Churches in the Establishment and Decline of Social Taboos in Norway, Sweden, and Iceland*. Honors paper written for SCAN 3505. Read paper [here](/assets/uploads/nordic.pdf).
 * **Grund, P.M.**, Sponheim, S., Disner, S. (2021). *Role of the APOE Gene on Verbal Learning Following a Minor Traumatic Brain Injury*. Presented at VA Research Week. Minneapolis VA Health Care System, MN.
 * **Grund, P.M.**, Klein, S., Collins, P.F., Luciana, M. (2020). *Frequent Marijuana Users Display Greater Delay Discounting Prior to Substance Use Initiation*. Presented at the Minnesota Undergraduate Research Symposium. Minneapolis, MN. Watch presentation [here](https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund) <a href="https://web.archive.org/web/20201211171404/https://ugresearch.umn.edu/symposium/fall2020presenters/peter-grund"><i class="fa-regular fa-clone fa-xs"></i></a>.
 
@@ -107,25 +81,15 @@ Review and Meta-Analysis of Risk Factors and Outcomes. *International Journal of
 ### Clinical and Teaching Experience
 <hr>
 
-**Patient Advocate** | [SE Seniors](https://www.seseniors.org) | Minneapolis | June 2023 – present
-* Serve as [patient advocate](https://en.wikipedia.org/wiki/Patient_advocacy) during medical appointments with older adults in my neighborhood.
-* Assist with transportation to and from appointments.
-* Provide support in understanding and following medical advice.
+**Patient Advocate** | [SE Seniors](https://www.seseniors.org) | Minneapolis | June 2023 – December 2025
 
 **Teaching Assistant** | [Human Neuroanatomy (NSCI 2101)](https://umtc.catalog.prod.coursedog.com/courses/8080521) | University of Minnesota | Maureen Riedl, Ph.D., Martin Wessendorf, Ph.D. | August 2020 – December 2021
-* Prepared and guided students through sheep brain dissections.
-* Assisted students in identifying major brain regions in the intact brain and dissected brainstem, and Nissl slides of human specimens.
-* Led three human cadaver labs in which I performed dissections, reviewed medical histories, and taught anatomy of the brain and its relationships to the body's major arteries, veins, cranial nerves, foramina, and sinuses.
-* Instructed students on topics such as the ventricles, cerebral and spinal blood supply, membrane potential, somatosensory and motor pathways, mechanosensation, the visual and auditory systems, and disorders of the nervous system.
 
 ### Affiliations
 <hr>
 
-**[Safe and Thriving Communities work group](https://www.minneapolismn.gov/government/departments/community-safety/safe-thriving-work-group/), [member](https://lims.minneapolismn.gov/Boards/stc%20work%20group)** | City of Minneapolis | August 2025 – present
-* Council-appointed member for Ward 2.
-
-**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jan 2024 – present
-* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a> (until 2025) and [council-appointed](https://lims.minneapolismn.gov/File/2025-00636) (since 2025) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
+**[Committee on People with Disabilities](https://lims.minneapolismn.gov/Boards/macopd), member** <a href="https://web.archive.org/web/20240908134218/https://lims.minneapolismn.gov/Boards/macopd"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jan 2024 – June 2026
+* [Mayor-appointed](https://lims.minneapolismn.gov/File/2024-00045) <a href="https://web.archive.org/web/20240204042532/https://lims.minneapolismn.gov/File/2024-00045"><i class="fa-regular fa-clone fa-xs"></i></a> (until 2025) and [council-appointed](https://lims.minneapolismn.gov/File/2025-00636) (from 2025) member for [Ward 2](https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/) <a href="https://web.archive.org/web/20250114170953/https://www.minneapolismn.gov/government/city-council/members/ward-2/about-ward-2/"><i class="fa-regular fa-clone fa-xs"></i></a>, covering the University of Minnesota's East and West banks, including the University of Minnesota Medical Center and Clinics and Surgery Center.
 * Support and advise the Mayor, City Council, city agencies, and the State Legislature on policies and program administration for individuals with disabilities.
 
 **[Pedestrian Advisory Committee](https://lims.minneapolismn.gov/Boards/pac), member** <a href="https://web.archive.org/web/20240418134749/https://lims.minneapolismn.gov/boards/PAC"><i class="fa-regular fa-clone fa-xs"></i></a> | City of Minneapolis | Jul 2023 – December 2024
