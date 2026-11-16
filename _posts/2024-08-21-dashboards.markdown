@@ -20,6 +20,7 @@ This page is a list of data dashboards I find interesting or useful.
 * [Massachusetts State Employee Diversity Dashboard](https://www.mass.gov/info-details/state-employee-diversity-dashboard)
 * [Where We Came From and Where We Went, State by State (2014 data)](https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html)
 * [Applicants for international protection in Iceland](https://app.powerbi.com/view?r=eyJrIjoiYTJhMDczNTMtMGY1NS00MGQyLWI3NjEtYmFiMjlhYmE2N2JjIiwidCI6IjUwOTQ4NGE4LWMwZmYtNDk2MC1iNWRhLTNiZGI3NWU5ODQ2MCIsImMiOjl9)
+* [U.S. Asylum application outcomes](https://www.mobilepathways.org/dashboards/asylum-navigator-dashboard)
 
 ### Health
 * [Opioid-related deaths in Hennepin County and statewide](https://app.powerbigov.us/view?r=eyJrIjoiZTU0NWNhYjYtYzBlYi00NjdiLTkzMmMtNzljM2FiNDNlZjdjIiwidCI6IjhhZWZkZjlmLTg3ODAtNDZiZi04ZmI3LTRjOTI0NjUzYThiZSJ9)
@@ -39,6 +40,7 @@ This page is a list of data dashboards I find interesting or useful.
 * [Minnesota Court Statistics and Reports](https://www.mncourts.gov/Help-Topics/Court-Statistics.aspx)
 * [Minneapolis Crime dashboard](https://tableau.minneapolismn.gov/views/CrimeDashboard/Summary?%3Adisplay_count=n&%3Aembed=y&%3Aiid=5&%3AisGuestRedirectFromVizportal=y&%3Aorigin=viz_share_link&%3AshowAppBanner=false&%3AshowVizHome=n&%3Atabs=yes&%3Atoolbar=no)
 * [Minnesota Violent Death Reporting System](https://www.health.state.mn.us/communities/injury/midas/mnvdrs.html)
+* [St. Louis County, MN crime map](https://www.arcgis.com/apps/dashboards/a53fe62395694ba79baec0a6beda8688)
 
 ### Elections
 * Minnesota results ([2024](https://www.gis.lcc.mn.gov/iMaps/elections/2024/), [2022](https://www.gis.lcc.mn.gov/iMaps/elections/2022/), [2020](https://www.gis.lcc.mn.gov/iMaps/elections/2020/), [2018](https://www.gis.lcc.mn.gov/iMaps/elections/2018/all/), [2016](https://www.gis.lcc.mn.gov/iMaps/elections/2016/all/), [2012](https://www.gis.lcc.mn.gov/iMaps/elections/2012/all/))
